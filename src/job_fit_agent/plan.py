@@ -6,7 +6,7 @@ ORDER = {"yüksek": 0, "orta": 1, "düşük": 2}
 
 INSTRUCTION = """\
 Bir adayın bir iş ilanı için eksik ya da kısmen sahip olduğu beceriler aşağıda.
-Her biri için bir çalışma planı maddesi hazırla.
+Bunlardan bir çalışma planı hazırla. En önemli en fazla 5 madde yaz.
 
 Kurallar:
 - Önce "yok" olanlara yüksek öncelik ver. "kısmen" olanlar orta ya da düşük olsun.
@@ -14,7 +14,7 @@ Kurallar:
 - first_step somut ve bugün yapılabilir olsun. "LangChain öğren" gibi genel ifadeler
   yerine "LangChain ile 20 satırlık bir RAG zinciri yaz" gibi bir görev yaz.
 - why alanında bu becerinin bu ilan için neden önemli olduğunu tek cümleyle yaz.
-- Listedeki her beceri için tam olarak bir madde döndür.
+- Her madde listedeki tek bir beceri için olsun; aynı beceriyi iki kez yazma.
 """
 
 

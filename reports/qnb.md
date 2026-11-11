@@ -1,53 +1,52 @@
 # AI Engineer / AI Agent Developer — QNB
 
-**var: 13 · kısmen: 11 · yok: 4**
+**var: 18 · kısmen: 7 · yok: 2**
 
 ## Var
 
-- **Python** (Python) — Profilde Python doğrudan mevcut.
-- **LLM APIs** (LLMs) — LLM'ler ve Azure OpenAI gibi API deneyimi profilde görünüyor, LLMs becerisi bunu kapsıyor.
-- **LLM-based Agents** (AI Agents) — AI Agents becerisi LLM tabanlı ajanları kapsıyor.
-- **Tool Calling** (Tool Calling) — Profilde Tool Calling doğrudan mevcut.
-- **Function Calling** (Tool Calling) — Function calling ile tool calling aynı mekanizmayı ifade ediyor.
-- **RAG** (RAG) — Profilde RAG doğrudan mevcut.
-- **Output Validation** (Structured Output) — Structured Output çıktı doğrulamayı (şema, Pydantic) kapsıyor.
-- **Prompt Engineering** (Prompt Engineering) — Profilde doğrudan mevcut.
-- **LangGraph** (LangGraph) — Profilde LangGraph doğrudan mevcut.
-- **Vector Databases** (Vector Databases) — Profilde doğrudan mevcut.
-- **Embedding Models** (Embedding Models) — Profilde doğrudan mevcut.
-- **REST APIs** (REST APIs) — Profilde doğrudan mevcut.
-- **API Integration** (SDK Integration) — SDK ve REST API entegrasyonu API entegrasyonunu kapsıyor.
+- **Python** (Python) — Profilde Python doğrudan listelenmiş.
+- **LLM Agents** (AI Agents) — AI Agents ve LLMs becerileri LLM tabanlı ajanları doğrudan kapsıyor.
+- **Tool Calling** (Tool Calling) — Profilde Tool Calling doğrudan var.
+- **Function Calling** (Tool Calling) — Function calling ile tool calling aynı mekanizmayı ifade eder.
+- **RAG** (RAG) — Profilde RAG doğrudan var.
+- **Tool-Use Design** (Tool Calling) — Tool Calling ve Context Engineering araç kullanım tasarımını kapsıyor.
+- **API Integration** (REST APIs) — REST APIs ve SDK Integration API entegrasyonunu doğrudan gösteriyor.
+- **Output Validation** (Pydantic) — Pydantic ve Structured Output çıktı doğrulamayı doğrudan kapsıyor.
+- **Prompt Engineering** (Prompt Engineering) — Profilde Prompt Engineering doğrudan var.
+- **Context Engineering** (Context Engineering) — Profilde Context Engineering doğrudan var.
+- **LLM APIs** (Azure OpenAI) — Azure OpenAI ve LLMs LLM API kullanımını doğrudan gösteriyor.
+- **LangChain** (LangChain) — Profilde LangChain doğrudan var.
+- **LangGraph** (LangGraph) — Profilde LangGraph doğrudan var.
+- **Vector Databases** (Vector Databases) — Profilde Vector Databases ve Qdrant doğrudan var.
+- **Embedding Models** (Embedding Models) — Profilde Embedding Models doğrudan var.
+- **REST APIs** (REST APIs) — Profilde REST APIs doğrudan var.
+- **Microservices** (Microservices) — Profilde Microservices doğrudan var.
+- **Software Engineering** (Git) — 4 yıllık yazılım geliştirme deneyimi ile Git, CI/CD gibi mühendislik pratikleri mevcut.
 
 ## Kısmen
 
-- **Multi-agent Workflows** (AI Agents) — AI Agents ilgili ama çoklu ajan iş akışı açıkça belirtilmemiş.
-- **Agent Orchestration** (AI Agents) — Ajan deneyimi var ancak orkestrasyon açıkça belirtilmemiş.
-- **Memory** (RAG) — RAG bellek yaklaşımlarıyla ilişkili ama ajan belleği ile aynı değil.
-- **Tool-use Design** (Tool Calling) — Tool Calling bilgisi var ama araç tasarımı ayrı bir beceri.
-- **Multi-agent Architectures** (AI Agents) — AI Agents ilgili ama çoklu ajan mimarisi belirtilmemiş.
-- **Guardrails** (Prompt Engineering) — Prompt tasarımı güvenlik sınırlarına kısmen katkı sağlar ama guardrails değildir.
-- **Context Engineering** (Prompt Engineering) — Prompt Engineering yakın ama bağlam mühendisliği daha geniş.
-- **LangChain** (LangGraph) — LangGraph bilgisi LangChain öğrenmeyi kolaylaştırır.
-- **LlamaIndex** (RAG) — RAG deneyimi LlamaIndex'e yakın ama araç bilgisi doğrulanmıyor.
-- **Langflow** (LangGraph) — LangGraph ilgili ekosistemde, Langflow'u öğrenmek kolay olur.
-- **Software Engineering** (SDK Integration) — SDK Integration yazılım geliştirme pratiğiyle ilgili ama genel yazılım mühendisliğini kapsamaz.
+- **Multi-Agent Workflows** (AI Agents) — AI Agents ve LangGraph temeli var ama çoklu ajan iş akışı doğrudan belirtilmemiş.
+- **Agent Orchestration** (LangGraph) — LangGraph ajan orkestrasyonuna yakın ama doğrudan bir orkestrasyon maddesi yok.
+- **Memory** (RAG) — RAG ilgili bir temel sağlıyor ama ajan hafızası doğrudan belirtilmemiş.
+- **Guardrails** (Structured Output) — Structured Output ve Pydantic ilgili ama guardrails doğrudan belirtilmemiş.
+- **Fine-Tuning** (Machine Learning) — Machine Learning temeli var ama fine-tuning deneyimi doğrudan belirtilmemiş.
+- **LlamaIndex** (LangChain) — LangChain benzer bir çerçeve olduğundan öğrenmesi kolay ama LlamaIndex belirtilmemiş.
+- **Langflow** (LangChain) — Langflow LangChain üzerine kurulu görsel araç, LangChain bilgisi öğrenmeyi kolaylaştırır.
 
 ## Yok
 
-- **Model Context Protocol** — Adaylar arasında MCP ile ilgili gerçek bir beceri yok; Context API React'e ait ve farklı.
-- **Fine-tuning** — Adaylar arasında model ince ayarı ile ilgili beceri yok.
-- **LoRA** — Adaylar LoRA ile ilgili değil.
-- **Microservices** — Adaylar arasında mikroservis mimarisiyle ilgili açık bir beceri yok.
+- **MCP** — Profilde Model Context Protocol ile ilgili doğrudan bir madde yok; Tool Calling MCP demek değildir.
+- **LoRA** — Profilde LoRA ya da parametre verimli ince ayar ile ilgili madde yok.
 
 ## Çalışma planı
 
-1. **[yüksek] Model Context Protocol** — MCP, ajanların araçlara ve veri kaynaklarına standart biçimde bağlanmasını sağladığı için ilanın modern ajan altyapısı beklentisiyle doğrudan ilgilidir.
-   - İlk adım: Resmi MCP Python SDK'sını kur ve tek bir 'toplama' aracı sunan 20 satırlık bir MCP sunucusu yazıp bir istemciyle çağır.
-2. **[yüksek] Fine-tuning** — İlan, modelleri belirli görevlere uyarlayabilen adayları tercih ettiği için fine-tuning temelini bilmek gerekir.
-   - İlk adım: Hugging Face'te küçük bir veri setiyle (100 örnek) küçük bir modeli Colab'da ince ayarlayan hazır bir not defterini çalıştır.
-3. **[yüksek] LoRA** — LoRA, büyük modelleri düşük maliyetle uyarlamanın yaygın yolu olduğu için ilandaki fine-tuning beklentisinin pratik parçasıdır.
-   - İlk adım: PEFT kütüphanesiyle küçük bir modele LoRA adaptörü ekleyip eğitilebilir parametre sayısını yazdır.
-4. **[yüksek] Microservices** — Ajan sistemleri genelde ayrı servisler olarak dağıtıldığı için mikroservis mimarisi bilgisi ilanın yazılım altyapısı beklentisini karşılar.
-   - İlk adım: FastAPI ile iki ayrı küçük servis yaz ve birinin diğerini HTTP üzerinden çağırmasını sağla, ikisini de Docker Compose ile ayağa kaldır.
-5. **[orta] Multi-agent Workflows** — İlan, birden fazla ajanın birlikte çalıştığı iş akışları kurabilen birini aradığı için mevcut AI Agents deneyiminin bu yönde genişletilmesi gerekiyor.
-   - İlk adım: Bir araştırmacı ve bir yazar ajanın birbirine çıktı devrettiği 2 ajanlı basit bir akışı bugün kodla.
+1. **[yüksek] MCP** — İlan, ajanların harici araç ve veri kaynaklarına standart bir protokolle bağlanmasını beklediği için MCP bilgisi doğrudan gereklidir.
+   - İlk adım: Resmi MCP Python SDK'sını kurup tek bir araç (ör. verilen şehrin hava durumunu döndüren fonksiyon) sunan 30 satırlık yerel bir MCP sunucusu yaz ve bir istemciden çağır.
+2. **[yüksek] LoRA** — İlan, büyük dil modellerini düşük maliyetle özelleştirebilen adayları aradığı için LoRA gibi parametre-verimli ince ayar yöntemleri kritik bir beceridir.
+   - İlk adım: Hugging Face PEFT ile küçük bir modele (ör. 100-500 örnekli bir veri kümesi üzerinde) LoRA adaptörü ekleyen bir Colab not defteri aç ve eğitilebilir parametre sayısını yazdır.
+3. **[orta] Multi-Agent Workflows** — İlan, birden fazla ajanın görev paylaşarak çalıştığı sistemler kurmayı gerektirdiği için tek ajan deneyimini çoklu ajan akışlarına genişletmek önemlidir.
+   - İlk adım: Mevcut ajanını ikiye böl: biri araştırma yapan, diğeri sonucu özetleyen iki ajanı LangGraph'ta bağlayıp tek bir soruyla çalıştır.
+4. **[orta] Agent Orchestration** — İlan, ajanların sırasını, koşullarını ve hata durumlarını yönetebilen orkestrasyon yetkinliği aradığı için LangGraph temelini ileri düzeye taşımak gerekir.
+   - İlk adım: Mevcut bir LangGraph grafiğine koşullu bir kenar ekle: araç çağrısı başarısız olursa yeniden deneme düğümüne yönlendir.
+5. **[orta] Memory** — İlan, oturumlar arasında bağlamı koruyan ajanlar beklediği için RAG'in ötesinde kısa ve uzun süreli bellek tasarımı bilmek önemlidir.
+   - İlk adım: LangGraph'ta bir checkpointer ekleyerek aynı thread_id ile yapılan iki ayrı çağrıda ajanın önceki mesajı hatırladığını doğrula.

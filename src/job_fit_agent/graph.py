@@ -2,6 +2,8 @@ import sys
 from pathlib import Path
 from typing import TypedDict
 
+from langfuse import get_client
+from langfuse.langchain import CallbackHandler
 from langgraph.graph import END, START, StateGraph
 
 from job_fit_agent.compare import compare
@@ -69,7 +71,9 @@ if __name__ == "__main__":
             "profile": my_profile,
             "comparison": None,
             "plan": None,
-        }
+        },
+        # Her node ve model çağrısı Langfuse'a kaydedilir
+        config={"callbacks": [CallbackHandler()]},
     )
 
     report = to_markdown(final_state["job"], final_state["comparison"], final_state["plan"])
@@ -79,3 +83,6 @@ if __name__ == "__main__":
 
     print(report)
     print(f"Rapor kaydedildi: {report_path}")
+
+    # Arka planda bekleyen kayıtları göndermeden script'i kapatma
+    get_client().shutdown()
