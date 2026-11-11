@@ -47,3 +47,14 @@ class SkillMatch(BaseModel):
 
 class SkillComparison(BaseModel):
     matches: list[SkillMatch]
+
+
+class StudyItem(BaseModel):
+    skill: str
+    priority: Literal["yüksek", "orta", "düşük"]
+    why: str  # bu ilan için neden önemli
+    first_step: str  # bugün yapılabilecek somut ilk adım
+
+
+class StudyPlan(BaseModel):
+    items: list[StudyItem]

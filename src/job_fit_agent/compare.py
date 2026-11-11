@@ -1,10 +1,9 @@
 import numpy as np
 from langchain_anthropic import ChatAnthropic
 
-from job_fit_agent.extract import QNB_JOB_POSTING
-from job_fit_agent.graph import graph
+from job_fit_agent.extract import QNB_JOB_POSTING, extract
 from job_fit_agent.match import cosine, model
-from job_fit_agent.models import SkillComparison
+from job_fit_agent.models import CandidateProfile, SkillComparison
 from job_fit_agent.profile import my_profile
 
 INSTRUCTION = """\
@@ -40,8 +39,8 @@ def top_candidates(
     return result
 
 
-def compare(job_skills: list[str], my_skills: list[str]) -> SkillComparison:
-    candidates = top_candidates(job_skills, my_skills)
+def compare(job_skills: list[str], profile: CandidateProfile) -> SkillComparison:
+    candidates = top_candidates(job_skills, profile.skills)
     lines = "\n".join(
         f"- {job_skill} (adaylar: {', '.join(cands)})" for job_skill, cands in candidates
     )
@@ -52,10 +51,9 @@ def compare(job_skills: list[str], my_skills: list[str]) -> SkillComparison:
 
 
 if __name__ == "__main__":
-    final_state = graph.invoke({"job_text": QNB_JOB_POSTING, "job": None})
-    job_skills = final_state["job"].required_skills
+    job_skills = extract(QNB_JOB_POSTING).required_skills
 
-    comparison = compare(job_skills, my_profile.skills)
+    comparison = compare(job_skills, my_profile)
     for m in comparison.matches:
         matched = f"({m.matched_with})" if m.matched_with else ""
         print(f"{m.job_skill:<26} → {m.status:<7} {matched:<22} {m.reason}")

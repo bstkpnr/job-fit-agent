@@ -1,5 +1,4 @@
-from job_fit_agent.extract import QNB_JOB_POSTING
-from job_fit_agent.graph import graph
+from job_fit_agent.extract import QNB_JOB_POSTING, extract
 from job_fit_agent.models import CandidateProfile
 
 my_profile = CandidateProfile(
@@ -57,8 +56,7 @@ my_profile = CandidateProfile(
 
 
 if __name__ == "__main__":
-    final_state = graph.invoke({"job_text": QNB_JOB_POSTING, "job": None})
-    job_skills = final_state["job"].required_skills
+    job_skills = extract(QNB_JOB_POSTING).required_skills
 
     # Büyük/küçük harf farkı eşleşmeyi bozmasın diye hepsini küçük harfe çeviriyoruz
     ilan = {s.lower() for s in job_skills}

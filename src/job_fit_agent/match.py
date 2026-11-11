@@ -1,8 +1,7 @@
 import numpy as np
 from fastembed import TextEmbedding
 
-from job_fit_agent.extract import QNB_JOB_POSTING
-from job_fit_agent.graph import graph
+from job_fit_agent.extract import QNB_JOB_POSTING, extract
 from job_fit_agent.profile import my_profile
 
 model = TextEmbedding("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
@@ -36,8 +35,7 @@ if __name__ == "__main__":
     print()
 
     # Görev 2: asıl eşleştirme
-    final_state = graph.invoke({"job_text": QNB_JOB_POSTING, "job": None})
-    job_skills = final_state["job"].required_skills
+    job_skills = extract(QNB_JOB_POSTING).required_skills
 
     for job_skill, my_skill, score in match_skills(job_skills, my_profile.skills):
         print(f"{score:.3f}  {job_skill:<35} → {my_skill}")
