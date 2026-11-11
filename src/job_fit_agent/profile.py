@@ -26,11 +26,13 @@ my_profile = CandidateProfile(
         "Express",
         "REST APIs",
         "FastAPI",
+        "Microservices",
         # Yapay zekâ (CV + Harcama Koçu ve RAG servisi)
         "Python",
         "RAG",
         "Tool Calling",
         "Prompt Engineering",
+        "Context Engineering",
         "Embedding Models",
         "Azure OpenAI",
         "LLMs",
@@ -38,6 +40,7 @@ my_profile = CandidateProfile(
         "Machine Learning",
         "Predictive Modeling",
         "LangGraph",
+        "LangChain",
         "Structured Output", "Pydantic", "Vector Databases", "Qdrant", "Hybrid Search", "Streaming", "Prompt Caching",
 
         # Entegrasyon ve alan bilgisi

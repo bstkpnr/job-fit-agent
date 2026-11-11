@@ -7,18 +7,24 @@ from job_fit_agent.models import CandidateProfile, SkillComparison
 from job_fit_agent.profile import my_profile
 
 INSTRUCTION = """\
-Aşağıda bir iş ilanındaki beceriler var. Her birinin yanında, adayın profilinden
-anlamca en yakın görünen 3 beceri aday olarak verilmiş.
+Aşağıda önce adayın profil özeti, sonra bir iş ilanındaki beceriler var. Her ilan
+becerisinin yanında, adayın profilinden anlamca en yakın görünen 3 beceri aday
+olarak verilmiş. Adaylar yetmezse profil özetindeki tüm becerilere ve deneyim
+yılına bakabilirsin.
 
 Her ilan becerisi için adayın durumunu belirle:
 - "var": Aynı beceri ya da onu açıkça kapsayan bir beceri.
 - "kısmen": İlgili ama aynı değil.
-- "yok": Adaylardan hiçbiri gerçekten ilgili değil.
+- "yok": Profilde gerçekten ilgili bir beceri yok.
 
 Kurallar:
 - Adaylar sadece öneri; benzer görünüyor diye eşleştirme.
 - İyimser olma: Emin değilsen "kısmen" ya da "yok" de.
-- matched_with alanına sadece adaylardan birini yaz; "yok" ise boş bırak.
+- "var" demek için profilde o beceriyi doğrudan gösteren bir madde olmalı.
+- Sadece ilgili bir temel varsa (örn. AI Agents var, Multi-agent istenmiş) "kısmen" de.
+- Bir becerinin üzerine kurulu olduğu teknoloji, o becerinin kendisi değildir
+  (örn. Tool Calling bilmek MCP bilmek demek değildir).
+- matched_with alanına sadece profildeki becerilerden birini yaz; "yok" ise boş bırak.
 - reason alanı kısa olsun (en fazla bir cümle).
 - Her ilan becerisi için tam olarak bir sonuç döndür.
 """
@@ -47,7 +53,11 @@ def compare(job_skills: list[str], profile: CandidateProfile) -> SkillComparison
 
     llm = ChatAnthropic(model="claude-sonnet-5-5")
     structured_llm = llm.with_structured_output(SkillComparison, method="json_schema")
-    return structured_llm.invoke(f"{INSTRUCTION}\n{lines}")
+    summary = (
+        f"Aday profili: {profile.years_experience} yıl yazılım geliştirme deneyimi.\n"
+        f"Tüm beceriler: {', '.join(profile.skills)}"
+    )
+    return structured_llm.invoke(f"{INSTRUCTION}\n{summary}\n\nİlan becerileri:\n{lines}")
 
 
 if __name__ == "__main__":
