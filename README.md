@@ -41,6 +41,8 @@ LoRA                 → yok                      Adaylar LoRA ile ilgili değil
 | `profile.py` | Aday profili |
 | `match.py` | `fastembed` ile becerileri anlamsal olarak eşleştirir |
 | `compare.py` | Embedding adaylarını LLM ile değerlendirir |
+| `eval_compare.py` | Karşılaştırma adımını golden set ile ölçer (doğruluk ve tutarlılık) |
+| `server.py` | Agent'ı Claude Desktop'a tool olarak sunan MCP sunucusu |
 
 ## Kurulum
 
@@ -72,6 +74,47 @@ uv run --env-file .env python src/job_fit_agent/graph.py jobs/qnb.txt
 
 Kendi profilinle denemek için `profile.py` içindeki beceri listesini ve deneyim yılını değiştir.
 
+### Claude Desktop'tan kullanmak (MCP)
+
+Agent, `analyze_job_posting` adlı bir MCP tool'u olarak da çalışır. Claude Desktop'ta bir ilanı yapıştırıp "Bu ilana ne kadar uygunum?" diye sorduğunda Claude bu tool'u çağırır.
+
+`~/Library/Application Support/Claude/claude_desktop_config.json` dosyasına ekle (`which uv` çıktısını ve kendi proje yolunu yaz):
+
+```json
+{
+  "mcpServers": {
+    "job-fit-agent": {
+      "command": "/opt/homebrew/bin/uv",
+      "args": [
+        "--directory", "/path/to/job-fit-agent",
+        "run",
+        "python", "src/job_fit_agent/server.py"
+      ]
+    }
+  }
+}
+```
+
+Sunucu `.env` dosyasını kendisi okur. Claude Desktop'ı Cmd+Q ile kapatıp yeniden aç.
+
+Test için MCP Inspector:
+
+```bash
+uv run mcp dev src/job_fit_agent/server.py
+```
+
+### İzleme (Langfuse)
+
+`.env` dosyasına `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY` ve `LANGFUSE_BASE_URL` eklenirse her çalıştırma Langfuse'a trace olarak gönderilir: her node'un süresi, token kullanımı ve maliyeti görünür.
+
+### Değerlendirme (eval)
+
+```bash
+uv run --env-file .env python src/job_fit_agent/eval_compare.py
+```
+
+Karşılaştırma adımı, elle etiketlenmiş 12 beceri üzerinde 3 kez çalıştırılır. Doğruluk (golden set ile uyuşan cevaplar) ve tutarlılık (3 çalıştırmada aynı cevabı alan beceriler) ayrı ayrı raporlanır.
+
 ## Yol haritası
 
 - [x] İlandan yapılandırılmış bilgi çıkarma
@@ -80,3 +123,6 @@ Kendi profilinle denemek için `profile.py` içindeki beceri listesini ve deneyi
 - [x] Karşılaştırmayı LangGraph'a node olarak eklemek
 - [x] Eksik becerilere göre çalışma planı çıkaran node (koşullu edge)
 - [x] İlanı dosyadan okuma ve Markdown rapor
+- [x] Golden set ile eval
+- [x] Langfuse ile izleme
+- [x] MCP sunucusu (Claude Desktop entegrasyonu)

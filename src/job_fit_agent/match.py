@@ -1,10 +1,19 @@
+from pathlib import Path
+
 import numpy as np
 from fastembed import TextEmbedding
 
 from job_fit_agent.extract import QNB_JOB_POSTING, extract
 from job_fit_agent.profile import my_profile
 
-model = TextEmbedding("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
+# Modeli sabit bir klasörde tut. Varsayılan geçici klasör ($TMPDIR) MCP sunucusu
+# Claude Desktop'tan başlatıldığında farklı olabiliyor ve model yeniden iniyor.
+CACHE_DIR = Path.home() / ".cache" / "fastembed"
+
+model = TextEmbedding(
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    cache_dir=str(CACHE_DIR),
+)
 
 
 def cosine(a, b):

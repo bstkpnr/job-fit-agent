@@ -59,24 +59,31 @@ builder.add_edge("make_plan", END)
 graph = builder.compile()
 
 
-if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        sys.exit("Kullanım: python src/job_fit_agent/graph.py jobs/<ilan>.txt")
-
-    job_path = Path(sys.argv[1])
+def analyze(job_text: str, profile: CandidateProfile) -> str:
+    """Grafı çalıştırır ve sonucu Markdown rapor olarak döndürür."""
     final_state = graph.invoke(
         {
-            "job_text": job_path.read_text(encoding="utf-8"),
+            "job_text": job_text,
             "job": None,
-            "profile": my_profile,
+            "profile": profile,
             "comparison": None,
             "plan": None,
         },
         # Her node ve model çağrısı Langfuse'a kaydedilir
         config={"callbacks": [CallbackHandler()]},
     )
+    # Uzun süre açık kalan sunucuda kayıtlar beklemeden gönderilsin
+    get_client().flush()
+    return to_markdown(final_state["job"], final_state["comparison"], final_state["plan"])
 
-    report = to_markdown(final_state["job"], final_state["comparison"], final_state["plan"])
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        sys.exit("Kullanım: python src/job_fit_agent/graph.py jobs/<ilan>.txt")
+
+    job_path = Path(sys.argv[1])
+    report = analyze(job_path.read_text(encoding="utf-8"), my_profile)
+
     report_path = Path("reports") / f"{job_path.stem}.md"  # jobs/qnb.txt → reports/qnb.md
     report_path.parent.mkdir(exist_ok=True)
     report_path.write_text(report, encoding="utf-8")
