@@ -117,7 +117,7 @@ Karşılaştırma adımı, elle etiketlenmiş 12 beceri üzerinde 3 kez çalış
 
 ### Sonuçlar (eval)
 
-Sonuçlar: doğruluk %33 → %75 → **%94**, tutarlılık **%83**. İlk turdaki hataların çoğu modelden değil, profildeki eksik veriden geliyordu. Süreç [Gün 10 yazısında](MEDIUM_LINKI) anlatılıyor.
+Sonuçlar: doğruluk %33 → %75 → **%94**, tutarlılık **%83**. İlk turdaki hataların çoğu modelden değil, profildeki eksik veriden geliyordu. Süreç [Gün 10 yazısında](https://medium.com/@bstkpnr/ai-engineer-oluyoruz-agent%C4%B1-%C3%B6l%C3%A7mek-ce413f564a16?postPublishedType=initial) anlatılıyor.
 
 ## Yol haritası
 
