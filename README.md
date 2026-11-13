@@ -115,6 +115,10 @@ uv run --env-file .env python src/job_fit_agent/eval_compare.py
 
 Karşılaştırma adımı, elle etiketlenmiş 12 beceri üzerinde 3 kez çalıştırılır. Doğruluk (golden set ile uyuşan cevaplar) ve tutarlılık (3 çalıştırmada aynı cevabı alan beceriler) ayrı ayrı raporlanır.
 
+### Sonuçlar (eval)
+
+Sonuçlar: doğruluk %33 → %75 → **%94**, tutarlılık **%83**. İlk turdaki hataların çoğu modelden değil, profildeki eksik veriden geliyordu. Süreç [Gün 10 yazısında](MEDIUM_LINKI) anlatılıyor.
+
 ## Yol haritası
 
 - [x] İlandan yapılandırılmış bilgi çıkarma
