@@ -1,0 +1,75 @@
+{
+  "name": "job-fit: e-postadan ilan analizi",
+  "nodes": [
+    {
+      "parameters": {
+        "mailbox": "INBOX",
+        "postProcessAction": "read",
+        "format": "simple",
+        "options": {
+          "customEmailConfig": "[\"UNSEEN\", [\"SUBJECT\", \"ilan\"], [\"FROM\", \"SENIN_ADRESIN@gmail.com\"]]"
+        }
+      },
+      "name": "Gmail: 'ilan' konulu e-posta",
+      "type": "n8n-nodes-base.emailReadImap",
+      "typeVersion": 2,
+      "position": [0, 0]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/analyze",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ job_text: $json.textPlain }) }}",
+        "options": {
+          "timeout": 120000
+        }
+      },
+      "name": "POST /analyze",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [260, 0]
+    },
+    {
+      "parameters": {
+        "mode": "markdownToHtml",
+        "markdown": "={{ $json.markdown }}",
+        "destinationKey": "html",
+        "options": {}
+      },
+      "name": "Markdown → HTML",
+      "type": "n8n-nodes-base.markdown",
+      "typeVersion": 1,
+      "position": [520, 0]
+    },
+    {
+      "parameters": {
+        "fromEmail": "SENIN_ADRESIN@gmail.com",
+        "toEmail": "SENIN_ADRESIN@gmail.com",
+        "subject": "=Uyum %{{ $('POST /analyze').item.json.score.score }}{{ $('POST /analyze').item.json.score.low_confidence ? ' (düşük güven)' : '' }} — {{ $('POST /analyze').item.json.job.title }}",
+        "emailFormat": "html",
+        "html": "={{ $json.html }}",
+        "options": {}
+      },
+      "name": "Cevap e-postası",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [780, 0]
+    }
+  ],
+  "connections": {
+    "Gmail: 'ilan' konulu e-posta": {
+      "main": [[{ "node": "POST /analyze", "type": "main", "index": 0 }]]
+    },
+    "POST /analyze": {
+      "main": [[{ "node": "Markdown → HTML", "type": "main", "index": 0 }]]
+    },
+    "Markdown → HTML": {
+      "main": [[{ "node": "Cevap e-postası", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": {}
+}
