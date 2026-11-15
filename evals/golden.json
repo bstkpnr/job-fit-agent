@@ -1,0 +1,34 @@
+{
+  "python": "var",
+  "rag": "var",
+  "langgraph": "var",
+  "machine learning": "var",
+  "google adk": "kısmen",
+  "crewai": "kısmen",
+  "function calling": "var",
+  "prompt engineering": "var",
+  "mcp": "var",
+  "llm": "var",
+  "data science": "kısmen",
+  "vector databases": "var",
+  "english": "var",
+
+  "eval setleri": "var",
+  "llm-as-judge": "kısmen",
+  "observability": "var",
+  "chunking": "var",
+  "citation": "var",
+  "semantic search": "var",
+  "fastapi": "var",
+  "pydantic": "var",
+
+  "makine öğrenmesi": "var",
+  "semantik arama": "var",
+  "büyük dil modelleri": "var",
+
+  "hl7": "yok",
+  "ocr": "yok",
+  "autogen": "kısmen",
+  "data leakage": "kısmen",
+  "aml": "kısmen"
+}

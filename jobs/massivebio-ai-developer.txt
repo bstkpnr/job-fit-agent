@@ -1,0 +1,27 @@
+AI DEVELOPER — Massive Bio
+
+About Massive Bio
+Every cancer patient deserves access to treatment options. Massive Bio is an AI-powered precision medicine platform transforming how cancer patients discover and access clinical trials by eliminating the barriers of geography, financial constraints, and information asymmetry that have historically limited enrollment.
+
+Founded in 2015 and headquartered in US, Massive Bio is scaling its impact globally by powering operations across multiple countries and bringing innovative cancer treatment options to a rapidly growing and diverse population of patients. Through our proprietary AI platform, we connect individuals to clinical trials worldwide and partner with leading pharmaceutical companies, contract research organizations (CROs), and healthcare systems to accelerate drug development and expand equitable access to cutting-edge therapies.
+
+About The Role
+We're looking for an AI Developer to join our engineering team and build intelligent healthcare agents on our Agent Studio platform. You'll design, develop, and deploy AI-powered microservices that process medical records, match patients to clinical trials, and integrate with healthcare data standards, all within a modern, event-driven architecture.
+
+This is a hands-on engineering role where you'll write production code daily, work with LLMs, vector databases, and healthcare data formats, and ship features that directly impact patient outcomes.
+
+What You'll Do
+- Build AI agents as Python microservices using our SDK (massivebio-agent-sdk)
+- Design and implement multi-agent pipelines for medical data processing (OCR, clinical abstraction, terminology mapping, FHIR generation)
+- Integrate LLMs (GPT-4o, GPT-5) for clinical text extraction, summarization, and decision support
+- Work with vector databases (Qdrant) for semantic search, RAG, and terminology resolution
+- Build and maintain integrations with healthcare systems (Azure FHIR, HL7, SNOMED CT, RxNorm, LOINC)
+- Develop dashboard features for agent management, monitoring, and deployment
+- Write clean, tested, production-ready code with proper error handling and observability
+- Collaborate with clinical teams to translate medical workflows into agent pipelines
+
+Requirements
+Must Have:
+- 3+ years of professional software development experience
+- Professional proficiency in English, both written and spoken.
+- Strong Python skills (async/await, Pydantic, FastAPI or similar frameworks)

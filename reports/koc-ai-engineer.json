@@ -1,0 +1,237 @@
+{
+  "job": {
+    "title": "AI Mühendisi",
+    "company": "Koç Üniversitesi",
+    "required_skills": [
+      "Büyük Dil Modelleri",
+      "RAG",
+      "Akıllı Ajan Sistemleri",
+      "Machine Learning",
+      "Data Science",
+      "Sınıflandırma",
+      "Regresyon",
+      "Clustering",
+      "Anomaly Detection",
+      "Tahminleme",
+      "Veri Analizi",
+      "Veri Temizleme",
+      "Feature Engineering",
+      "Model Eğitimi",
+      "Model Seçimi",
+      "Model Karşılaştırma",
+      "Train/Test Split",
+      "Cross Validation",
+      "Hyperparameter Tuning",
+      "Model Değerlendirme",
+      "Overfitting",
+      "Data Leakage",
+      "Class Imbalance",
+      "Veri Kalitesi",
+      "Backend Entegrasyonu",
+      "API Servisleri",
+      "Üretim Ortamı AI Servisleri"
+    ],
+    "nice_to_have": [],
+    "min_years_experience": null
+  },
+  "comparison": {
+    "matches": [
+      {
+        "job_skill": "Büyük Dil Modelleri",
+        "status": "var",
+        "matched_with": "LLMs",
+        "reason": "Profilde LLMs doğrudan listelenmiş."
+      },
+      {
+        "job_skill": "RAG",
+        "status": "var",
+        "matched_with": "RAG",
+        "reason": "Profilde RAG doğrudan mevcut."
+      },
+      {
+        "job_skill": "Akıllı Ajan Sistemleri",
+        "status": "var",
+        "matched_with": "AI Agents",
+        "reason": "AI Agents becerisi akıllı ajan sistemlerini doğrudan kapsıyor."
+      },
+      {
+        "job_skill": "Machine Learning",
+        "status": "var",
+        "matched_with": "Machine Learning",
+        "reason": "Profilde Machine Learning doğrudan mevcut."
+      },
+      {
+        "job_skill": "Data Science",
+        "status": "kısmen",
+        "matched_with": "Machine Learning",
+        "reason": "ML ve SQL temeli var ancak veri bilimi iş akışını gösteren doğrudan bir madde yok."
+      },
+      {
+        "job_skill": "Sınıflandırma",
+        "status": "kısmen",
+        "matched_with": "Machine Learning",
+        "reason": "ML temeli var ama sınıflandırmaya özgü bir beceri belirtilmemiş."
+      },
+      {
+        "job_skill": "Regresyon",
+        "status": "kısmen",
+        "matched_with": "Predictive Modeling",
+        "reason": "Tahminsel modelleme ilgili ama regresyon açıkça belirtilmemiş."
+      },
+      {
+        "job_skill": "Clustering",
+        "status": "kısmen",
+        "matched_with": "Machine Learning",
+        "reason": "ML temeli var ancak kümeleme açıkça yok."
+      },
+      {
+        "job_skill": "Anomaly Detection",
+        "status": "kısmen",
+        "matched_with": "Machine Learning",
+        "reason": "ML temeli var ancak anomali tespiti açıkça yok."
+      },
+      {
+        "job_skill": "Tahminleme",
+        "status": "var",
+        "matched_with": "Predictive Modeling",
+        "reason": "Predictive Modeling tahminleme becerisini doğrudan kapsıyor."
+      },
+      {
+        "job_skill": "Veri Analizi",
+        "status": "kısmen",
+        "matched_with": "SQL",
+        "reason": "SQL ile veri sorgulama var ama analiz becerisi doğrudan belirtilmemiş."
+      },
+      {
+        "job_skill": "Veri Temizleme",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde veri temizleme ile ilgili bir beceri yok."
+      },
+      {
+        "job_skill": "Feature Engineering",
+        "status": "kısmen",
+        "matched_with": "Machine Learning",
+        "reason": "ML temeli var ama özellik mühendisliği açıkça belirtilmemiş."
+      },
+      {
+        "job_skill": "Model Eğitimi",
+        "status": "kısmen",
+        "matched_with": "Machine Learning",
+        "reason": "ML deneyimi var ancak model eğitimi doğrudan gösterilmemiş."
+      },
+      {
+        "job_skill": "Model Seçimi",
+        "status": "kısmen",
+        "matched_with": "Predictive Modeling",
+        "reason": "Modelleme temeli var ama model seçimi açıkça belirtilmemiş."
+      },
+      {
+        "job_skill": "Model Karşılaştırma",
+        "status": "kısmen",
+        "matched_with": "Predictive Modeling",
+        "reason": "Modelleme temeli var ama model karşılaştırma doğrudan yok."
+      },
+      {
+        "job_skill": "Train/Test Split",
+        "status": "kısmen",
+        "matched_with": "Machine Learning",
+        "reason": "ML temelinin parçası olabilir ama profilde açıkça yer almıyor."
+      },
+      {
+        "job_skill": "Cross Validation",
+        "status": "kısmen",
+        "matched_with": "Machine Learning",
+        "reason": "ML temeli var ancak çapraz doğrulama açıkça belirtilmemiş."
+      },
+      {
+        "job_skill": "Hyperparameter Tuning",
+        "status": "kısmen",
+        "matched_with": "Machine Learning",
+        "reason": "ML temeli var ama hiperparametre ayarı doğrudan gösterilmemiş."
+      },
+      {
+        "job_skill": "Model Değerlendirme",
+        "status": "kısmen",
+        "matched_with": "Predictive Modeling",
+        "reason": "Modelleme deneyimi ilgili ama değerlendirme becerisi açıkça yok."
+      },
+      {
+        "job_skill": "Overfitting",
+        "status": "kısmen",
+        "matched_with": "Machine Learning",
+        "reason": "ML temeli var ama aşırı öğrenme konusu profilde belirtilmemiş."
+      },
+      {
+        "job_skill": "Data Leakage",
+        "status": "kısmen",
+        "matched_with": "Machine Learning",
+        "reason": "ML temeli var ancak veri sızıntısı doğrudan belirtilmemiş."
+      },
+      {
+        "job_skill": "Class Imbalance",
+        "status": "kısmen",
+        "matched_with": "Machine Learning",
+        "reason": "ML temeli var ama sınıf dengesizliği açıkça belirtilmemiş."
+      },
+      {
+        "job_skill": "Veri Kalitesi",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde veri kalitesiyle ilgili bir beceri yok."
+      },
+      {
+        "job_skill": "Backend Entegrasyonu",
+        "status": "var",
+        "matched_with": "REST APIs",
+        "reason": "REST APIs, Node.js ve FastAPI deneyimi backend entegrasyonunu gösteriyor."
+      },
+      {
+        "job_skill": "API Servisleri",
+        "status": "var",
+        "matched_with": "REST APIs",
+        "reason": "REST APIs ve FastAPI ile API servisi geliştirme deneyimi var."
+      },
+      {
+        "job_skill": "Üretim Ortamı AI Servisleri",
+        "status": "kısmen",
+        "matched_with": "FastAPI",
+        "reason": "AI, FastAPI ve Microservices var ama üretim ortamı deneyimi doğrudan belirtilmemiş."
+      }
+    ]
+  },
+  "plan": {
+    "items": [
+      {
+        "skill": "Veri Temizleme",
+        "priority": "yüksek",
+        "why": "İlanda model başarısı büyük ölçüde ham verinin temizlenmesine bağlı olduğu için bu beceri eksik olursa diğer tüm ML adımları zayıf kalır.",
+        "first_step": "Kaggle'dan eksik değer ve tekrar eden satır içeren küçük bir CSV indir, pandas ile eksik değerleri doldur, tekrarları sil ve aykırı değerleri işaretleyen 30 satırlık bir script yaz."
+      },
+      {
+        "skill": "Veri Kalitesi",
+        "priority": "yüksek",
+        "why": "Güvenilir modeller için verinin doğruluk, tutarlılık ve eksiksizlik açısından ölçülmesi ve izlenmesi ilanın temel beklentilerinden biridir.",
+        "first_step": "Elindeki bir veri setinde eksik oran, benzersizlik ve değer aralığı kontrollerini yapan 5 kurallık bir veri kalitesi raporu (pandas ile) oluştur."
+      },
+      {
+        "skill": "Data Leakage",
+        "priority": "orta",
+        "why": "Veri sızıntısı modelin gerçek performansını olduğundan iyi gösterdiği için ilandaki model değerlendirme sorumluluğunda kritik bir risktir.",
+        "first_step": "Scaler'ı train/test ayrımından önce fit ettiğin bir örnek yaz, sonra aynısını Pipeline ile düzeltip iki skor arasındaki farkı karşılaştır."
+      },
+      {
+        "skill": "Üretim Ortamı AI Servisleri",
+        "priority": "orta",
+        "why": "İlan modellerin sadece eğitilmesini değil üretimde servis olarak çalıştırılmasını da beklediği için FastAPI bilgisini bu yönde genişletmek gerekir.",
+        "first_step": "Eğitilmiş bir scikit-learn modelini joblib ile kaydet ve FastAPI'de /predict endpoint'i olarak sun."
+      },
+      {
+        "skill": "Model Değerlendirme",
+        "priority": "orta",
+        "why": "İlanda farklı modellerin doğru metriklerle değerlendirilip karşılaştırılması beklendiği için metrik seçimi güçlü olmalıdır.",
+        "first_step": "Bir sınıflandırma modeli için accuracy, precision, recall, F1 ve ROC-AUC değerlerini tek bir sklearn script'inde hesapla."
+      }
+    ]
+  }
+}

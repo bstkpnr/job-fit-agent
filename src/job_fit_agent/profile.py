@@ -43,6 +43,7 @@ my_profile = CandidateProfile(
         "LangGraph",
         "LangChain",
         "Structured Output", "Pydantic", "Vector Databases", "Qdrant", "Hybrid Search", "Streaming", "Prompt Caching",
+        "Evals", "Observability", "Chunking", "Citations",
 
         # Entegrasyon ve alan bilgisi
         "Bluetooth Low Energy",

@@ -1,0 +1,225 @@
+{
+  "job": {
+    "title": "Agentic AI / Data Science",
+    "company": "ING",
+    "required_skills": [
+      "Agentic AI",
+      "LLM",
+      "Multi-agent systems",
+      "LangGraph",
+      "CrewAI",
+      "AutoGen",
+      "Google ADK",
+      "OpenAI Agents SDK",
+      "Python",
+      "Machine Learning",
+      "Neural Networks",
+      "Data Science",
+      "Document understanding",
+      "Information extraction",
+      "Entity resolution",
+      "Graph analytics",
+      "Network analysis",
+      "Communication",
+      "Stakeholder engagement",
+      "Model governance"
+    ],
+    "nice_to_have": [
+      "Wholesale Banking",
+      "KYC",
+      "AML",
+      "Financial crime",
+      "Model governance",
+      "Regulated industries"
+    ],
+    "min_years_experience": 3
+  },
+  "comparison": {
+    "matches": [
+      {
+        "job_skill": "Agentic AI",
+        "status": "var",
+        "matched_with": "AI Agents",
+        "reason": "Profilde AI Agents ve LangGraph gibi ajan tabanlı beceriler doğrudan var."
+      },
+      {
+        "job_skill": "LLM",
+        "status": "var",
+        "matched_with": "LLMs",
+        "reason": "Profilde LLMs becerisi doğrudan yer alıyor."
+      },
+      {
+        "job_skill": "Multi-agent systems",
+        "status": "kısmen",
+        "matched_with": "AI Agents",
+        "reason": "AI Agents ve LangGraph temeli var ama çoklu ajan sistemi deneyimi açıkça belirtilmemiş."
+      },
+      {
+        "job_skill": "LangGraph",
+        "status": "var",
+        "matched_with": "LangGraph",
+        "reason": "Profilde LangGraph doğrudan var."
+      },
+      {
+        "job_skill": "CrewAI",
+        "status": "kısmen",
+        "matched_with": "LangChain",
+        "reason": "Benzer ajan çerçeveleri biliniyor ama CrewAI profilde yok."
+      },
+      {
+        "job_skill": "AutoGen",
+        "status": "kısmen",
+        "matched_with": "AI Agents",
+        "reason": "Ajan geliştirme temeli var ama AutoGen çerçevesi profilde yok."
+      },
+      {
+        "job_skill": "Google ADK",
+        "status": "kısmen",
+        "matched_with": "AI Agents",
+        "reason": "Ajan geliştirme deneyimi var ama Google ADK profilde yok."
+      },
+      {
+        "job_skill": "OpenAI Agents SDK",
+        "status": "kısmen",
+        "matched_with": "Azure OpenAI",
+        "reason": "Azure OpenAI ve ajan deneyimi var ama OpenAI Agents SDK doğrudan yok."
+      },
+      {
+        "job_skill": "Python",
+        "status": "var",
+        "matched_with": "Python",
+        "reason": "Profilde Python doğrudan var."
+      },
+      {
+        "job_skill": "Machine Learning",
+        "status": "var",
+        "matched_with": "Machine Learning",
+        "reason": "Profilde Machine Learning doğrudan var."
+      },
+      {
+        "job_skill": "Neural Networks",
+        "status": "kısmen",
+        "matched_with": "Machine Learning",
+        "reason": "ML temeli var ama sinir ağları açıkça belirtilmemiş."
+      },
+      {
+        "job_skill": "Data Science",
+        "status": "kısmen",
+        "matched_with": "Predictive Modeling",
+        "reason": "Machine Learning ve Predictive Modeling ilgili ama veri bilimi doğrudan belirtilmemiş."
+      },
+      {
+        "job_skill": "Document understanding",
+        "status": "kısmen",
+        "matched_with": "Structured Output",
+        "reason": "LLM ile yapılandırılmış çıktı deneyimi ilgili ama doküman anlama doğrudan yok."
+      },
+      {
+        "job_skill": "Information extraction",
+        "status": "kısmen",
+        "matched_with": "Structured Output",
+        "reason": "Structured Output ve RAG ilgili ama bilgi çıkarımı doğrudan belirtilmemiş."
+      },
+      {
+        "job_skill": "Entity resolution",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde varlık eşleştirme ile ilgili bir beceri yok."
+      },
+      {
+        "job_skill": "Graph analytics",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde graf analitiği ile ilgili bir beceri yok."
+      },
+      {
+        "job_skill": "Network analysis",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde ağ analizi ile ilgili bir beceri yok."
+      },
+      {
+        "job_skill": "Communication",
+        "status": "kısmen",
+        "matched_with": "English (B2)",
+        "reason": "İngilizce B2 var ama iletişim becerisi doğrudan belirtilmemiş."
+      },
+      {
+        "job_skill": "Stakeholder engagement",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde paydaş yönetimi ile ilgili bir madde yok."
+      },
+      {
+        "job_skill": "Model governance",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde model yönetişimi ile ilgili bir beceri yok."
+      },
+      {
+        "job_skill": "Wholesale Banking",
+        "status": "kısmen",
+        "matched_with": "Payment Systems",
+        "reason": "Ödeme sistemleri ve KYC bankacılıkla ilgili ama toptan bankacılık doğrudan yok."
+      },
+      {
+        "job_skill": "KYC",
+        "status": "var",
+        "matched_with": "KYC",
+        "reason": "Profilde KYC doğrudan var."
+      },
+      {
+        "job_skill": "AML",
+        "status": "kısmen",
+        "matched_with": "KYC",
+        "reason": "KYC, AML ile ilişkili ama AML doğrudan profilde yok."
+      },
+      {
+        "job_skill": "Financial crime",
+        "status": "kısmen",
+        "matched_with": "KYC",
+        "reason": "KYC finansal suç önleme ile ilgili ama doğrudan finansal suç deneyimi yok."
+      },
+      {
+        "job_skill": "Regulated industries",
+        "status": "kısmen",
+        "matched_with": "KYC",
+        "reason": "KYC ve ödeme sistemleri düzenlenen sektörlerle ilgili ama açık bir ifade yok."
+      }
+    ]
+  },
+  "plan": {
+    "items": [
+      {
+        "skill": "Entity resolution",
+        "priority": "yüksek",
+        "why": "İlan, farklı kaynaklardaki kayıtların aynı kişi ya da kurumla eşleştirilmesini gerektiren veri işleri için bu beceriyi merkeze koyuyor.",
+        "first_step": "Python'da recordlinkage veya rapidfuzz ile 50 satırlık sahte bir müşteri listesinde isim ve adres benzerliğine göre yinelenen kayıtları eşleştiren bir script yaz."
+      },
+      {
+        "skill": "Graph analytics",
+        "priority": "yüksek",
+        "why": "İlişkisel veriden gizli bağlantıları ve riskli kümeleri bulmak ilanın temel analitik beklentilerinden biri.",
+        "first_step": "Neo4j Aura ücretsiz hesabı aç, 10 düğümlük bir müşteri-hesap grafiği oluştur ve ortak hesabı olan müşterileri bulan bir Cypher sorgusu yaz."
+      },
+      {
+        "skill": "Network analysis",
+        "priority": "yüksek",
+        "why": "İlan, varlıklar arasındaki bağlantı yapısını ölçüp yorumlayabilen adayları arıyor.",
+        "first_step": "NetworkX ile 30 kenarlı küçük bir işlem ağı kur, degree ve betweenness centrality değerlerini hesaplayıp en merkezi 3 düğümü yorumla."
+      },
+      {
+        "skill": "Stakeholder engagement",
+        "priority": "yüksek",
+        "why": "Teknik çözümlerin iş birimleri ve yöneticilerle birlikte şekillendirilmesi bu rolün başarısı için gerekli.",
+        "first_step": "Son bir projeni seç ve paydaşlarını, her birinin beklentisini ve onlara vereceğin güncelleme sıklığını gösteren yarım sayfalık bir paydaş haritası çıkar."
+      },
+      {
+        "skill": "Multi-agent systems",
+        "priority": "orta",
+        "why": "İlan, birden fazla ajanın birlikte çalıştığı sistemler kurabilen adayları hedefliyor.",
+        "first_step": "Mevcut ajan bilgini kullanarak bir araştırmacı ve bir özetleyici ajanı birbirine mesaj geçirecek şekilde bağlayan 30 satırlık bir prototip yaz."
+      }
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "job": {
+    "title": "AI Developer",
+    "company": "Massive Bio",
+    "required_skills": [
+      "Python",
+      "async/await",
+      "Pydantic",
+      "FastAPI",
+      "AI agents",
+      "Python microservices",
+      "Multi-agent pipelines",
+      "OCR",
+      "Clinical abstraction",
+      "Terminology mapping",
+      "FHIR",
+      "LLMs",
+      "GPT-4o",
+      "GPT-5",
+      "Vector databases",
+      "Qdrant",
+      "RAG",
+      "Semantic search",
+      "Azure FHIR",
+      "HL7",
+      "SNOMED CT",
+      "RxNorm",
+      "LOINC",
+      "Error handling",
+      "Observability",
+      "English"
+    ],
+    "nice_to_have": [],
+    "min_years_experience": 3
+  },
+  "comparison": {
+    "matches": [
+      {
+        "job_skill": "Python",
+        "status": "var",
+        "matched_with": "Python",
+        "reason": "Profilde Python doğrudan listelenmiş."
+      },
+      {
+        "job_skill": "async/await",
+        "status": "kısmen",
+        "matched_with": "Node.js",
+        "reason": "Node.js ve JavaScript/Python deneyimi async kullanımını çağrıştırıyor ama profilde doğrudan async/await maddesi yok."
+      },
+      {
+        "job_skill": "Pydantic",
+        "status": "var",
+        "matched_with": "Pydantic",
+        "reason": "Profilde Pydantic doğrudan var."
+      },
+      {
+        "job_skill": "FastAPI",
+        "status": "var",
+        "matched_with": "FastAPI",
+        "reason": "Profilde FastAPI doğrudan var."
+      },
+      {
+        "job_skill": "AI agents",
+        "status": "var",
+        "matched_with": "AI Agents",
+        "reason": "Profilde AI Agents doğrudan var."
+      },
+      {
+        "job_skill": "Python microservices",
+        "status": "var",
+        "matched_with": "Microservices",
+        "reason": "Microservices ve Python ile FastAPI birlikte profilde mevcut."
+      },
+      {
+        "job_skill": "Multi-agent pipelines",
+        "status": "kısmen",
+        "matched_with": "AI Agents",
+        "reason": "AI Agents ve LangGraph var ama multi-agent pipeline açıkça belirtilmemiş."
+      },
+      {
+        "job_skill": "OCR",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde OCR ya da görüntüden metin çıkarma ile ilgili beceri yok."
+      },
+      {
+        "job_skill": "Clinical abstraction",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde klinik veri çıkarımı deneyimi gösteren bir madde yok."
+      },
+      {
+        "job_skill": "Terminology mapping",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde terminoloji eşleme ile ilgili doğrudan beceri yok."
+      },
+      {
+        "job_skill": "FHIR",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde sağlık veri standardı FHIR'a dair beceri yok."
+      },
+      {
+        "job_skill": "LLMs",
+        "status": "var",
+        "matched_with": "LLMs",
+        "reason": "Profilde LLMs doğrudan var."
+      },
+      {
+        "job_skill": "GPT-4o",
+        "status": "kısmen",
+        "matched_with": "Azure OpenAI",
+        "reason": "Azure OpenAI ve LLM deneyimi var ama GPT-4o özel olarak belirtilmemiş."
+      },
+      {
+        "job_skill": "GPT-5",
+        "status": "kısmen",
+        "matched_with": "Azure OpenAI",
+        "reason": "Azure OpenAI ve LLM deneyimi var ama GPT-5 özel olarak belirtilmemiş."
+      },
+      {
+        "job_skill": "Vector databases",
+        "status": "var",
+        "matched_with": "Vector Databases",
+        "reason": "Profilde Vector Databases doğrudan var."
+      },
+      {
+        "job_skill": "Qdrant",
+        "status": "var",
+        "matched_with": "Qdrant",
+        "reason": "Profilde Qdrant doğrudan var."
+      },
+      {
+        "job_skill": "RAG",
+        "status": "var",
+        "matched_with": "RAG",
+        "reason": "Profilde RAG doğrudan var."
+      },
+      {
+        "job_skill": "Semantic search",
+        "status": "var",
+        "matched_with": "Hybrid Search",
+        "reason": "Hybrid Search, Embedding Models ve Vector Databases semantik aramayı kapsıyor."
+      },
+      {
+        "job_skill": "Azure FHIR",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Azure OpenAI var ama Azure FHIR servisi ve FHIR deneyimi yok."
+      },
+      {
+        "job_skill": "HL7",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde HL7 ile ilgili beceri yok."
+      },
+      {
+        "job_skill": "SNOMED CT",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde tıbbi terminoloji standardı SNOMED CT'ye dair beceri yok."
+      },
+      {
+        "job_skill": "RxNorm",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde RxNorm ile ilgili beceri yok."
+      },
+      {
+        "job_skill": "LOINC",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde LOINC ile ilgili beceri yok."
+      },
+      {
+        "job_skill": "Error handling",
+        "status": "kısmen",
+        "matched_with": "Structured Output",
+        "reason": "Structured Output ve Pydantic doğrulama ilişkili ama hata yönetimi doğrudan belirtilmemiş."
+      },
+      {
+        "job_skill": "Observability",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde izleme, loglama veya observability becerisi yok."
+      },
+      {
+        "job_skill": "English",
+        "status": "var",
+        "matched_with": "English (B2)",
+        "reason": "Profilde English (B2) var."
+      }
+    ]
+  },
+  "plan": {
+    "items": [
+      {
+        "skill": "FHIR",
+        "priority": "yüksek",
+        "why": "İlan, klinik verinin FHIR standardında okunup üretilmesini bekliyor ve diğer sağlık entegrasyonlarının temeli bu standart.",
+        "first_step": "Herkese açık HAPI FHIR test sunucusuna (hapi.fhir.org) bir Patient kaynağı POST et, ardından GET ile geri oku ve JSON yapısını incele."
+      },
+      {
+        "skill": "Clinical abstraction",
+        "priority": "yüksek",
+        "why": "İlandaki temel iş, serbest metin klinik notlardan yapılandırılmış bilgi çıkarmak.",
+        "first_step": "Uydurma 1 paragraflık bir taburcu notu yaz ve bir LLM ile tanı, ilaç ve doz alanlarını JSON olarak çıkaran bir prompt çalıştır."
+      },
+      {
+        "skill": "OCR",
+        "priority": "yüksek",
+        "why": "Taranmış klinik belgelerden metin çıkarmak, bu ilandaki veri hattının ilk adımı.",
+        "first_step": "Azure AI Document Intelligence ile örnek bir taranmış laboratuvar raporu PDF'ini oku ve çıkan metni dosyaya kaydet."
+      },
+      {
+        "skill": "Terminology mapping",
+        "priority": "yüksek",
+        "why": "Çıkarılan klinik ifadelerin standart kodlara eşlenmesi ilanın veri kalitesi beklentisinin merkezinde.",
+        "first_step": "'tip 2 diyabet', 'hipertansiyon' ve 'metformin' gibi 10 klinik ifadeyi elle ilgili standart kodlara eşleyen küçük bir tablo hazırla."
+      },
+      {
+        "skill": "Azure FHIR",
+        "priority": "yüksek",
+        "why": "İlan, FHIR verisinin Azure üzerinde yönetilmesini bekliyor.",
+        "first_step": "Azure portalda Azure Health Data Services altında bir FHIR servisi oluştur ve ona bir Patient kaynağı yükle."
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+AI MÜHENDİSİ — Koç Üniversitesi, Bilgi Teknolojileri Direktörlüğü
+
+İş ilanı hakkında
+Koç Üniversitesi, 1993 yılında Vehbi Koç Vakfı tarafından eğitimde mükemmeliyet, öncü bilimsel çalışmalar ve topluma değer katma vizyonuyla kurulmuştur. Türkiye'nin en prestijli üniversitelerinden biri olarak dünya sıralamasında ilk 500'de yer alan üniversitemiz, araştırma odaklı yapısıyla bilim, teknoloji ve toplumsal gelişime katkı sağlamayı hedeflemektedir. Çalışanlarımıza ilham veren ve çok yönlü bir yaşam alanı sunan kampüsümüzde, fark yaratan bir çalışma ortamı sağlıyoruz.
+
+Koç Üniversitesi'nde çalışanlarımız, alanında uzman ve yenilikçi bir ekibin parçası olarak, dinamik ve destekleyici bir çalışma ortamında kariyerlerini ileri taşır. Çalışma ortamımız, sürekli öğrenmeyi destekleyen, kişisel ve profesyonel gelişim olanakları sunan bir yapıya sahiptir. Vizyonumuz ve güçlü değerlerimizle, kariyerinizde yeni başarılara imza atmak için sizi de Koç Üniversitesi ailesine katılmaya davet ediyoruz.
+
+Üniversitemizin Bilgi Teknolojileri Direktörlüğü bünyesinde görev alacak AI Mühendisi aramaktayız.
+
+Büyük dil modelleri (LLM), Retrieval-Augmented Generation (RAG) mimarileri ve akıllı ajan sistemleri üzerine çalışan ekibimize katılacak bir AI Engineer arıyoruz.
+
+Bu rolde; kurumsal bilgi sistemleri üzerinde çalışan yapay zeka çözümleri geliştirecek, veri bilimi projelerini hayata geçirecek ve üretim ortamında çalışan AI servislerinin tasarımından geliştirilmesine kadar tüm süreçlerde aktif rol alacaksınız.
+
+Araştırmacı bakış açısına sahip, yeni teknolojileri hızlı öğrenebilen ve fikirleri çalışan ürünlere dönüştürebilen mühendislerle çalışmak istiyoruz.
+
+Sorumluluklar
+
+Machine Learning & Data Science
+- Sınıflandırma, regresyon, clustering, anomaly detection ve tahminleme problemleri üzerinde çalışmak
+- Veri analizi, veri temizleme ve feature engineering süreçlerini yürütmek
+- Model eğitimi, model seçimi ve model karşılaştırmaları yapmak
+- Train/Test Split, Cross Validation ve Hyperparameter Tuning süreçlerini uygulamak
+- Model performansını uygun metriklerle değerlendirmek
+- Overfitting, data leakage, class imbalance ve veri kalitesi problemlerini tespit etmek
+- Geliştirilen modelleri backend sistemlere ve API servislerine entegre etmek

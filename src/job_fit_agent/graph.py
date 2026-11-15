@@ -1,3 +1,4 @@
+import json
 import sys
 from pathlib import Path
 from typing import TypedDict
@@ -63,8 +64,8 @@ builder.add_edge("make_plan", END)
 graph = builder.compile()
 
 
-def analyze(job_text: str, profile: CandidateProfile) -> str:
-    """Grafı çalıştırır ve sonucu Markdown rapor olarak döndürür."""
+def run(job_text: str, profile: CandidateProfile) -> State:
+    """Grafı çalıştırır ve son state'i döndürür."""
     final_state = graph.invoke(
         {
             "job_text": job_text,
@@ -78,7 +79,23 @@ def analyze(job_text: str, profile: CandidateProfile) -> str:
     )
     # Uzun süre açık kalan sunucuda kayıtlar beklemeden gönderilsin
     get_client().flush()
-    return to_markdown(final_state["job"], final_state["comparison"], final_state["plan"])
+    return final_state
+
+
+def analyze(job_text: str, profile: CandidateProfile) -> str:
+    """Grafı çalıştırır ve sonucu Markdown rapor olarak döndürür (MCP sunucusu kullanır)."""
+    s = run(job_text, profile)
+    return to_markdown(s["job"], s["comparison"], s["plan"])
+
+
+def to_json(state: State) -> str:
+    plan = state["plan"]
+    data = {
+        "job": state["job"].model_dump(),
+        "comparison": state["comparison"].model_dump(),
+        "plan": plan.model_dump() if plan else None,
+    }
+    return json.dumps(data, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
@@ -86,11 +103,14 @@ if __name__ == "__main__":
         sys.exit("Kullanım: python src/job_fit_agent/graph.py jobs/<ilan>.txt")
 
     job_path = Path(sys.argv[1])
-    report = analyze(job_path.read_text(encoding="utf-8"), my_profile)
+    state = run(job_path.read_text(encoding="utf-8"), my_profile)
+    report = to_markdown(state["job"], state["comparison"], state["plan"])
 
     report_path = Path("reports") / f"{job_path.stem}.md"  # jobs/qnb.txt → reports/qnb.md
     report_path.parent.mkdir(exist_ok=True)
     report_path.write_text(report, encoding="utf-8")
+    # Aynı adla JSON: becerileri raporlardan toplamak için
+    report_path.with_suffix(".json").write_text(to_json(state), encoding="utf-8")
 
     print(report)
     print(f"Rapor kaydedildi: {report_path}")

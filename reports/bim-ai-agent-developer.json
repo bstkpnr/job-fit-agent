@@ -1,0 +1,272 @@
+{
+  "job": {
+    "title": "Yapay Zeka / AI Agent Geliştirici",
+    "company": "BİM Birleşik Mağazalar A.Ş.",
+    "required_skills": [
+      "Yapay Zeka",
+      "Makine Öğrenmesi",
+      "Google ADK",
+      "LangGraph",
+      "CrewAI",
+      "Python",
+      "Type Hints",
+      "asyncio",
+      "uv",
+      "ruff",
+      "pytest",
+      "LLM",
+      "Gemini",
+      "Claude",
+      "GPT",
+      "Multi-Agent Mimari",
+      "Orkestratör Ajan",
+      "Guardrail",
+      "Function Calling",
+      "MCP",
+      "RAG",
+      "Embedding",
+      "Vektör Arama",
+      "Semantik Arama",
+      "Chunking",
+      "Grounding",
+      "Citation",
+      "Prompt Engineering",
+      "LLM Evaluation",
+      "Eval Setleri",
+      "LLM-as-Judge",
+      "Regresyon Testleri"
+    ],
+    "nice_to_have": [],
+    "min_years_experience": 3
+  },
+  "comparison": {
+    "matches": [
+      {
+        "job_skill": "Yapay Zeka",
+        "status": "var",
+        "matched_with": "AI Agents",
+        "reason": "Profilde LLMs, AI Agents, RAG ve Machine Learning gibi birçok yapay zeka becerisi var."
+      },
+      {
+        "job_skill": "Makine Öğrenmesi",
+        "status": "var",
+        "matched_with": "Machine Learning",
+        "reason": "Profilde doğrudan Machine Learning becerisi var."
+      },
+      {
+        "job_skill": "Google ADK",
+        "status": "kısmen",
+        "matched_with": "AI Agents",
+        "reason": "Ajan geliştirme tecrübesi var ama Google ADK'ya dair doğrudan bir madde yok."
+      },
+      {
+        "job_skill": "LangGraph",
+        "status": "var",
+        "matched_with": "LangGraph",
+        "reason": "Profilde doğrudan LangGraph var."
+      },
+      {
+        "job_skill": "CrewAI",
+        "status": "kısmen",
+        "matched_with": "LangGraph",
+        "reason": "Ajan orkestrasyon çerçevesi LangGraph biliniyor, CrewAI doğrudan yok."
+      },
+      {
+        "job_skill": "Python",
+        "status": "var",
+        "matched_with": "Python",
+        "reason": "Profilde doğrudan Python var."
+      },
+      {
+        "job_skill": "Type Hints",
+        "status": "kısmen",
+        "matched_with": "Pydantic",
+        "reason": "Pydantic ve TypeScript ile tip temelli çalışma var ama Python type hints doğrudan listelenmemiş."
+      },
+      {
+        "job_skill": "asyncio",
+        "status": "kısmen",
+        "matched_with": "Streaming",
+        "reason": "Python ve FastAPI ile Streaming bilgisi var ama asyncio doğrudan belirtilmemiş."
+      },
+      {
+        "job_skill": "uv",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Python paket yöneticisi uv ile ilgili bir madde yok."
+      },
+      {
+        "job_skill": "ruff",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Ruff veya Python linter becerisi profilde yok."
+      },
+      {
+        "job_skill": "pytest",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Test framework becerisi profilde yok."
+      },
+      {
+        "job_skill": "LLM",
+        "status": "var",
+        "matched_with": "LLMs",
+        "reason": "Profilde doğrudan LLMs var."
+      },
+      {
+        "job_skill": "Gemini",
+        "status": "kısmen",
+        "matched_with": "LLMs",
+        "reason": "LLM deneyimi var (Azure OpenAI) ama Gemini doğrudan yok."
+      },
+      {
+        "job_skill": "Claude",
+        "status": "kısmen",
+        "matched_with": "LLMs",
+        "reason": "LLM deneyimi var ama Claude doğrudan listelenmemiş."
+      },
+      {
+        "job_skill": "GPT",
+        "status": "var",
+        "matched_with": "Azure OpenAI",
+        "reason": "Azure OpenAI GPT modellerine erişim sağlar ve profilde doğrudan listelenmiş."
+      },
+      {
+        "job_skill": "Multi-Agent Mimari",
+        "status": "kısmen",
+        "matched_with": "AI Agents",
+        "reason": "AI Agents ve LangGraph var ama çoklu ajan mimarisi açıkça belirtilmemiş."
+      },
+      {
+        "job_skill": "Orkestratör Ajan",
+        "status": "kısmen",
+        "matched_with": "LangGraph",
+        "reason": "LangGraph ile ajan orkestrasyonu temeli var ama orkestratör ajan doğrudan belirtilmemiş."
+      },
+      {
+        "job_skill": "Guardrail",
+        "status": "kısmen",
+        "matched_with": "Structured Output",
+        "reason": "Structured Output ve Prompt Engineering ilgili ama guardrail doğrudan yok."
+      },
+      {
+        "job_skill": "Function Calling",
+        "status": "var",
+        "matched_with": "Tool Calling",
+        "reason": "Tool Calling, Function Calling ile aynı kavramdır."
+      },
+      {
+        "job_skill": "MCP",
+        "status": "var",
+        "matched_with": "MCP",
+        "reason": "Profilde doğrudan MCP var."
+      },
+      {
+        "job_skill": "RAG",
+        "status": "var",
+        "matched_with": "RAG",
+        "reason": "Profilde doğrudan RAG var."
+      },
+      {
+        "job_skill": "Embedding",
+        "status": "var",
+        "matched_with": "Embedding Models",
+        "reason": "Profilde doğrudan Embedding Models var."
+      },
+      {
+        "job_skill": "Vektör Arama",
+        "status": "var",
+        "matched_with": "Vector Databases",
+        "reason": "Vector Databases, Qdrant ve Hybrid Search vektör aramayı kapsar."
+      },
+      {
+        "job_skill": "Semantik Arama",
+        "status": "var",
+        "matched_with": "Hybrid Search",
+        "reason": "Embedding Models, Qdrant ve Hybrid Search semantik aramayı doğrudan gösterir."
+      },
+      {
+        "job_skill": "Chunking",
+        "status": "kısmen",
+        "matched_with": "RAG",
+        "reason": "RAG çalışmasında chunking yaygındır ama profilde doğrudan belirtilmemiş."
+      },
+      {
+        "job_skill": "Grounding",
+        "status": "kısmen",
+        "matched_with": "RAG",
+        "reason": "RAG grounding'e yakındır ama doğrudan grounding maddesi yok."
+      },
+      {
+        "job_skill": "Citation",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Kaynak gösterme (citation) ile ilgili doğrudan bir madde yok."
+      },
+      {
+        "job_skill": "Prompt Engineering",
+        "status": "var",
+        "matched_with": "Prompt Engineering",
+        "reason": "Profilde doğrudan Prompt Engineering var."
+      },
+      {
+        "job_skill": "LLM Evaluation",
+        "status": "kısmen",
+        "matched_with": "LLMs",
+        "reason": "LLM deneyimi var ama değerlendirme çalışmasına dair doğrudan madde yok."
+      },
+      {
+        "job_skill": "Eval Setleri",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Değerlendirme seti hazırlamaya dair bir madde yok."
+      },
+      {
+        "job_skill": "LLM-as-Judge",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "LLM-as-Judge yaklaşımına dair bir madde yok."
+      },
+      {
+        "job_skill": "Regresyon Testleri",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Regresyon testi ile ilgili profilde bir madde yok."
+      }
+    ]
+  },
+  "plan": {
+    "items": [
+      {
+        "skill": "pytest",
+        "priority": "yüksek",
+        "why": "Bu ilanda üretim kalitesinde Python kodu beklendiği için ajan ve RAG bileşenlerini otomatik testlerle doğrulayabilmek temel bir gerekliliktir.",
+        "first_step": "pytest kurup mevcut bir projedeki tek bir fonksiyon için 3 test yaz (normal girdi, boş girdi, hatalı girdi) ve 'pytest -v' ile çalıştır."
+      },
+      {
+        "skill": "Eval Setleri",
+        "priority": "yüksek",
+        "why": "LLM tabanlı sistemlerin kalitesi ancak sabit ve temsilci bir değerlendirme veri setiyle ölçülebildiği için ilan bu beceriyi merkezde tutuyor.",
+        "first_step": "Kendi RAG veya ajan projen için 15 soru ve beklenen cevaptan oluşan bir eval.jsonl dosyası oluştur."
+      },
+      {
+        "skill": "LLM-as-Judge",
+        "priority": "yüksek",
+        "why": "Serbest metin çıktılarını ölçeklenebilir şekilde puanlamak için LLM ile değerlendirme yapmak ilanın değerlendirme tarafında beklenen bir yöntemdir.",
+        "first_step": "Bir LLM'e soru, cevap ve referans cevabı verip 1-5 arası puan ve tek cümlelik gerekçeyi JSON olarak döndüren 20 satırlık bir hakem prompt'u yaz, 5 örnekte dene."
+      },
+      {
+        "skill": "Regresyon Testleri",
+        "priority": "yüksek",
+        "why": "Prompt veya model değiştiğinde mevcut kalitenin bozulmadığını güvenceye almak ilandaki sürdürülebilir LLM sistemleri geliştirme hedefinin parçasıdır.",
+        "first_step": "Eval setindeki 10 örneği çalıştırıp skorları baseline.json dosyasına kaydet ve skor bu değerin altına düşerse başarısız olan bir pytest testi yaz."
+      },
+      {
+        "skill": "Citation",
+        "priority": "yüksek",
+        "why": "RAG cevaplarının kaynaklarını göstermek, ilandaki güvenilir ve doğrulanabilir yanıt üretme beklentisini karşılar.",
+        "first_step": "Mevcut RAG zincirinde her chunk'a kaynak ve sayfa metadata'sı ekle ve cevabın sonunda kullanılan kaynakları listeleyen bir çıktı üret."
+      }
+    ]
+  }
+}

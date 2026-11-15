@@ -1,0 +1,100 @@
+{
+  "job": {
+    "title": "Makine Öğrenmesi / Yapay Zeka Uzmanı",
+    "company": "Padran Bilgi Teknolojileri",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Predictive Modeling",
+      "Analitik Düşünme",
+      "Problem Çözme",
+      "Ekip Çalışması",
+      "Yapay Zeka",
+      "Predictive Maintenance"
+    ],
+    "nice_to_have": [
+      "Predictive Maintenance"
+    ],
+    "min_years_experience": null
+  },
+  "comparison": {
+    "matches": [
+      {
+        "job_skill": "Python",
+        "status": "var",
+        "matched_with": "Python",
+        "reason": "Profilde Python doğrudan listelenmiş."
+      },
+      {
+        "job_skill": "Machine Learning",
+        "status": "var",
+        "matched_with": "Machine Learning",
+        "reason": "Profilde Machine Learning doğrudan listelenmiş."
+      },
+      {
+        "job_skill": "Predictive Modeling",
+        "status": "var",
+        "matched_with": "Predictive Modeling",
+        "reason": "Profilde Predictive Modeling doğrudan listelenmiş."
+      },
+      {
+        "job_skill": "Analitik Düşünme",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde analitik düşünmeyi doğrudan gösteren bir madde yok, teknik beceriler bunu kanıtlamaz."
+      },
+      {
+        "job_skill": "Problem Çözme",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde problem çözme becerisini doğrudan gösteren bir madde yok."
+      },
+      {
+        "job_skill": "Ekip Çalışması",
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde ekip çalışmasını gösteren bir madde yok."
+      },
+      {
+        "job_skill": "Yapay Zeka",
+        "status": "var",
+        "matched_with": "LLMs",
+        "reason": "Profilde LLMs, AI Agents ve Machine Learning gibi yapay zeka becerileri açıkça var."
+      },
+      {
+        "job_skill": "Predictive Maintenance",
+        "status": "kısmen",
+        "matched_with": "Predictive Modeling",
+        "reason": "Tahmine dayalı modelleme temeli var ama bakım/arıza tahmini alanında deneyim görünmüyor."
+      }
+    ]
+  },
+  "plan": {
+    "items": [
+      {
+        "skill": "Analitik Düşünme",
+        "priority": "yüksek",
+        "why": "Bu ilanda veriyi yorumlayıp doğru sonuçlara varmak, rolün günlük işlerinin merkezinde yer aldığı için kritik bir beceridir.",
+        "first_step": "Bugün herhangi bir açık veri setinden (ör. Kaggle'daki bir satış verisi) bir tane seç, 'en çok düşüş hangi ayda ve neden?' sorusunu cevaplayan 5 maddelik bir analiz notu yaz."
+      },
+      {
+        "skill": "Problem Çözme",
+        "priority": "yüksek",
+        "why": "İlandaki rol, belirsiz ve karmaşık sorunları yapılandırıp çözüme ulaştırabilen adayları gerektirdiği için bu beceri eksikliği ciddi bir risktir.",
+        "first_step": "LeetCode'da bir 'easy' soru seç, kodlamadan önce kâğıda problemi 3 adımda parçala, sonra çöz ve çözüm sürecini 5 cümleyle yaz."
+      },
+      {
+        "skill": "Ekip Çalışması",
+        "priority": "yüksek",
+        "why": "İlan ekip içinde ortak çalışma ve iş birliği beklediği için bu becerinin kanıtı mülakatta mutlaka sorgulanacaktır.",
+        "first_step": "Bugün bir açık kaynak projesinde ya da bir toplulukta açık bir 'good first issue' bul ve katkı vermek istediğini belirten kısa bir yorum yaz."
+      },
+      {
+        "skill": "Predictive Maintenance",
+        "priority": "orta",
+        "why": "Bu beceri ilanda artı olarak geçse de mevcut Predictive Modeling bilginle ilan arasında güçlü bir bağ kurarak seni öne çıkarabilir.",
+        "first_step": "NASA C-MAPSS turbofan veri setini indir ve ilk 5 motorun sensör verisini çizdirip bozulma eğilimini gözle."
+      }
+    ]
+  }
+}
