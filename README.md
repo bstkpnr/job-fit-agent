@@ -47,6 +47,10 @@ LoRA                 → yok                      Adaylar LoRA ile ilgili değil
 | `server.py` | Agent'ı Claude Desktop'a tool olarak sunan MCP sunucusu |
 | `collect_skills.py` | Raporlardaki ilan becerilerini sayar (ilanlar arası en sık beceriler) |
 | `export_demo.py` | Raporları şirket adlarını maskeleyerek `demo/src/data/` klasörüne aktarır |
+| `score.py` | 0-100 uyum skoru (kodla hesaplanır, modele sorulmaz) ve düşük güven işareti |
+| `rank.py` | Raporlardaki ilanları uyum skoruna göre sıralar |
+| `api.py` | `POST /analyze` endpoint'i (FastAPI, API anahtarı korumalı) |
+| `n8n/job-fit-email.json` | E-postayla gelen ilanı analiz edip cevap gönderen n8n workflow'u |
 
 ## Kurulum
 
@@ -109,6 +113,54 @@ Test için MCP Inspector:
 uv run mcp dev src/job_fit_agent/server.py
 ```
 
+### HTTP API (`/analyze`)
+
+`.env` dosyasına bir API anahtarı ekle (değeri üretmek için `python -c "import secrets; print(secrets.token_urlsafe(32))"`):
+
+```
+API_KEY=...
+```
+
+Sunucuyu başlat:
+
+```bash
+uv run --env-file .env uvicorn job_fit_agent.api:app
+```
+
+`POST /analyze` gövdesinde `{"job_text": "..."}` alır (200–20.000 karakter), `X-API-Key` header'ı ister. Cevapta `job`, `comparison`, `plan`, `score` ve e-postaya konmaya hazır `markdown` alanları döner. Doküman ve deneme ekranı: http://127.0.0.1:8000/docs
+
+Endpoint düz `def` ile yazıldı, `async def` değil: analiz ~25 sn bloklayan bir çağrı; düz `def` ayrı bir thread'de çalıştığı için sunucu bu sırada başka isteklere cevap vermeye devam eder.
+
+### E-postayla kullanmak (n8n)
+
+```
+"ilan" konulu e-posta → n8n (IMAP) → POST /analyze → Markdown → HTML → cevap e-postası (SMTP)
+```
+
+Kendine konusu "ilan" olan bir e-posta atıp gövdeye ilan metnini yapıştırırsın; birkaç dakika içinde "Uyum %84 — AI Engineer" gibi bir konuyla rapor gelir.
+
+Kurulum:
+
+1. API sunucusunu başlat (yukarıdaki bölüm) ve n8n'i çalıştır: `npx n8n` → http://localhost:5678
+2. Gmail'de [uygulama şifresi](https://myaccount.google.com/apppasswords) oluştur (2 adımlı doğrulama açık olmalı). Normal Gmail şifren değil, bu şifre kullanılır.
+3. n8n'de **Import from File** ile `n8n/job-fit-email.json` dosyasını aç.
+4. `SENIN_ADRESIN@gmail.com` yazan 3 yeri kendi adresinle değiştir: Gmail node'undaki `FROM` filtresi, cevap e-postasının From ve To alanları. `FROM` filtresi önemli: o olmazsa sana "ilan" konulu e-posta gönderen herkes ücretli bir analiz başlatabilir.
+5. Credential'ları oluştur:
+
+| Node | Tür | Ayarlar |
+|---|---|---|
+| Gmail | IMAP | `imap.gmail.com`, port `993`, SSL açık, kullanıcı adı Gmail adresin, şifre uygulama şifresi |
+| Cevap e-postası | SMTP | `smtp.gmail.com`, port `465`, SSL açık, aynı kullanıcı ve şifre |
+| POST /analyze | Header Auth | Name `X-API-Key`, Value `.env`'deki `API_KEY` |
+
+6. Kendine bir "ilan" e-postası at (açmadan bırak, sadece okunmamışlar alınır), **Execute workflow** ile dene, çalışınca workflow'u **Active** yap.
+
+Notlar:
+
+- URL `http://127.0.0.1:8000`, `localhost` değil: Node.js (n8n) `localhost`'u önce IPv6 (`::1`) olarak dener, uvicorn ise sadece IPv4'te dinler.
+- Şifreler ve API anahtarı workflow dosyasında değil, n8n'in kendi veritabanında (`~/.n8n`) şifreli tutulur.
+- Akış iki sunucunun da (API ve n8n) açık olmasını gerektirir.
+
 ### İzleme (Langfuse)
 
 `.env` dosyasına `LANGFUSE_PUBLIC_KEY`, `LANGFUSE_SECRET_KEY` ve `LANGFUSE_BASE_URL` eklenirse her çalıştırma Langfuse'a trace olarak gönderilir: her node'un süresi, token kullanımı ve maliyeti görünür.
@@ -136,3 +188,8 @@ Sonuçlar: doğruluk %33 → %75 → **%94**, tutarlılık **%83**. İlk turdaki
 - [x] Golden set ile eval
 - [x] Langfuse ile izleme
 - [x] MCP sunucusu (Claude Desktop entegrasyonu)
+- [x] Artı becerileri ayrı değerlendirme
+- [x] Uyum skoru ve ilan sıralama
+- [x] Anonim demo sayfası (`demo/`)
+- [x] HTTP API (`/analyze`)
+- [x] E-postayla analiz (n8n)
