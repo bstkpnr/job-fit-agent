@@ -3,38 +3,36 @@
     "title": "Yapay Zeka / AI Agent Geliştirici",
     "company": "BİM Birleşik Mağazalar A.Ş.",
     "required_skills": [
-      "Yapay Zeka",
-      "Makine Öğrenmesi",
+      "Machine Learning",
+      "Artificial Intelligence",
       "Google ADK",
       "LangGraph",
       "CrewAI",
       "Python",
       "Type Hints",
-      "asyncio",
+      "Asyncio",
       "uv",
-      "ruff",
-      "pytest",
-      "LLM",
+      "Ruff",
+      "Pytest",
+      "LLMs",
       "Gemini",
       "Claude",
       "GPT",
-      "Multi-Agent Mimari",
-      "Orkestratör Ajan",
-      "Guardrail",
+      "Multi-agent Systems",
+      "Hub-and-Spoke Architecture",
+      "Guardrails",
       "Function Calling",
       "MCP",
       "RAG",
-      "Embedding",
-      "Vektör Arama",
-      "Semantik Arama",
+      "Embeddings",
+      "Semantic Search",
       "Chunking",
       "Grounding",
       "Citation",
       "Prompt Engineering",
       "LLM Evaluation",
-      "Eval Setleri",
       "LLM-as-Judge",
-      "Regresyon Testleri"
+      "Regression Testing"
     ],
     "nice_to_have": [],
     "min_years_experience": 3
@@ -42,230 +40,218 @@
   "comparison": {
     "matches": [
       {
-        "job_skill": "Yapay Zeka",
-        "status": "var",
-        "matched_with": "AI Agents",
-        "reason": "Profilde LLMs, AI Agents, RAG ve Machine Learning gibi birçok yapay zeka becerisi var."
-      },
-      {
-        "job_skill": "Makine Öğrenmesi",
+        "job_skill": "Machine Learning",
         "status": "var",
         "matched_with": "Machine Learning",
-        "reason": "Profilde doğrudan Machine Learning becerisi var."
+        "reason": "Profilde Machine Learning doğrudan listelenmiş."
+      },
+      {
+        "job_skill": "Artificial Intelligence",
+        "status": "var",
+        "matched_with": "Machine Learning",
+        "reason": "LLMs, AI Agents ve Machine Learning becerileri yapay zekâ alanını açıkça kapsıyor."
       },
       {
         "job_skill": "Google ADK",
         "status": "kısmen",
         "matched_with": "AI Agents",
-        "reason": "Ajan geliştirme tecrübesi var ama Google ADK'ya dair doğrudan bir madde yok."
+        "reason": "Agent geliştirme deneyimi var ama Google ADK'ya dair doğrudan bir madde yok."
       },
       {
         "job_skill": "LangGraph",
         "status": "var",
         "matched_with": "LangGraph",
-        "reason": "Profilde doğrudan LangGraph var."
+        "reason": "Profilde LangGraph doğrudan listelenmiş."
       },
       {
         "job_skill": "CrewAI",
         "status": "kısmen",
-        "matched_with": "LangGraph",
-        "reason": "Ajan orkestrasyon çerçevesi LangGraph biliniyor, CrewAI doğrudan yok."
+        "matched_with": "AI Agents",
+        "reason": "Agent framework deneyimi (LangGraph) var ama CrewAI belirtilmemiş."
       },
       {
         "job_skill": "Python",
         "status": "var",
         "matched_with": "Python",
-        "reason": "Profilde doğrudan Python var."
+        "reason": "Profilde Python doğrudan listelenmiş."
       },
       {
         "job_skill": "Type Hints",
         "status": "kısmen",
         "matched_with": "Pydantic",
-        "reason": "Pydantic ve TypeScript ile tip temelli çalışma var ama Python type hints doğrudan listelenmemiş."
+        "reason": "Pydantic ve TypeScript tip kullanımı ilgili ama Python type hints doğrudan belirtilmemiş."
       },
       {
-        "job_skill": "asyncio",
+        "job_skill": "Asyncio",
         "status": "kısmen",
-        "matched_with": "Streaming",
-        "reason": "Python ve FastAPI ile Streaming bilgisi var ama asyncio doğrudan belirtilmemiş."
+        "matched_with": "FastAPI",
+        "reason": "FastAPI ve Python bilgisi asyncio'ya yakın ama doğrudan bir madde yok."
       },
       {
         "job_skill": "uv",
         "status": "yok",
         "matched_with": null,
-        "reason": "Python paket yöneticisi uv ile ilgili bir madde yok."
+        "reason": "Python paket yöneticisi uv ile ilgili bir beceri profilde yok."
       },
       {
-        "job_skill": "ruff",
+        "job_skill": "Ruff",
         "status": "yok",
         "matched_with": null,
-        "reason": "Ruff veya Python linter becerisi profilde yok."
+        "reason": "Ruff ya da Python linter deneyimi profilde yok."
       },
       {
-        "job_skill": "pytest",
+        "job_skill": "Pytest",
         "status": "yok",
         "matched_with": null,
-        "reason": "Test framework becerisi profilde yok."
+        "reason": "Test framework'ü olarak Pytest veya Python test becerisi profilde yok."
       },
       {
-        "job_skill": "LLM",
+        "job_skill": "LLMs",
         "status": "var",
         "matched_with": "LLMs",
-        "reason": "Profilde doğrudan LLMs var."
+        "reason": "Profilde LLMs doğrudan listelenmiş."
       },
       {
         "job_skill": "Gemini",
         "status": "kısmen",
         "matched_with": "LLMs",
-        "reason": "LLM deneyimi var (Azure OpenAI) ama Gemini doğrudan yok."
+        "reason": "LLM deneyimi (Azure OpenAI) var ama Gemini belirtilmemiş."
       },
       {
         "job_skill": "Claude",
         "status": "kısmen",
         "matched_with": "LLMs",
-        "reason": "LLM deneyimi var ama Claude doğrudan listelenmemiş."
+        "reason": "LLM deneyimi var ama Claude belirtilmemiş."
       },
       {
         "job_skill": "GPT",
         "status": "var",
         "matched_with": "Azure OpenAI",
-        "reason": "Azure OpenAI GPT modellerine erişim sağlar ve profilde doğrudan listelenmiş."
+        "reason": "Azure OpenAI GPT modellerine erişim sağlayan servistir ve profilde listelenmiş."
       },
       {
-        "job_skill": "Multi-Agent Mimari",
+        "job_skill": "Multi-agent Systems",
         "status": "kısmen",
         "matched_with": "AI Agents",
-        "reason": "AI Agents ve LangGraph var ama çoklu ajan mimarisi açıkça belirtilmemiş."
+        "reason": "AI Agents ve LangGraph var ama multi-agent sistemi doğrudan belirtilmemiş."
       },
       {
-        "job_skill": "Orkestratör Ajan",
+        "job_skill": "Hub-and-Spoke Architecture",
         "status": "kısmen",
-        "matched_with": "LangGraph",
-        "reason": "LangGraph ile ajan orkestrasyonu temeli var ama orkestratör ajan doğrudan belirtilmemiş."
+        "matched_with": "AI Agents",
+        "reason": "Agent orkestrasyonu temeli var ama bu mimari doğrudan belirtilmemiş."
       },
       {
-        "job_skill": "Guardrail",
+        "job_skill": "Guardrails",
         "status": "kısmen",
-        "matched_with": "Structured Output",
-        "reason": "Structured Output ve Prompt Engineering ilgili ama guardrail doğrudan yok."
+        "matched_with": "Prompt Engineering",
+        "reason": "Prompt Engineering ve Structured Output ilgili ama guardrails doğrudan yok."
       },
       {
         "job_skill": "Function Calling",
         "status": "var",
         "matched_with": "Tool Calling",
-        "reason": "Tool Calling, Function Calling ile aynı kavramdır."
+        "reason": "Tool Calling, function calling ile aynı kavramdır."
       },
       {
         "job_skill": "MCP",
         "status": "var",
         "matched_with": "MCP",
-        "reason": "Profilde doğrudan MCP var."
+        "reason": "Profilde MCP doğrudan listelenmiş."
       },
       {
         "job_skill": "RAG",
         "status": "var",
         "matched_with": "RAG",
-        "reason": "Profilde doğrudan RAG var."
+        "reason": "Profilde RAG doğrudan listelenmiş."
       },
       {
-        "job_skill": "Embedding",
+        "job_skill": "Embeddings",
         "status": "var",
         "matched_with": "Embedding Models",
-        "reason": "Profilde doğrudan Embedding Models var."
+        "reason": "Embedding Models profilde doğrudan listelenmiş."
       },
       {
-        "job_skill": "Vektör Arama",
-        "status": "var",
-        "matched_with": "Vector Databases",
-        "reason": "Vector Databases, Qdrant ve Hybrid Search vektör aramayı kapsar."
-      },
-      {
-        "job_skill": "Semantik Arama",
+        "job_skill": "Semantic Search",
         "status": "var",
         "matched_with": "Hybrid Search",
-        "reason": "Embedding Models, Qdrant ve Hybrid Search semantik aramayı doğrudan gösterir."
+        "reason": "Hybrid Search, Vector Databases ve Embedding Models semantik aramayı kapsıyor."
       },
       {
         "job_skill": "Chunking",
-        "status": "kısmen",
-        "matched_with": "RAG",
-        "reason": "RAG çalışmasında chunking yaygındır ama profilde doğrudan belirtilmemiş."
+        "status": "var",
+        "matched_with": "Chunking",
+        "reason": "Profilde Chunking doğrudan listelenmiş."
       },
       {
         "job_skill": "Grounding",
         "status": "kısmen",
-        "matched_with": "RAG",
-        "reason": "RAG grounding'e yakındır ama doğrudan grounding maddesi yok."
+        "matched_with": "Citations",
+        "reason": "RAG ve Citations ilgili ama grounding doğrudan belirtilmemiş."
       },
       {
         "job_skill": "Citation",
-        "status": "yok",
-        "matched_with": null,
-        "reason": "Kaynak gösterme (citation) ile ilgili doğrudan bir madde yok."
+        "status": "var",
+        "matched_with": "Citations",
+        "reason": "Profilde Citations doğrudan listelenmiş."
       },
       {
         "job_skill": "Prompt Engineering",
         "status": "var",
         "matched_with": "Prompt Engineering",
-        "reason": "Profilde doğrudan Prompt Engineering var."
+        "reason": "Profilde Prompt Engineering doğrudan listelenmiş."
       },
       {
         "job_skill": "LLM Evaluation",
-        "status": "kısmen",
-        "matched_with": "LLMs",
-        "reason": "LLM deneyimi var ama değerlendirme çalışmasına dair doğrudan madde yok."
-      },
-      {
-        "job_skill": "Eval Setleri",
-        "status": "yok",
-        "matched_with": null,
-        "reason": "Değerlendirme seti hazırlamaya dair bir madde yok."
+        "status": "var",
+        "matched_with": "Evals",
+        "reason": "Evals ve LLMs birlikte LLM değerlendirme deneyimini gösteriyor."
       },
       {
         "job_skill": "LLM-as-Judge",
-        "status": "yok",
-        "matched_with": null,
-        "reason": "LLM-as-Judge yaklaşımına dair bir madde yok."
+        "status": "kısmen",
+        "matched_with": "Evals",
+        "reason": "Evals deneyimi var ama LLM-as-Judge yöntemi doğrudan belirtilmemiş."
       },
       {
-        "job_skill": "Regresyon Testleri",
-        "status": "yok",
-        "matched_with": null,
-        "reason": "Regresyon testi ile ilgili profilde bir madde yok."
+        "job_skill": "Regression Testing",
+        "status": "kısmen",
+        "matched_with": "Evals",
+        "reason": "Evals ilgili ama regresyon testi doğrudan belirtilmemiş."
       }
     ]
   },
   "plan": {
     "items": [
       {
-        "skill": "pytest",
+        "skill": "Pytest",
         "priority": "yüksek",
-        "why": "Bu ilanda üretim kalitesinde Python kodu beklendiği için ajan ve RAG bileşenlerini otomatik testlerle doğrulayabilmek temel bir gerekliliktir.",
-        "first_step": "pytest kurup mevcut bir projedeki tek bir fonksiyon için 3 test yaz (normal girdi, boş girdi, hatalı girdi) ve 'pytest -v' ile çalıştır."
+        "why": "Bu ilanda ajan ve API kodunun güvenilir çalıştığını otomatik testlerle kanıtlayabilmek temel bir beklentidir.",
+        "first_step": "Pytest kurup mevcut bir Pydantic modelin doğrulama kuralları için 3 test fonksiyonu (geçerli, geçersiz, eksik alan) yaz ve çalıştır."
       },
       {
-        "skill": "Eval Setleri",
+        "skill": "uv",
         "priority": "yüksek",
-        "why": "LLM tabanlı sistemlerin kalitesi ancak sabit ve temsilci bir değerlendirme veri setiyle ölçülebildiği için ilan bu beceriyi merkezde tutuyor.",
-        "first_step": "Kendi RAG veya ajan projen için 15 soru ve beklenen cevaptan oluşan bir eval.jsonl dosyası oluştur."
+        "why": "İlandaki modern Python iş akışında bağımlılık ve sanal ortam yönetimi uv ile hızlı ve tekrarlanabilir şekilde yapılıyor.",
+        "first_step": "uv kur, `uv init` ile boş bir proje aç, `uv add pytest fastapi` komutlarını çalıştırıp `uv run pytest` ile testi başlat."
       },
       {
-        "skill": "LLM-as-Judge",
+        "skill": "Ruff",
         "priority": "yüksek",
-        "why": "Serbest metin çıktılarını ölçeklenebilir şekilde puanlamak için LLM ile değerlendirme yapmak ilanın değerlendirme tarafında beklenen bir yöntemdir.",
-        "first_step": "Bir LLM'e soru, cevap ve referans cevabı verip 1-5 arası puan ve tek cümlelik gerekçeyi JSON olarak döndüren 20 satırlık bir hakem prompt'u yaz, 5 örnekte dene."
+        "why": "Ekip kod kalitesini ve tutarlı stili Ruff ile otomatik denetlediği için PR'larda temiz kod yazabilmek gerekir.",
+        "first_step": "Mevcut bir projene `uv add --dev ruff` ile Ruff ekle, `ruff check` ve `ruff format` komutlarını çalıştırıp çıkan ilk 5 uyarıyı düzelt."
       },
       {
-        "skill": "Regresyon Testleri",
-        "priority": "yüksek",
-        "why": "Prompt veya model değiştiğinde mevcut kalitenin bozulmadığını güvenceye almak ilandaki sürdürülebilir LLM sistemleri geliştirme hedefinin parçasıdır.",
-        "first_step": "Eval setindeki 10 örneği çalıştırıp skorları baseline.json dosyasına kaydet ve skor bu değerin altına düşerse başarısız olan bir pytest testi yaz."
+        "skill": "Multi-agent Systems",
+        "priority": "orta",
+        "why": "İlan birden fazla ajanın koordineli çalıştığı sistemler kurmayı hedefliyor ve tek ajan deneyimi bunun için yeterli değil.",
+        "first_step": "İki ajanlı basit bir akış çiz ve kodla: biri araştırır, diğeri özetler; çıktıyı ikinciye aktar."
       },
       {
-        "skill": "Citation",
-        "priority": "yüksek",
-        "why": "RAG cevaplarının kaynaklarını göstermek, ilandaki güvenilir ve doğrulanabilir yanıt üretme beklentisini karşılar.",
-        "first_step": "Mevcut RAG zincirinde her chunk'a kaynak ve sayfa metadata'sı ekle ve cevabın sonunda kullanılan kaynakları listeleyen bir çıktı üret."
+        "skill": "Regression Testing",
+        "priority": "orta",
+        "why": "Prompt veya model değiştiğinde ajan kalitesinin düşmediğini göstermek ilandaki değerlendirme sorumluluklarının parçasıdır.",
+        "first_step": "Mevcut eval setinden 5 örneği Pytest testine çevir ve beklenen çıktılarla karşılaştıran bir referans (baseline) sonuç dosyası kaydet."
       }
     ]
   }

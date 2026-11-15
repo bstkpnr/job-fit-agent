@@ -1,41 +1,40 @@
 # AI Developer — Massive Bio
 
-**var: 11 · kısmen: 5 · yok: 10**
+**var: 10 · kısmen: 6 · yok: 9**
 
 ## Var
 
 - **Python** (Python) — Profilde Python doğrudan listelenmiş.
-- **Pydantic** (Pydantic) — Profilde Pydantic doğrudan var.
-- **FastAPI** (FastAPI) — Profilde FastAPI doğrudan var.
-- **AI agents** (AI Agents) — Profilde AI Agents doğrudan var.
-- **Python microservices** (Microservices) — Microservices ve Python ile FastAPI birlikte profilde mevcut.
-- **LLMs** (LLMs) — Profilde LLMs doğrudan var.
-- **Vector databases** (Vector Databases) — Profilde Vector Databases doğrudan var.
-- **Qdrant** (Qdrant) — Profilde Qdrant doğrudan var.
-- **RAG** (RAG) — Profilde RAG doğrudan var.
-- **Semantic search** (Hybrid Search) — Hybrid Search, Embedding Models ve Vector Databases semantik aramayı kapsıyor.
-- **English** (English (B2)) — Profilde English (B2) var.
+- **Pydantic** (Pydantic) — Profilde Pydantic doğrudan listelenmiş.
+- **FastAPI** (FastAPI) — Profilde FastAPI doğrudan listelenmiş.
+- **Microservices** (Microservices) — Profilde Microservices doğrudan listelenmiş.
+- **LLMs** (LLMs) — Profilde LLMs doğrudan listelenmiş.
+- **Vector Databases** (Vector Databases) — Profilde Vector Databases doğrudan listelenmiş.
+- **Qdrant** (Qdrant) — Profilde Qdrant doğrudan listelenmiş.
+- **Semantic Search** (Hybrid Search) — Hybrid Search ile embedding ve vektör veritabanı deneyimi anlamsal aramayı kapsıyor.
+- **RAG** (RAG) — Profilde RAG doğrudan listelenmiş.
+- **Observability** (Observability) — Profilde Observability doğrudan listelenmiş.
 
 ## Kısmen
 
-- **async/await** (Node.js) — Node.js ve JavaScript/Python deneyimi async kullanımını çağrıştırıyor ama profilde doğrudan async/await maddesi yok.
-- **Multi-agent pipelines** (AI Agents) — AI Agents ve LangGraph var ama multi-agent pipeline açıkça belirtilmemiş.
+- **Async Programming** (Node.js) — Node.js ve FastAPI ile async yapılara temas olabilir ama profilde doğrudan async programlama maddesi yok.
+- **Multi-agent Systems** (AI Agents) — AI Agents ve LangGraph temeli var ama çoklu ajan sistemi doğrudan belirtilmemiş.
 - **GPT-4o** (Azure OpenAI) — Azure OpenAI ve LLM deneyimi var ama GPT-4o özel olarak belirtilmemiş.
 - **GPT-5** (Azure OpenAI) — Azure OpenAI ve LLM deneyimi var ama GPT-5 özel olarak belirtilmemiş.
-- **Error handling** (Structured Output) — Structured Output ve Pydantic doğrulama ilişkili ama hata yönetimi doğrudan belirtilmemiş.
+- **Error Handling** (Structured Output) — Hata yönetimi doğrudan listelenmemiş, yalnızca ilişkili yapılandırılmış çıktı doğrulama deneyimi var.
+- **Event-driven Architecture** (Microservices) — Microservices temeli var ama olay güdümlü mimari doğrudan belirtilmemiş.
 
 ## Yok
 
-- **OCR** — Profilde OCR ya da görüntüden metin çıkarma ile ilgili beceri yok.
-- **Clinical abstraction** — Profilde klinik veri çıkarımı deneyimi gösteren bir madde yok.
-- **Terminology mapping** — Profilde terminoloji eşleme ile ilgili doğrudan beceri yok.
-- **FHIR** — Profilde sağlık veri standardı FHIR'a dair beceri yok.
-- **Azure FHIR** — Azure OpenAI var ama Azure FHIR servisi ve FHIR deneyimi yok.
-- **HL7** — Profilde HL7 ile ilgili beceri yok.
-- **SNOMED CT** — Profilde tıbbi terminoloji standardı SNOMED CT'ye dair beceri yok.
-- **RxNorm** — Profilde RxNorm ile ilgili beceri yok.
-- **LOINC** — Profilde LOINC ile ilgili beceri yok.
-- **Observability** — Profilde izleme, loglama veya observability becerisi yok.
+- **OCR** — Profilde OCR ya da belge görüntü işleme ile ilgili beceri yok.
+- **Clinical Abstraction** — Profilde klinik veri çıkarımı ile ilgili bir beceri yok.
+- **Terminology Mapping** — Profilde terminoloji eşleme becerisi yok.
+- **FHIR** — Profilde sağlık veri standartlarıyla ilgili beceri yok.
+- **Azure FHIR** — Azure becerileri var ama FHIR ile ilgili bir deneyim yok.
+- **HL7** — Profilde HL7 ya da sağlık entegrasyon standardı yok.
+- **SNOMED CT** — Profilde tıbbi terminoloji becerisi yok.
+- **RxNorm** — Profilde ilaç terminolojisi ile ilgili beceri yok.
+- **LOINC** — Profilde laboratuvar kodlama standardı ile ilgili beceri yok.
 
 ## Artı beceriler
 
@@ -43,13 +42,13 @@ _Yok._
 
 ## Çalışma planı
 
-1. **[yüksek] FHIR** — İlan, klinik verinin FHIR standardında okunup üretilmesini bekliyor ve diğer sağlık entegrasyonlarının temeli bu standart.
-   - İlk adım: Herkese açık HAPI FHIR test sunucusuna (hapi.fhir.org) bir Patient kaynağı POST et, ardından GET ile geri oku ve JSON yapısını incele.
-2. **[yüksek] Clinical abstraction** — İlandaki temel iş, serbest metin klinik notlardan yapılandırılmış bilgi çıkarmak.
-   - İlk adım: Uydurma 1 paragraflık bir taburcu notu yaz ve bir LLM ile tanı, ilaç ve doz alanlarını JSON olarak çıkaran bir prompt çalıştır.
-3. **[yüksek] OCR** — Taranmış klinik belgelerden metin çıkarmak, bu ilandaki veri hattının ilk adımı.
-   - İlk adım: Azure AI Document Intelligence ile örnek bir taranmış laboratuvar raporu PDF'ini oku ve çıkan metni dosyaya kaydet.
-4. **[yüksek] Terminology mapping** — Çıkarılan klinik ifadelerin standart kodlara eşlenmesi ilanın veri kalitesi beklentisinin merkezinde.
-   - İlk adım: 'tip 2 diyabet', 'hipertansiyon' ve 'metformin' gibi 10 klinik ifadeyi elle ilgili standart kodlara eşleyen küçük bir tablo hazırla.
-5. **[yüksek] Azure FHIR** — İlan, FHIR verisinin Azure üzerinde yönetilmesini bekliyor.
-   - İlk adım: Azure portalda Azure Health Data Services altında bir FHIR servisi oluştur ve ona bir Patient kaynağı yükle.
+1. **[yüksek] FHIR** — İlan sağlık verisinin standart biçimde temsil edilmesini ve aktarılmasını gerektirdiği için FHIR kaynak yapısını bilmek temel bir ön koşuldur.
+   - İlk adım: Herkese açık HAPI FHIR test sunucusuna (hapi.fhir.org) bir Patient ve bir Observation kaynağı için GET isteği at, dönen JSON'daki alanları not et.
+2. **[yüksek] Clinical Abstraction** — İlandaki asıl iş, serbest metin klinik notlardan yapılandırılmış bilgi çıkarmak olduğu için klinik soyutlama mantığını anlamak şarttır.
+   - İlk adım: Uydurma 10 satırlık bir taburcu notu al, içinden tanı, ilaç ve laboratuvar değerlerini elle bir tabloya çıkar, ardından aynı işi Azure OpenAI ile yapan bir prompt yaz.
+3. **[yüksek] Terminology Mapping** — Çıkarılan klinik kavramların standart kodlara eşlenmesi, verinin sistemler arasında tutarlı ve kullanılabilir olmasını sağlar.
+   - İlk adım: Metinden çıkardığın 5 klinik terimi (ör. hipertansiyon, metformin) uygun kod sistemlerinde elle ara ve terim-kod eşleme tablosu oluştur.
+4. **[yüksek] OCR** — Klinik belgelerin çoğu taranmış PDF veya görüntü olarak geldiği için metne dönüştürme adımı işlem hattının girişini oluşturur.
+   - İlk adım: Azure AI Document Intelligence'ın Read modeliyle taranmış tek sayfalık bir örnek belgeyi işle ve çıkan metni kontrol et.
+5. **[yüksek] SNOMED CT** — SNOMED CT klinik tanı ve bulguların kodlanmasında yaygın kullanılan terminoloji olduğu için ilandaki eşleme işlerinde sık karşına çıkacaktır.
+   - İlk adım: Herkese açık bir SNOMED CT tarayıcısında 'type 2 diabetes mellitus' terimini ara, kavram kimliğini ve üst-alt ilişkilerini not et.

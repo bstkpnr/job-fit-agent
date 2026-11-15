@@ -1,47 +1,45 @@
 # Yapay Zeka / AI Agent Geliştirici — BİM Birleşik Mağazalar A.Ş.
 
-**var: 13 · kısmen: 12 · yok: 7**
+**var: 15 · kısmen: 12 · yok: 3**
 
 ## Var
 
-- **Yapay Zeka** (AI Agents) — Profilde LLMs, AI Agents, RAG ve Machine Learning gibi birçok yapay zeka becerisi var.
-- **Makine Öğrenmesi** (Machine Learning) — Profilde doğrudan Machine Learning becerisi var.
-- **LangGraph** (LangGraph) — Profilde doğrudan LangGraph var.
-- **Python** (Python) — Profilde doğrudan Python var.
-- **LLM** (LLMs) — Profilde doğrudan LLMs var.
-- **GPT** (Azure OpenAI) — Azure OpenAI GPT modellerine erişim sağlar ve profilde doğrudan listelenmiş.
-- **Function Calling** (Tool Calling) — Tool Calling, Function Calling ile aynı kavramdır.
-- **MCP** (MCP) — Profilde doğrudan MCP var.
-- **RAG** (RAG) — Profilde doğrudan RAG var.
-- **Embedding** (Embedding Models) — Profilde doğrudan Embedding Models var.
-- **Vektör Arama** (Vector Databases) — Vector Databases, Qdrant ve Hybrid Search vektör aramayı kapsar.
-- **Semantik Arama** (Hybrid Search) — Embedding Models, Qdrant ve Hybrid Search semantik aramayı doğrudan gösterir.
-- **Prompt Engineering** (Prompt Engineering) — Profilde doğrudan Prompt Engineering var.
+- **Machine Learning** (Machine Learning) — Profilde Machine Learning doğrudan listelenmiş.
+- **Artificial Intelligence** (Machine Learning) — LLMs, AI Agents ve Machine Learning becerileri yapay zekâ alanını açıkça kapsıyor.
+- **LangGraph** (LangGraph) — Profilde LangGraph doğrudan listelenmiş.
+- **Python** (Python) — Profilde Python doğrudan listelenmiş.
+- **LLMs** (LLMs) — Profilde LLMs doğrudan listelenmiş.
+- **GPT** (Azure OpenAI) — Azure OpenAI GPT modellerine erişim sağlayan servistir ve profilde listelenmiş.
+- **Function Calling** (Tool Calling) — Tool Calling, function calling ile aynı kavramdır.
+- **MCP** (MCP) — Profilde MCP doğrudan listelenmiş.
+- **RAG** (RAG) — Profilde RAG doğrudan listelenmiş.
+- **Embeddings** (Embedding Models) — Embedding Models profilde doğrudan listelenmiş.
+- **Semantic Search** (Hybrid Search) — Hybrid Search, Vector Databases ve Embedding Models semantik aramayı kapsıyor.
+- **Chunking** (Chunking) — Profilde Chunking doğrudan listelenmiş.
+- **Citation** (Citations) — Profilde Citations doğrudan listelenmiş.
+- **Prompt Engineering** (Prompt Engineering) — Profilde Prompt Engineering doğrudan listelenmiş.
+- **LLM Evaluation** (Evals) — Evals ve LLMs birlikte LLM değerlendirme deneyimini gösteriyor.
 
 ## Kısmen
 
-- **Google ADK** (AI Agents) — Ajan geliştirme tecrübesi var ama Google ADK'ya dair doğrudan bir madde yok.
-- **CrewAI** (LangGraph) — Ajan orkestrasyon çerçevesi LangGraph biliniyor, CrewAI doğrudan yok.
-- **Type Hints** (Pydantic) — Pydantic ve TypeScript ile tip temelli çalışma var ama Python type hints doğrudan listelenmemiş.
-- **asyncio** (Streaming) — Python ve FastAPI ile Streaming bilgisi var ama asyncio doğrudan belirtilmemiş.
-- **Gemini** (LLMs) — LLM deneyimi var (Azure OpenAI) ama Gemini doğrudan yok.
-- **Claude** (LLMs) — LLM deneyimi var ama Claude doğrudan listelenmemiş.
-- **Multi-Agent Mimari** (AI Agents) — AI Agents ve LangGraph var ama çoklu ajan mimarisi açıkça belirtilmemiş.
-- **Orkestratör Ajan** (LangGraph) — LangGraph ile ajan orkestrasyonu temeli var ama orkestratör ajan doğrudan belirtilmemiş.
-- **Guardrail** (Structured Output) — Structured Output ve Prompt Engineering ilgili ama guardrail doğrudan yok.
-- **Chunking** (RAG) — RAG çalışmasında chunking yaygındır ama profilde doğrudan belirtilmemiş.
-- **Grounding** (RAG) — RAG grounding'e yakındır ama doğrudan grounding maddesi yok.
-- **LLM Evaluation** (LLMs) — LLM deneyimi var ama değerlendirme çalışmasına dair doğrudan madde yok.
+- **Google ADK** (AI Agents) — Agent geliştirme deneyimi var ama Google ADK'ya dair doğrudan bir madde yok.
+- **CrewAI** (AI Agents) — Agent framework deneyimi (LangGraph) var ama CrewAI belirtilmemiş.
+- **Type Hints** (Pydantic) — Pydantic ve TypeScript tip kullanımı ilgili ama Python type hints doğrudan belirtilmemiş.
+- **Asyncio** (FastAPI) — FastAPI ve Python bilgisi asyncio'ya yakın ama doğrudan bir madde yok.
+- **Gemini** (LLMs) — LLM deneyimi (Azure OpenAI) var ama Gemini belirtilmemiş.
+- **Claude** (LLMs) — LLM deneyimi var ama Claude belirtilmemiş.
+- **Multi-agent Systems** (AI Agents) — AI Agents ve LangGraph var ama multi-agent sistemi doğrudan belirtilmemiş.
+- **Hub-and-Spoke Architecture** (AI Agents) — Agent orkestrasyonu temeli var ama bu mimari doğrudan belirtilmemiş.
+- **Guardrails** (Prompt Engineering) — Prompt Engineering ve Structured Output ilgili ama guardrails doğrudan yok.
+- **Grounding** (Citations) — RAG ve Citations ilgili ama grounding doğrudan belirtilmemiş.
+- **LLM-as-Judge** (Evals) — Evals deneyimi var ama LLM-as-Judge yöntemi doğrudan belirtilmemiş.
+- **Regression Testing** (Evals) — Evals ilgili ama regresyon testi doğrudan belirtilmemiş.
 
 ## Yok
 
-- **uv** — Python paket yöneticisi uv ile ilgili bir madde yok.
-- **ruff** — Ruff veya Python linter becerisi profilde yok.
-- **pytest** — Test framework becerisi profilde yok.
-- **Citation** — Kaynak gösterme (citation) ile ilgili doğrudan bir madde yok.
-- **Eval Setleri** — Değerlendirme seti hazırlamaya dair bir madde yok.
-- **LLM-as-Judge** — LLM-as-Judge yaklaşımına dair bir madde yok.
-- **Regresyon Testleri** — Regresyon testi ile ilgili profilde bir madde yok.
+- **uv** — Python paket yöneticisi uv ile ilgili bir beceri profilde yok.
+- **Ruff** — Ruff ya da Python linter deneyimi profilde yok.
+- **Pytest** — Test framework'ü olarak Pytest veya Python test becerisi profilde yok.
 
 ## Artı beceriler
 
@@ -49,13 +47,13 @@ _Yok._
 
 ## Çalışma planı
 
-1. **[yüksek] pytest** — Bu ilanda üretim kalitesinde Python kodu beklendiği için ajan ve RAG bileşenlerini otomatik testlerle doğrulayabilmek temel bir gerekliliktir.
-   - İlk adım: pytest kurup mevcut bir projedeki tek bir fonksiyon için 3 test yaz (normal girdi, boş girdi, hatalı girdi) ve 'pytest -v' ile çalıştır.
-2. **[yüksek] Eval Setleri** — LLM tabanlı sistemlerin kalitesi ancak sabit ve temsilci bir değerlendirme veri setiyle ölçülebildiği için ilan bu beceriyi merkezde tutuyor.
-   - İlk adım: Kendi RAG veya ajan projen için 15 soru ve beklenen cevaptan oluşan bir eval.jsonl dosyası oluştur.
-3. **[yüksek] LLM-as-Judge** — Serbest metin çıktılarını ölçeklenebilir şekilde puanlamak için LLM ile değerlendirme yapmak ilanın değerlendirme tarafında beklenen bir yöntemdir.
-   - İlk adım: Bir LLM'e soru, cevap ve referans cevabı verip 1-5 arası puan ve tek cümlelik gerekçeyi JSON olarak döndüren 20 satırlık bir hakem prompt'u yaz, 5 örnekte dene.
-4. **[yüksek] Regresyon Testleri** — Prompt veya model değiştiğinde mevcut kalitenin bozulmadığını güvenceye almak ilandaki sürdürülebilir LLM sistemleri geliştirme hedefinin parçasıdır.
-   - İlk adım: Eval setindeki 10 örneği çalıştırıp skorları baseline.json dosyasına kaydet ve skor bu değerin altına düşerse başarısız olan bir pytest testi yaz.
-5. **[yüksek] Citation** — RAG cevaplarının kaynaklarını göstermek, ilandaki güvenilir ve doğrulanabilir yanıt üretme beklentisini karşılar.
-   - İlk adım: Mevcut RAG zincirinde her chunk'a kaynak ve sayfa metadata'sı ekle ve cevabın sonunda kullanılan kaynakları listeleyen bir çıktı üret.
+1. **[yüksek] Pytest** — Bu ilanda ajan ve API kodunun güvenilir çalıştığını otomatik testlerle kanıtlayabilmek temel bir beklentidir.
+   - İlk adım: Pytest kurup mevcut bir Pydantic modelin doğrulama kuralları için 3 test fonksiyonu (geçerli, geçersiz, eksik alan) yaz ve çalıştır.
+2. **[yüksek] uv** — İlandaki modern Python iş akışında bağımlılık ve sanal ortam yönetimi uv ile hızlı ve tekrarlanabilir şekilde yapılıyor.
+   - İlk adım: uv kur, `uv init` ile boş bir proje aç, `uv add pytest fastapi` komutlarını çalıştırıp `uv run pytest` ile testi başlat.
+3. **[yüksek] Ruff** — Ekip kod kalitesini ve tutarlı stili Ruff ile otomatik denetlediği için PR'larda temiz kod yazabilmek gerekir.
+   - İlk adım: Mevcut bir projene `uv add --dev ruff` ile Ruff ekle, `ruff check` ve `ruff format` komutlarını çalıştırıp çıkan ilk 5 uyarıyı düzelt.
+4. **[orta] Multi-agent Systems** — İlan birden fazla ajanın koordineli çalıştığı sistemler kurmayı hedefliyor ve tek ajan deneyimi bunun için yeterli değil.
+   - İlk adım: İki ajanlı basit bir akış çiz ve kodla: biri araştırır, diğeri özetler; çıktıyı ikinciye aktar.
+5. **[orta] Regression Testing** — Prompt veya model değiştiğinde ajan kalitesinin düşmediğini göstermek ilandaki değerlendirme sorumluluklarının parçasıdır.
+   - İlk adım: Mevcut eval setinden 5 örneği Pytest testine çevir ve beklenen çıktılarla karşılaştıran bir referans (baseline) sonuç dosyası kaydet.

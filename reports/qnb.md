@@ -1,63 +1,61 @@
 # AI Engineer / AI Agent Developer — QNB
 
-**var: 19 · kısmen: 6 · yok: 2**
+**var: 20 · kısmen: 6 · yok: 1**
 
 ## Var
 
 - **Python** (Python) — Profilde Python doğrudan listelenmiş.
-- **LLM Agents** (AI Agents) — AI Agents ve LLMs becerileri LLM tabanlı ajanları kapsıyor.
+- **LLM Applications** (LLMs) — LLMs, RAG, AI Agents ve Azure OpenAI ile LLM uygulamaları geliştirme deneyimi var.
+- **AI Agents** (AI Agents) — Profilde AI Agents doğrudan var.
 - **Tool Calling** (Tool Calling) — Profilde Tool Calling doğrudan var.
-- **Function Calling** (Tool Calling) — Function calling ile tool calling aynı mekanizmayı ifade eder.
 - **RAG** (RAG) — Profilde RAG doğrudan var.
-- **MCP** (MCP) — Profilde MCP doğrudan listelenmiş.
-- **Tool-use Design** (Tool Calling) — Tool Calling ve Context Engineering araç kullanımı tasarımını gösteriyor.
-- **API Integration** (REST APIs) — REST APIs ve SDK Integration API entegrasyonunu doğrudan gösteriyor.
-- **Output Validation** (Pydantic) — Pydantic ve Structured Output çıktı doğrulamayı kapsıyor.
-- **Prompt Engineering** (Prompt Engineering) — Profilde doğrudan var.
-- **Context Engineering** (Context Engineering) — Profilde doğrudan var.
-- **LLM APIs** (Azure OpenAI) — Azure OpenAI ve LLMs LLM API kullanımını doğrudan gösteriyor.
-- **LangChain** (LangChain) — Profilde doğrudan var.
-- **LangGraph** (LangGraph) — Profilde doğrudan var.
+- **Model Context Protocol** (MCP) — MCP profilde doğrudan listelenmiş.
+- **System Integration** (SDK Integration) — SDK Integration, REST APIs ve Payment Systems entegrasyon deneyimini gösteriyor.
+- **APIs** (REST APIs) — REST APIs, FastAPI ve Express ile API geliştirme deneyimi var.
+- **Databases** (SQL) — SQL, Firebase ve Vector Databases ile veritabanı deneyimi var.
+- **Output Validation** (Pydantic) — Pydantic ve Structured Output çıktı doğrulamayı doğrudan kapsar.
+- **Prompt Engineering** (Prompt Engineering) — Profilde Prompt Engineering doğrudan var.
+- **Context Engineering** (Context Engineering) — Profilde Context Engineering doğrudan var.
+- **LLM APIs** (Azure OpenAI) — Azure OpenAI ve LLMs ile LLM API kullanımı doğrudan var.
+- **LangChain** (LangChain) — Profilde LangChain doğrudan var.
+- **LangGraph** (LangGraph) — Profilde LangGraph doğrudan var.
 - **Vector Databases** (Vector Databases) — Profilde Vector Databases ve Qdrant var.
-- **Embedding Models** (Embedding Models) — Profilde doğrudan var.
-- **REST APIs** (REST APIs) — Profilde doğrudan var.
-- **Microservices** (Microservices) — Profilde doğrudan var.
+- **Embedding Models** (Embedding Models) — Profilde Embedding Models doğrudan var.
+- **REST APIs** (REST APIs) — Profilde REST APIs doğrudan var.
+- **Microservices** (Microservices) — Profilde Microservices doğrudan var.
 - **Software Engineering** (Git) — 4 yıl yazılım geliştirme deneyimi, Git ve CI/CD pratikleri var.
 
 ## Kısmen
 
-- **Multi-agent Workflows** (AI Agents) — AI Agents ve LangGraph var ama çoklu ajan iş akışı doğrudan belirtilmemiş.
-- **Agent Orchestration** (LangGraph) — LangGraph orkestrasyon için ilgili bir temel sağlıyor ancak doğrudan bir madde yok.
-- **Memory** (RAG) — RAG ve vektör veritabanı ilgili ama ajan hafızası doğrudan belirtilmemiş.
-- **Guardrails** (Structured Output) — Structured Output ve Pydantic ilgili ama guardrails doğrudan yok.
-- **LlamaIndex** (LangChain) — LangChain benzer bir çerçeve olduğu için öğrenmesi kolay.
-- **Langflow** (LangChain) — Langflow LangChain üzerine kurulu görsel bir araç, LangChain bilgisi temel sağlar.
+- **Multi-agent Systems** (AI Agents) — AI Agents ve LangGraph var ama çoklu ajan sistemi doğrudan belirtilmemiş.
+- **Agent Orchestration** (LangGraph) — LangGraph ajan orkestrasyonu için ilgili bir temel sağlar ama doğrudan belirtilmemiş.
+- **Guardrails** (Structured Output) — Structured Output ve Pydantic ilgili ama guardrails doğrudan belirtilmemiş.
+- **Fine-tuning** (Machine Learning) — Machine Learning ilgili bir temel ama fine-tuning deneyimi belirtilmemiş.
+- **LlamaIndex** (LangChain) — LangChain benzer bir çerçeve olup öğrenmesi kolay olur ama LlamaIndex belirtilmemiş.
+- **Langflow** (LangChain) — LangChain ekosistemine aşinalık var ama Langflow doğrudan belirtilmemiş.
 
 ## Yok
 
-- **Fine-tuning** — Profilde model ince ayarı ile ilgili madde yok.
-- **LoRA** — Profilde LoRA veya parametre verimli ince ayar yok.
+- **LoRA** — Profilde LoRA veya parametre-verimli ince ayar deneyimi yok.
 
 ## Artı beceriler
 
-- **Model Serving** → kısmen — FastAPI ile servis geliştirme deneyimi var ama model serving doğrudan belirtilmemiş.
-- **Self-hosted LLMs** → yok — Profilde kendi sunucuda LLM barındırma deneyimi görünmüyor, yalnızca Azure OpenAI var.
-- **Open-source LLMs** → yok — Profilde açık kaynak LLM kullanımını gösteren madde yok.
-- **Speech Technologies** → yok — Profilde konuşma teknolojileriyle ilgili beceri yok.
-- **STT** → yok — Profilde konuşmadan metne dair beceri yok.
-- **TTS** → yok — Profilde metinden konuşmaya dair beceri yok.
-- **Voice-based Agents** → kısmen — AI Agents var ama sesli ajan deneyimi yok.
-- **English** → var — Profilde English (B2) var.
+- **Model Serving** → kısmen — FastAPI ile servis sunma temeli var ama model serving doğrudan belirtilmemiş.
+- **Open-source LLMs** → yok — Profilde açık kaynak LLM deneyimini gösteren bir madde yok.
+- **Self-hosted LLMs** → yok — Kendi altyapısında LLM barındırma deneyimi belirtilmemiş.
+- **Speech-to-Text** → yok — Profilde konuşmadan metne dönüştürme deneyimi yok.
+- **Text-to-Speech** → yok — Profilde metinden konuşmaya dönüştürme deneyimi yok.
+- **Voice Agents** → kısmen — AI Agents deneyimi var ama sesli ajan deneyimi belirtilmemiş.
 
 ## Çalışma planı
 
-1. **[yüksek] Fine-tuning** — İlan, hazır modelleri kullanmanın ötesinde modeli kendi veri ve göreve göre uyarlayabilen birini aradığı için fine-tuning temel bir gereksinimdir.
-   - İlk adım: Hugging Face'ten küçük bir modeli (ör. 100-500 örnekli bir sınıflandırma veri setiyle) Colab üzerinde 1 epoch fine-tune et ve eğitim öncesi/sonrası çıktıları karşılaştır.
-2. **[yüksek] LoRA** — Fine-tuning'i düşük maliyetle ve sınırlı GPU ile yapabilmek için LoRA gibi parametre-verimli yöntemler pratikte neredeyse zorunludur.
-   - İlk adım: Hugging Face PEFT kütüphanesiyle küçük bir modele r=8 ayarlı bir LoRA adaptörü ekle ve eğitilebilir parametre sayısını yazdır.
-3. **[orta] Multi-agent Workflows** — İlandaki ajan tabanlı sistemler genellikle birden fazla ajanın görev paylaşarak çalışmasını gerektirir.
-   - İlk adım: Mevcut ajan bilgini kullanarak biri araştırıp diğeri özetleyen iki ajanlı basit bir akış yaz.
-4. **[orta] Agent Orchestration** — Ajanların sırasını, durumunu ve hata yönetimini koordine etmek ilandaki üretim seviyesi ajan sistemlerinin merkezindedir.
-   - İlk adım: LangGraph'ta koşullu bir kenar içeren 3 düğümlü bir graf kur (ör. yönlendirici, araç çağıran, yanıtlayıcı).
-5. **[orta] Guardrails** — Üretimdeki LLM çıktılarının güvenli, doğrulanmış ve beklenen formatta olması ilan için kritik bir kalite şartıdır.
-   - İlk adım: Var olan structured output şemana bir Pydantic doğrulaması ve geçersiz çıktıda tek seferlik yeniden deneme ekle.
+1. **[yüksek] LoRA** — İlan parametre-verimli ince ayar bilgisi istiyor ve adayın bu konuda hiç deneyimi olmadığı için en büyük açık burada.
+   - İlk adım: Hugging Face PEFT ile küçük bir modele (ör. TinyLlama) 100 örneklik bir veri setiyle LoRA adaptörü eğiten bir Colab not defteri çalıştır.
+2. **[orta] Multi-agent Systems** — İlan birden fazla ajanın birlikte çalıştığı sistemler istiyor ve adayın tek ajan deneyimini bu seviyeye taşıması gerekiyor.
+   - İlk adım: Bir araştırmacı ve bir yazar ajanı birbirine mesaj geçirecek şekilde 30 satırlık bir örnek yaz.
+3. **[orta] Agent Orchestration** — Birden fazla ajanın ve aracın akışını yönetmek ilandaki ajan tabanlı sistemlerin temelini oluşturuyor.
+   - İlk adım: LangGraph'ta koşullu kenarı olan 3 düğümlü bir grafik (yönlendirici, araç, yanıt) kur.
+4. **[orta] Guardrails** — Üretimdeki LLM çıktılarının güvenli ve doğrulanmış olması ilan için kritik ve adayın yapılandırılmış çıktı bilgisi buna iyi bir temel.
+   - İlk adım: Mevcut structured output örneğine Pydantic doğrulaması ve geçersiz çıktıda yeniden deneme ekle.
+5. **[orta] Fine-tuning** — İlan model ince ayarı yetkinliği arıyor ve adayın makine öğrenmesi temeli bu konuya geçişi kolaylaştırıyor.
+   - İlk adım: Hugging Face'te küçük bir sınıflandırma modelini 200 örnekle ince ayarla ve önce/sonra doğruluğunu karşılaştır.

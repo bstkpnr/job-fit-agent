@@ -4,16 +4,16 @@
     "company": "QNB",
     "required_skills": [
       "Python",
-      "LLM Agents",
-      "Multi-agent Workflows",
+      "LLM Applications",
+      "AI Agents",
+      "Multi-agent Systems",
       "Agent Orchestration",
       "Tool Calling",
-      "Function Calling",
-      "Memory",
       "RAG",
-      "MCP",
-      "Tool-use Design",
-      "API Integration",
+      "Model Context Protocol",
+      "System Integration",
+      "APIs",
+      "Databases",
       "Guardrails",
       "Output Validation",
       "Prompt Engineering",
@@ -33,13 +33,11 @@
     ],
     "nice_to_have": [
       "Model Serving",
-      "Self-hosted LLMs",
       "Open-source LLMs",
-      "Speech Technologies",
-      "STT",
-      "TTS",
-      "Voice-based Agents",
-      "English"
+      "Self-hosted LLMs",
+      "Speech-to-Text",
+      "Text-to-Speech",
+      "Voice Agents"
     ],
     "min_years_experience": 3
   },
@@ -52,22 +50,28 @@
         "reason": "Profilde Python doğrudan listelenmiş."
       },
       {
-        "job_skill": "LLM Agents",
+        "job_skill": "LLM Applications",
         "status": "var",
-        "matched_with": "AI Agents",
-        "reason": "AI Agents ve LLMs becerileri LLM tabanlı ajanları kapsıyor."
+        "matched_with": "LLMs",
+        "reason": "LLMs, RAG, AI Agents ve Azure OpenAI ile LLM uygulamaları geliştirme deneyimi var."
       },
       {
-        "job_skill": "Multi-agent Workflows",
+        "job_skill": "AI Agents",
+        "status": "var",
+        "matched_with": "AI Agents",
+        "reason": "Profilde AI Agents doğrudan var."
+      },
+      {
+        "job_skill": "Multi-agent Systems",
         "status": "kısmen",
         "matched_with": "AI Agents",
-        "reason": "AI Agents ve LangGraph var ama çoklu ajan iş akışı doğrudan belirtilmemiş."
+        "reason": "AI Agents ve LangGraph var ama çoklu ajan sistemi doğrudan belirtilmemiş."
       },
       {
         "job_skill": "Agent Orchestration",
         "status": "kısmen",
         "matched_with": "LangGraph",
-        "reason": "LangGraph orkestrasyon için ilgili bir temel sağlıyor ancak doğrudan bir madde yok."
+        "reason": "LangGraph ajan orkestrasyonu için ilgili bir temel sağlar ama doğrudan belirtilmemiş."
       },
       {
         "job_skill": "Tool Calling",
@@ -76,106 +80,100 @@
         "reason": "Profilde Tool Calling doğrudan var."
       },
       {
-        "job_skill": "Function Calling",
-        "status": "var",
-        "matched_with": "Tool Calling",
-        "reason": "Function calling ile tool calling aynı mekanizmayı ifade eder."
-      },
-      {
-        "job_skill": "Memory",
-        "status": "kısmen",
-        "matched_with": "RAG",
-        "reason": "RAG ve vektör veritabanı ilgili ama ajan hafızası doğrudan belirtilmemiş."
-      },
-      {
         "job_skill": "RAG",
         "status": "var",
         "matched_with": "RAG",
         "reason": "Profilde RAG doğrudan var."
       },
       {
-        "job_skill": "MCP",
+        "job_skill": "Model Context Protocol",
         "status": "var",
         "matched_with": "MCP",
-        "reason": "Profilde MCP doğrudan listelenmiş."
+        "reason": "MCP profilde doğrudan listelenmiş."
       },
       {
-        "job_skill": "Tool-use Design",
+        "job_skill": "System Integration",
         "status": "var",
-        "matched_with": "Tool Calling",
-        "reason": "Tool Calling ve Context Engineering araç kullanımı tasarımını gösteriyor."
+        "matched_with": "SDK Integration",
+        "reason": "SDK Integration, REST APIs ve Payment Systems entegrasyon deneyimini gösteriyor."
       },
       {
-        "job_skill": "API Integration",
+        "job_skill": "APIs",
         "status": "var",
         "matched_with": "REST APIs",
-        "reason": "REST APIs ve SDK Integration API entegrasyonunu doğrudan gösteriyor."
+        "reason": "REST APIs, FastAPI ve Express ile API geliştirme deneyimi var."
+      },
+      {
+        "job_skill": "Databases",
+        "status": "var",
+        "matched_with": "SQL",
+        "reason": "SQL, Firebase ve Vector Databases ile veritabanı deneyimi var."
       },
       {
         "job_skill": "Guardrails",
         "status": "kısmen",
         "matched_with": "Structured Output",
-        "reason": "Structured Output ve Pydantic ilgili ama guardrails doğrudan yok."
+        "reason": "Structured Output ve Pydantic ilgili ama guardrails doğrudan belirtilmemiş."
       },
       {
         "job_skill": "Output Validation",
         "status": "var",
         "matched_with": "Pydantic",
-        "reason": "Pydantic ve Structured Output çıktı doğrulamayı kapsıyor."
+        "reason": "Pydantic ve Structured Output çıktı doğrulamayı doğrudan kapsar."
       },
       {
         "job_skill": "Prompt Engineering",
         "status": "var",
         "matched_with": "Prompt Engineering",
-        "reason": "Profilde doğrudan var."
+        "reason": "Profilde Prompt Engineering doğrudan var."
       },
       {
         "job_skill": "Context Engineering",
         "status": "var",
         "matched_with": "Context Engineering",
-        "reason": "Profilde doğrudan var."
+        "reason": "Profilde Context Engineering doğrudan var."
       },
       {
         "job_skill": "Fine-tuning",
-        "status": "yok",
-        "matched_with": null,
-        "reason": "Profilde model ince ayarı ile ilgili madde yok."
+        "status": "kısmen",
+        "matched_with": "Machine Learning",
+        "reason": "Machine Learning ilgili bir temel ama fine-tuning deneyimi belirtilmemiş."
       },
       {
         "job_skill": "LoRA",
         "status": "yok",
         "matched_with": null,
-        "reason": "Profilde LoRA veya parametre verimli ince ayar yok."
+        "reason": "Profilde LoRA veya parametre-verimli ince ayar deneyimi yok."
       },
       {
         "job_skill": "LLM APIs",
         "status": "var",
         "matched_with": "Azure OpenAI",
-        "reason": "Azure OpenAI ve LLMs LLM API kullanımını doğrudan gösteriyor."
+        "reason": "Azure OpenAI ve LLMs ile LLM API kullanımı doğrudan var."
       },
       {
         "job_skill": "LangChain",
         "status": "var",
         "matched_with": "LangChain",
-        "reason": "Profilde doğrudan var."
+        "reason": "Profilde LangChain doğrudan var."
       },
       {
         "job_skill": "LangGraph",
         "status": "var",
         "matched_with": "LangGraph",
-        "reason": "Profilde doğrudan var."
+        "reason": "Profilde LangGraph doğrudan var."
       },
       {
         "job_skill": "LlamaIndex",
         "status": "kısmen",
         "matched_with": "LangChain",
-        "reason": "LangChain benzer bir çerçeve olduğu için öğrenmesi kolay."
+        "reason": "LangChain benzer bir çerçeve olup öğrenmesi kolay olur ama LlamaIndex belirtilmemiş."
       },
       {
         "job_skill": "Langflow",
         "status": "kısmen",
         "matched_with": "LangChain",
-        "reason": "Langflow LangChain üzerine kurulu görsel bir araç, LangChain bilgisi temel sağlar."
+        "reason": "LangChain ekosistemine aşinalık var ama Langflow doğrudan belirtilmemiş."
       },
       {
         "job_skill": "Vector Databases",
@@ -187,19 +185,19 @@
         "job_skill": "Embedding Models",
         "status": "var",
         "matched_with": "Embedding Models",
-        "reason": "Profilde doğrudan var."
+        "reason": "Profilde Embedding Models doğrudan var."
       },
       {
         "job_skill": "REST APIs",
         "status": "var",
         "matched_with": "REST APIs",
-        "reason": "Profilde doğrudan var."
+        "reason": "Profilde REST APIs doğrudan var."
       },
       {
         "job_skill": "Microservices",
         "status": "var",
         "matched_with": "Microservices",
-        "reason": "Profilde doğrudan var."
+        "reason": "Profilde Microservices doğrudan var."
       },
       {
         "job_skill": "Software Engineering",
@@ -211,83 +209,71 @@
         "job_skill": "Model Serving",
         "status": "kısmen",
         "matched_with": "FastAPI",
-        "reason": "FastAPI ile servis geliştirme deneyimi var ama model serving doğrudan belirtilmemiş."
-      },
-      {
-        "job_skill": "Self-hosted LLMs",
-        "status": "yok",
-        "matched_with": null,
-        "reason": "Profilde kendi sunucuda LLM barındırma deneyimi görünmüyor, yalnızca Azure OpenAI var."
+        "reason": "FastAPI ile servis sunma temeli var ama model serving doğrudan belirtilmemiş."
       },
       {
         "job_skill": "Open-source LLMs",
         "status": "yok",
         "matched_with": null,
-        "reason": "Profilde açık kaynak LLM kullanımını gösteren madde yok."
+        "reason": "Profilde açık kaynak LLM deneyimini gösteren bir madde yok."
       },
       {
-        "job_skill": "Speech Technologies",
+        "job_skill": "Self-hosted LLMs",
         "status": "yok",
         "matched_with": null,
-        "reason": "Profilde konuşma teknolojileriyle ilgili beceri yok."
+        "reason": "Kendi altyapısında LLM barındırma deneyimi belirtilmemiş."
       },
       {
-        "job_skill": "STT",
+        "job_skill": "Speech-to-Text",
         "status": "yok",
         "matched_with": null,
-        "reason": "Profilde konuşmadan metne dair beceri yok."
+        "reason": "Profilde konuşmadan metne dönüştürme deneyimi yok."
       },
       {
-        "job_skill": "TTS",
+        "job_skill": "Text-to-Speech",
         "status": "yok",
         "matched_with": null,
-        "reason": "Profilde metinden konuşmaya dair beceri yok."
+        "reason": "Profilde metinden konuşmaya dönüştürme deneyimi yok."
       },
       {
-        "job_skill": "Voice-based Agents",
+        "job_skill": "Voice Agents",
         "status": "kısmen",
         "matched_with": "AI Agents",
-        "reason": "AI Agents var ama sesli ajan deneyimi yok."
-      },
-      {
-        "job_skill": "English",
-        "status": "var",
-        "matched_with": "English (B2)",
-        "reason": "Profilde English (B2) var."
+        "reason": "AI Agents deneyimi var ama sesli ajan deneyimi belirtilmemiş."
       }
     ]
   },
   "plan": {
     "items": [
       {
-        "skill": "Fine-tuning",
-        "priority": "yüksek",
-        "why": "İlan, hazır modelleri kullanmanın ötesinde modeli kendi veri ve göreve göre uyarlayabilen birini aradığı için fine-tuning temel bir gereksinimdir.",
-        "first_step": "Hugging Face'ten küçük bir modeli (ör. 100-500 örnekli bir sınıflandırma veri setiyle) Colab üzerinde 1 epoch fine-tune et ve eğitim öncesi/sonrası çıktıları karşılaştır."
-      },
-      {
         "skill": "LoRA",
         "priority": "yüksek",
-        "why": "Fine-tuning'i düşük maliyetle ve sınırlı GPU ile yapabilmek için LoRA gibi parametre-verimli yöntemler pratikte neredeyse zorunludur.",
-        "first_step": "Hugging Face PEFT kütüphanesiyle küçük bir modele r=8 ayarlı bir LoRA adaptörü ekle ve eğitilebilir parametre sayısını yazdır."
+        "why": "İlan parametre-verimli ince ayar bilgisi istiyor ve adayın bu konuda hiç deneyimi olmadığı için en büyük açık burada.",
+        "first_step": "Hugging Face PEFT ile küçük bir modele (ör. TinyLlama) 100 örneklik bir veri setiyle LoRA adaptörü eğiten bir Colab not defteri çalıştır."
       },
       {
-        "skill": "Multi-agent Workflows",
+        "skill": "Multi-agent Systems",
         "priority": "orta",
-        "why": "İlandaki ajan tabanlı sistemler genellikle birden fazla ajanın görev paylaşarak çalışmasını gerektirir.",
-        "first_step": "Mevcut ajan bilgini kullanarak biri araştırıp diğeri özetleyen iki ajanlı basit bir akış yaz."
+        "why": "İlan birden fazla ajanın birlikte çalıştığı sistemler istiyor ve adayın tek ajan deneyimini bu seviyeye taşıması gerekiyor.",
+        "first_step": "Bir araştırmacı ve bir yazar ajanı birbirine mesaj geçirecek şekilde 30 satırlık bir örnek yaz."
       },
       {
         "skill": "Agent Orchestration",
         "priority": "orta",
-        "why": "Ajanların sırasını, durumunu ve hata yönetimini koordine etmek ilandaki üretim seviyesi ajan sistemlerinin merkezindedir.",
-        "first_step": "LangGraph'ta koşullu bir kenar içeren 3 düğümlü bir graf kur (ör. yönlendirici, araç çağıran, yanıtlayıcı)."
+        "why": "Birden fazla ajanın ve aracın akışını yönetmek ilandaki ajan tabanlı sistemlerin temelini oluşturuyor.",
+        "first_step": "LangGraph'ta koşullu kenarı olan 3 düğümlü bir grafik (yönlendirici, araç, yanıt) kur."
       },
       {
         "skill": "Guardrails",
         "priority": "orta",
-        "why": "Üretimdeki LLM çıktılarının güvenli, doğrulanmış ve beklenen formatta olması ilan için kritik bir kalite şartıdır.",
-        "first_step": "Var olan structured output şemana bir Pydantic doğrulaması ve geçersiz çıktıda tek seferlik yeniden deneme ekle."
+        "why": "Üretimdeki LLM çıktılarının güvenli ve doğrulanmış olması ilan için kritik ve adayın yapılandırılmış çıktı bilgisi buna iyi bir temel.",
+        "first_step": "Mevcut structured output örneğine Pydantic doğrulaması ve geçersiz çıktıda yeniden deneme ekle."
+      },
+      {
+        "skill": "Fine-tuning",
+        "priority": "orta",
+        "why": "İlan model ince ayarı yetkinliği arıyor ve adayın makine öğrenmesi temeli bu konuya geçişi kolaylaştırıyor.",
+        "first_step": "Hugging Face'te küçük bir sınıflandırma modelini 200 örnekle ince ayarla ve önce/sonra doğruluğunu karşılaştır."
       }
     ]
   }

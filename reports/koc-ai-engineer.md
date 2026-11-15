@@ -1,42 +1,40 @@
 # AI Mühendisi — Koç Üniversitesi
 
-**var: 7 · kısmen: 18 · yok: 2**
+**var: 6 · kısmen: 15 · yok: 4**
 
 ## Var
 
-- **Büyük Dil Modelleri** (LLMs) — Profilde LLMs doğrudan listelenmiş.
-- **RAG** (RAG) — Profilde RAG doğrudan mevcut.
-- **Akıllı Ajan Sistemleri** (AI Agents) — AI Agents becerisi akıllı ajan sistemlerini doğrudan kapsıyor.
-- **Machine Learning** (Machine Learning) — Profilde Machine Learning doğrudan mevcut.
-- **Tahminleme** (Predictive Modeling) — Predictive Modeling tahminleme becerisini doğrudan kapsıyor.
-- **Backend Entegrasyonu** (REST APIs) — REST APIs, Node.js ve FastAPI deneyimi backend entegrasyonunu gösteriyor.
-- **API Servisleri** (REST APIs) — REST APIs ve FastAPI ile API servisi geliştirme deneyimi var.
+- **Machine Learning** (Machine Learning) — Profilde Machine Learning doğrudan listelenmiş.
+- **LLM** (LLMs) — Profilde LLMs doğrudan var.
+- **RAG** (RAG) — Profilde RAG doğrudan var.
+- **AI Agents** (AI Agents) — Profilde AI Agents doğrudan var.
+- **Backend Integration** (REST APIs) — REST API, SDK entegrasyonu ve backend deneyimi profilde mevcut.
+- **REST APIs** (REST APIs) — Profilde REST APIs doğrudan var.
 
 ## Kısmen
 
-- **Data Science** (Machine Learning) — ML ve SQL temeli var ancak veri bilimi iş akışını gösteren doğrudan bir madde yok.
-- **Sınıflandırma** (Machine Learning) — ML temeli var ama sınıflandırmaya özgü bir beceri belirtilmemiş.
-- **Regresyon** (Predictive Modeling) — Tahminsel modelleme ilgili ama regresyon açıkça belirtilmemiş.
-- **Clustering** (Machine Learning) — ML temeli var ancak kümeleme açıkça yok.
-- **Anomaly Detection** (Machine Learning) — ML temeli var ancak anomali tespiti açıkça yok.
-- **Veri Analizi** (SQL) — SQL ile veri sorgulama var ama analiz becerisi doğrudan belirtilmemiş.
-- **Feature Engineering** (Machine Learning) — ML temeli var ama özellik mühendisliği açıkça belirtilmemiş.
-- **Model Eğitimi** (Machine Learning) — ML deneyimi var ancak model eğitimi doğrudan gösterilmemiş.
-- **Model Seçimi** (Predictive Modeling) — Modelleme temeli var ama model seçimi açıkça belirtilmemiş.
-- **Model Karşılaştırma** (Predictive Modeling) — Modelleme temeli var ama model karşılaştırma doğrudan yok.
-- **Train/Test Split** (Machine Learning) — ML temelinin parçası olabilir ama profilde açıkça yer almıyor.
-- **Cross Validation** (Machine Learning) — ML temeli var ancak çapraz doğrulama açıkça belirtilmemiş.
-- **Hyperparameter Tuning** (Machine Learning) — ML temeli var ama hiperparametre ayarı doğrudan gösterilmemiş.
-- **Model Değerlendirme** (Predictive Modeling) — Modelleme deneyimi ilgili ama değerlendirme becerisi açıkça yok.
-- **Overfitting** (Machine Learning) — ML temeli var ama aşırı öğrenme konusu profilde belirtilmemiş.
-- **Data Leakage** (Machine Learning) — ML temeli var ancak veri sızıntısı doğrudan belirtilmemiş.
-- **Class Imbalance** (Machine Learning) — ML temeli var ama sınıf dengesizliği açıkça belirtilmemiş.
-- **Üretim Ortamı AI Servisleri** (FastAPI) — AI, FastAPI ve Microservices var ama üretim ortamı deneyimi doğrudan belirtilmemiş.
+- **Data Science** (Machine Learning) — ML ve tahmine dayalı modelleme var ama kapsamlı veri bilimi deneyimini gösteren madde yok.
+- **Classification** (Machine Learning) — Genel ML bilgisi var ama sınıflandırmayı doğrudan gösteren madde yok.
+- **Regression** (Predictive Modeling) — Tahmine dayalı modelleme ilgili ama regresyon açıkça belirtilmemiş.
+- **Clustering** (Machine Learning) — Genel ML temeli var ama kümeleme doğrudan görünmüyor.
+- **Anomaly Detection** (Machine Learning) — ML temeli var ama anomali tespiti doğrudan belirtilmemiş.
+- **Forecasting** (Predictive Modeling) — Tahmine dayalı modelleme ilgili ama zaman serisi tahmini açık değil.
+- **Data Analysis** (Predictive Modeling) — Modelleme deneyimi var ama doğrudan veri analizi maddesi yok.
+- **Feature Engineering** (Machine Learning) — ML temeli var ama özellik mühendisliği açıkça görünmüyor.
+- **Model Training** (Machine Learning) — ML ve tahmine dayalı modelleme var ama model eğitimi doğrudan belirtilmemiş.
+- **Model Selection** (Machine Learning) — ML temeli var ama model seçimi doğrudan gösterilmemiş.
+- **Train/Test Split** (Machine Learning) — ML bilgisi bunu ima edebilir ama doğrudan madde yok.
+- **Cross Validation** (Machine Learning) — ML temeli var ama çapraz doğrulama doğrudan belirtilmemiş.
+- **Hyperparameter Tuning** (Machine Learning) — ML temeli var ama hiperparametre ayarı doğrudan görünmüyor.
+- **Model Evaluation** (Evals) — Evals (LLM değerlendirme) ilgili ama klasik ML model değerlendirmesi değil.
+- **Overfitting** (Machine Learning) — ML temeli var ama aşırı öğrenme konusu doğrudan belirtilmemiş.
 
 ## Yok
 
-- **Veri Temizleme** — Profilde veri temizleme ile ilgili bir beceri yok.
-- **Veri Kalitesi** — Profilde veri kalitesiyle ilgili bir beceri yok.
+- **Data Cleaning** — Profilde veri temizleme ile ilgili bir madde yok.
+- **Data Leakage** — Profilde veri sızıntısıyla ilgili bir madde yok.
+- **Class Imbalance** — Profilde sınıf dengesizliğiyle ilgili bir madde yok.
+- **Data Quality** — Profilde veri kalitesine yönelik doğrudan bir madde yok.
 
 ## Artı beceriler
 
@@ -44,13 +42,13 @@ _Yok._
 
 ## Çalışma planı
 
-1. **[yüksek] Veri Temizleme** — İlanda model başarısı büyük ölçüde ham verinin temizlenmesine bağlı olduğu için bu beceri eksik olursa diğer tüm ML adımları zayıf kalır.
-   - İlk adım: Kaggle'dan eksik değer ve tekrar eden satır içeren küçük bir CSV indir, pandas ile eksik değerleri doldur, tekrarları sil ve aykırı değerleri işaretleyen 30 satırlık bir script yaz.
-2. **[yüksek] Veri Kalitesi** — Güvenilir modeller için verinin doğruluk, tutarlılık ve eksiksizlik açısından ölçülmesi ve izlenmesi ilanın temel beklentilerinden biridir.
-   - İlk adım: Elindeki bir veri setinde eksik oran, benzersizlik ve değer aralığı kontrollerini yapan 5 kurallık bir veri kalitesi raporu (pandas ile) oluştur.
-3. **[orta] Data Leakage** — Veri sızıntısı modelin gerçek performansını olduğundan iyi gösterdiği için ilandaki model değerlendirme sorumluluğunda kritik bir risktir.
-   - İlk adım: Scaler'ı train/test ayrımından önce fit ettiğin bir örnek yaz, sonra aynısını Pipeline ile düzeltip iki skor arasındaki farkı karşılaştır.
-4. **[orta] Üretim Ortamı AI Servisleri** — İlan modellerin sadece eğitilmesini değil üretimde servis olarak çalıştırılmasını da beklediği için FastAPI bilgisini bu yönde genişletmek gerekir.
-   - İlk adım: Eğitilmiş bir scikit-learn modelini joblib ile kaydet ve FastAPI'de /predict endpoint'i olarak sun.
-5. **[orta] Model Değerlendirme** — İlanda farklı modellerin doğru metriklerle değerlendirilip karşılaştırılması beklendiği için metrik seçimi güçlü olmalıdır.
-   - İlk adım: Bir sınıflandırma modeli için accuracy, precision, recall, F1 ve ROC-AUC değerlerini tek bir sklearn script'inde hesapla.
+1. **[yüksek] Data Cleaning** — Tahmine dayalı modellerin kalitesi doğrudan temizlenmiş veriye bağlı olduğu için bu ilanda veri hazırlama günlük işin büyük bir parçasıdır.
+   - İlk adım: Kaggle'dan eksik değer ve tekrar eden satır içeren küçük bir CSV indir, pandas ile eksikleri doldur, kopyaları sil ve önce/sonra satır sayısını yazdır.
+2. **[yüksek] Data Leakage** — Veri sızıntısı model performansını gerçekte olduğundan iyi gösterdiği için ilandaki model değerlendirme ve seçim sorumluluklarında kritik bir hatadır.
+   - İlk adım: Ölçekleme işlemini train/test ayrımından önce yapan bir scikit-learn kodu yaz, sonra aynısını Pipeline ile düzelt ve iki skoru karşılaştır.
+3. **[yüksek] Class Imbalance** — Sınıflandırma ve anomali tespiti gibi ilan görevlerinde dengesiz veri yaygındır ve accuracy tek başına yanıltıcı sonuç verir.
+   - İlk adım: Kredi kartı sahtekarlığı gibi dengesiz bir veri setinde class_weight='balanced' ile ve bu ayar olmadan lojistik regresyon eğit, precision/recall farkını karşılaştır.
+4. **[yüksek] Data Quality** — Veri kalitesi sorunlarını erken yakalamak, ilandaki analiz ve modelleme çıktılarının güvenilir olmasını sağlar.
+   - İlk adım: Seçtiğin bir veri seti için eksik oran, benzersiz değer sayısı ve aykırı değer kontrollerini yapan 15 satırlık bir pandas raporu fonksiyonu yaz.
+5. **[orta] Model Evaluation** — Modellerin doğru metriklerle değerlendirilmesi ilandaki model seçimi ve iyileştirme işlerinin temelidir.
+   - İlk adım: Bir sınıflandırma modeli için scikit-learn ile confusion matrix, precision, recall ve F1 değerlerini yazdıran bir kod çalıştır.

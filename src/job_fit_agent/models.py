@@ -3,6 +3,17 @@ from typing import Literal
 from pydantic import BaseModel, Field
 
 
+# İki listede ortak kurallar: aynı kavram her ilanda aynı adla gelsin
+SKILL_NAME_RULES = (
+    " Beceri adlarını İngilizce ve sektörde yaygın kullanılan adıyla yaz "
+    "(örn. 'makine öğrenmesi' → 'Machine Learning', 'semantik arama' → "
+    "'Semantic Search'). Aynı kavramı farklı ifadelerle iki kez yazma, tek "
+    "maddede birleştir (örn. 'multi-agent workflows' ve 'multi-agent "
+    "architectures' → 'Multi-agent Systems'). İletişim, ekip çalışması, problem "
+    "çözme gibi sosyal becerileri listeye koyma."
+)
+
+
 class JobPosting(BaseModel):
     title: str
     company: str
@@ -12,14 +23,14 @@ class JobPosting(BaseModel):
             "(1-3 kelime, örn. 'Python', 'RAG', 'REST APIs'). Diploma veya deneyim "
             "yılı ekleme. Örnek olarak sayılan araçların her birini ayrı madde yap "
             "(örn. 'LangChain', 'LangGraph'). İşin tanımında (sorumluluklar kısmında) "
-            "geçen becerileri de dahil et."
+            "geçen becerileri de dahil et." + SKILL_NAME_RULES
         )
     )
     nice_to_have: list[str] = Field(
         description=(
             "İlanda tercih sebebi / artı olarak belirtilen beceriler. Her madde kısa "
             "bir beceri adı olsun (1-3 kelime). Diploma veya deneyim yılı ekleme. "
-            "Örnek olarak sayılan araçların her birini ayrı madde yap."
+            "Örnek olarak sayılan araçların her birini ayrı madde yap." + SKILL_NAME_RULES
         )
     )
     min_years_experience: int | None = None
