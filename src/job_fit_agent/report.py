@@ -1,19 +1,14 @@
-from job_fit_agent.models import JobPosting, SkillComparison, StudyPlan
+from job_fit_agent.models import JobPosting, SkillComparison, StudyPlan, split_matches
 
 
 def to_markdown(
     job: JobPosting, comparison: SkillComparison, plan: StudyPlan | None
 ) -> str:
-    # Artı becerileri ayır; özet ve Var/Kısmen/Yok sadece zorunluları içerir.
-    # Model beceri adını değiştirirse eşleşme bulunmaz ve beceri zorunlulara düşer.
-    nice = {s.lower() for s in job.nice_to_have}
+    # Özet ve Var/Kısmen/Yok sadece zorunluları içerir; artılar ayrı bölümde
+    required, extras = split_matches(job, comparison)
     groups = {"var": [], "kısmen": [], "yok": []}
-    extras = []
-    for m in comparison.matches:
-        if m.job_skill.lower() in nice:
-            extras.append(m)
-        else:
-            groups[m.status].append(m)
+    for m in required:
+        groups[m.status].append(m)
 
     lines = [
         f"# {job.title} — {job.company}",

@@ -22,6 +22,10 @@ LABELS = {
     "padran-ml-engineer": "Bir BT danışmanlık şirketi",
 }
 
+# Gerçek ilan olmayan raporlar: demoya ve sıralamaya girmez.
+# example.txt'yi profile göre kendimiz yazdık, %100 çıkması doğal ve yanıltıcı.
+EXCLUDE = {"example"}
+
 # Metinlerde aranacak ek adlar. job.company zaten otomatik aranıyor;
 # buraya kısaltmaları ve farklı yazımları ekle.
 EXTRA_NAMES = ["QNB", "BİM", "BIM", "ING", "Koç", "Koc", "Massive Bio", "massivebio", "Padran"]
@@ -57,6 +61,8 @@ def main() -> None:
     n = 0
     warnings = 0
     for path in files:
+        if path.stem in EXCLUDE:
+            continue
         label = LABELS.get(path.stem)
         if label is None:
             # Etiketsiz rapor dışarı çıkmaz

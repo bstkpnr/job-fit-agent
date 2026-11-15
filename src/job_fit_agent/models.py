@@ -69,3 +69,19 @@ class StudyItem(BaseModel):
 
 class StudyPlan(BaseModel):
     items: list[StudyItem]
+
+
+def split_matches(
+    job: JobPosting, comparison: SkillComparison
+) -> tuple[list[SkillMatch], list[SkillMatch]]:
+    """Eşleşmeleri (zorunlular, artılar) diye ayırır.
+
+    "Zorunlu mu, artı mı?" kararı tek yerde: rapor, skor ve sıralama bunu kullanır.
+    Model beceri adını değiştirirse artı listesinde bulunamaz ve zorunlulara düşer.
+    """
+    nice = {s.lower() for s in job.nice_to_have}
+    required: list[SkillMatch] = []
+    extras: list[SkillMatch] = []
+    for m in comparison.matches:
+        (extras if m.job_skill.lower() in nice else required).append(m)
+    return required, extras
