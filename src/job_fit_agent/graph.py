@@ -106,7 +106,7 @@ if __name__ == "__main__":
     state = run(job_path.read_text(encoding="utf-8"), my_profile)
     report = to_markdown(state["job"], state["comparison"], state["plan"])
 
-    report_path = Path("reports") / f"{job_path.stem}.md"  # jobs/qnb.txt → reports/qnb.md
+    report_path = Path("reports") / f"{job_path.stem}.md"  # jobs/example.txt → reports/example.md
     report_path.parent.mkdir(exist_ok=True)
     report_path.write_text(report, encoding="utf-8")
     # Aynı adla JSON: becerileri raporlardan toplamak için

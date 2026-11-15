@@ -3,7 +3,7 @@ from pathlib import Path
 import numpy as np
 from fastembed import TextEmbedding
 
-from job_fit_agent.extract import QNB_JOB_POSTING, extract
+from job_fit_agent.extract import EXAMPLE_JOB_POSTING, extract
 from job_fit_agent.profile import my_profile
 
 # Modeli sabit bir klasörde tut. Varsayılan geçici klasör ($TMPDIR) MCP sunucusu
@@ -44,7 +44,7 @@ if __name__ == "__main__":
     print()
 
     # Görev 2: asıl eşleştirme
-    job_skills = extract(QNB_JOB_POSTING).required_skills
+    job_skills = extract(EXAMPLE_JOB_POSTING).required_skills
 
     for job_skill, my_skill, score in match_skills(job_skills, my_profile.skills):
         print(f"{score:.3f}  {job_skill:<35} → {my_skill}")

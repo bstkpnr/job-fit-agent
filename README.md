@@ -43,6 +43,8 @@ LoRA                 → yok                      Adaylar LoRA ile ilgili değil
 | `compare.py` | Embedding adaylarını LLM ile değerlendirir |
 | `eval_compare.py` | Karşılaştırma adımını golden set ile ölçer (doğruluk ve tutarlılık) |
 | `server.py` | Agent'ı Claude Desktop'a tool olarak sunan MCP sunucusu |
+| `collect_skills.py` | Raporlardaki ilan becerilerini sayar (ilanlar arası en sık beceriler) |
+| `export_demo.py` | Raporları şirket adlarını maskeleyerek `demo/src/data/` klasörüne aktarır |
 
 ## Kurulum
 
@@ -65,10 +67,12 @@ ANTHROPIC_API_KEY=...
 Komutları proje kök klasöründen çalıştır:
 
 ```bash
-uv run --env-file .env python src/job_fit_agent/graph.py jobs/qnb.txt
+uv run --env-file .env python src/job_fit_agent/graph.py jobs/example.txt
 ```
 
-İlan metni `jobs/` klasöründeki bir `.txt` dosyasından okunur; rapor aynı adla `reports/` klasörüne yazılır (`jobs/qnb.txt` → `reports/qnb.md`). Yeni bir ilanı denemek için metnini `jobs/` altına kaydetmen yeterli. Örnek çıktı: [reports/qnb.md](reports/qnb.md)
+İlan metni `jobs/` klasöründeki bir `.txt` dosyasından okunur; rapor aynı adla `reports/` klasörüne Markdown ve JSON olarak yazılır (`jobs/example.txt` → `reports/example.md`, `reports/example.json`). Yeni bir ilanı denemek için metnini `jobs/` altına kaydetmen yeterli.
+
+`jobs/` ve `reports/` yerel çalışma verisidir, repoya girmez (`.gitignore`). Repoda sadece kurgusal örnek ilan `jobs/example.txt` bulunur.
 
 İlk çalıştırmada embedding modeli (`paraphrase-multilingual-MiniLM-L12-v2`) indirilir.
 

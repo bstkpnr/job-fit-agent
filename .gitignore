@@ -14,3 +14,8 @@ wheels/
 
 # Yerel deneme çıktıları
 cikti.txt
+
+# Yerel çalışma verisi: ilan metinleri ve raporlar repoya girmez
+jobs/*
+!jobs/example.txt
+reports/*

@@ -1,7 +1,7 @@
 import numpy as np
 from langchain_anthropic import ChatAnthropic
 
-from job_fit_agent.extract import QNB_JOB_POSTING, extract
+from job_fit_agent.extract import EXAMPLE_JOB_POSTING, extract
 from job_fit_agent.match import cosine, model
 from job_fit_agent.models import CandidateProfile, SkillComparison
 from job_fit_agent.profile import my_profile
@@ -61,7 +61,7 @@ def compare(job_skills: list[str], profile: CandidateProfile) -> SkillComparison
 
 
 if __name__ == "__main__":
-    job_skills = extract(QNB_JOB_POSTING).required_skills
+    job_skills = extract(EXAMPLE_JOB_POSTING).required_skills
 
     comparison = compare(job_skills, my_profile)
     for m in comparison.matches:

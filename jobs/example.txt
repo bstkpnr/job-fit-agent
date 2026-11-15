@@ -1,0 +1,19 @@
+AI ENGINEER
+
+We're looking for an AI Engineer to build LLM-based agents for our customer support platform.
+
+Responsibilities:
+- Design and build AI agents that answer customer questions using company documents
+- Build RAG pipelines with a vector database and embedding models
+- Integrate agents with internal REST APIs using tool calling
+- Write evals to measure agent accuracy before each release
+
+Requirements:
+- 3+ years of software development experience
+- Strong Python skills
+- Hands-on experience with LLM APIs and an agent framework (e.g. LangChain, LangGraph)
+- Experience with RAG and vector databases
+
+Nice to have:
+- Experience with Docker and Kubernetes
+- Experience with fine-tuning open-source models
