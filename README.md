@@ -4,6 +4,8 @@ Bir iş ilanını okuyup adayın profiliyle karşılaştıran bir yapay zekâ ag
 
 LangGraph, Claude (Anthropic) ve Pydantic ile geliştirildi.
 
+**Demo:** [bstkpnr.github.io/job-fit-agent](https://bstkpnr.github.io/job-fit-agent/): 6 gerçek ilanın (şirket adları gizlenmiş) raporları. Demo `demo/` klasöründe (Vite + React); veri `export_demo.py` ile üretilir, `demo/` değişince GitHub Actions otomatik deploy eder.
+
 ## Nasıl çalışır?
 
 Akış bir LangGraph grafiği olarak çalışır:

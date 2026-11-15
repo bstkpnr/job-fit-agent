@@ -51,7 +51,8 @@ def main() -> None:
 
     files = sorted(REPORTS.glob("*.json"))
     companies = [json.loads(f.read_text(encoding="utf-8"))["job"]["company"] for f in files]
-    names = sorted(set(companies + EXTRA_NAMES), key=len, reverse=True)
+    # Boş ad (örn. şirketsiz example.txt) her metinle eşleşir; aramaya alma
+    names = sorted({c.strip() for c in companies + EXTRA_NAMES if c.strip()}, key=len, reverse=True)
 
     n = 0
     warnings = 0

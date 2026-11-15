@@ -36,6 +36,7 @@ my_profile = CandidateProfile(
         "Context Engineering",
         "Embedding Models",
         "Azure OpenAI",
+        "Claude",
         "LLMs",
         "AI Agents",
         "Machine Learning",
@@ -43,7 +44,7 @@ my_profile = CandidateProfile(
         "LangGraph",
         "LangChain",
         "Structured Output", "Pydantic", "Vector Databases", "Qdrant", "Hybrid Search", "Streaming", "Prompt Caching",
-        "Evals", "Observability", "Chunking", "Citations",
+        "Evals", "Observability", "Langfuse", "Chunking", "Citations",
 
         # Entegrasyon ve alan bilgisi
         "Bluetooth Low Energy",
@@ -56,6 +57,8 @@ my_profile = CandidateProfile(
         "CI/CD",
         "Azure DevOps",
         "GitHub Actions",
+        "uv",
+        "Type Hints",
     ],
     years_experience=4,  # Ocak 2022 - bugün (staj hariç)
 )

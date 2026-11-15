@@ -24,19 +24,19 @@
         "job_skill": "Machine Learning",
         "status": "var",
         "matched_with": "Machine Learning",
-        "reason": "Profilde Machine Learning doğrudan yer alıyor."
+        "reason": "Profilde Machine Learning doğrudan listelenmiş."
       },
       {
         "job_skill": "Predictive Modeling",
         "status": "var",
         "matched_with": "Predictive Modeling",
-        "reason": "Profilde Predictive Modeling doğrudan yer alıyor."
+        "reason": "Profilde Predictive Modeling doğrudan listelenmiş."
       },
       {
         "job_skill": "Predictive Maintenance",
         "status": "kısmen",
         "matched_with": "Predictive Modeling",
-        "reason": "Tahmine dayalı modelleme temeli var ancak bakım/arıza tahmini alanında doğrudan deneyim görünmüyor."
+        "reason": "Tahminsel modelleme temeli var ancak bakım/sensör verisi alanında doğrudan deneyim görünmüyor."
       }
     ]
   },
@@ -45,8 +45,8 @@
       {
         "skill": "Predictive Maintenance",
         "priority": "orta",
-        "why": "Bu ilanda zorunlu olmayan bir artı olsa da, mevcut tahminleme bilgisini ekipman arızası tahminine uygulayabilmek adayı diğerlerinden ayırır.",
-        "first_step": "NASA C-MAPSS turbofan veri setini indirip kalan faydalı ömrü (RUL) için basit bir regresyon modeli kur."
+        "why": "Bu ilanda artı bir beceri olsa da mevcut tahmine dayalı modelleme temelini endüstriyel arıza tahmini alanına taşımak adayı öne çıkarır.",
+        "first_step": "NASA C-MAPSS turbofan veri setinden bir motor seç ve kalan faydalı ömrü (RUL) tahmin eden 15 satırlık basit bir regresyon modeli yaz."
       }
     ]
   }

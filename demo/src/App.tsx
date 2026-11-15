@@ -189,6 +189,16 @@ export default function App() {
       </aside>
 
       <main>
+        <aside className="note">
+          <p>
+            Bu sayfa, kendi profilimi gerçek iş ilanlarıyla karşılaştıran bir AI agent'ın çıktısı.
+            Şirket adları gizlendi. Değerlendirmeleri bir dil modeli (Claude) yaptı ve hata
+            içerebilir; profildeki beceriler benim beyanım.
+          </p>
+          <a href="https://github.com/bstkpnr/job-fit-agent" target="_blank" rel="noreferrer">
+            Kaynak kod: github.com/bstkpnr/job-fit-agent ↗
+          </a>
+        </aside>
         <Detail report={current.report} />
       </main>
     </div>

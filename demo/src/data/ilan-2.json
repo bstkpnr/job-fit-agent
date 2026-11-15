@@ -39,85 +39,85 @@
         "job_skill": "Agentic AI",
         "status": "var",
         "matched_with": "AI Agents",
-        "reason": "Profilde AI Agents, LangGraph ve Tool Calling gibi ajan tabanlı yapay zeka becerileri doğrudan var."
+        "reason": "Profilde AI Agents, LangGraph ve Tool Calling ile ajan tabanlı sistem deneyimi var."
       },
       {
         "job_skill": "LLM",
         "status": "var",
         "matched_with": "LLMs",
-        "reason": "Profilde LLMs becerisi doğrudan listelenmiş."
+        "reason": "Profilde LLMs, Claude ve Azure OpenAI doğrudan listelenmiş."
       },
       {
         "job_skill": "Multi-agent Systems",
         "status": "kısmen",
         "matched_with": "AI Agents",
-        "reason": "AI Agents ve LangGraph var ancak çoklu ajan sistemi deneyimini doğrudan gösteren bir madde yok."
+        "reason": "AI Agents ve LangGraph var ama çoklu ajan sistemi doğrudan belirtilmemiş."
       },
       {
         "job_skill": "LangGraph",
         "status": "var",
         "matched_with": "LangGraph",
-        "reason": "Profilde LangGraph doğrudan var."
+        "reason": "LangGraph profilde doğrudan listelenmiş."
       },
       {
         "job_skill": "CrewAI",
         "status": "kısmen",
         "matched_with": "AI Agents",
-        "reason": "Ajan çerçevesi deneyimi (LangGraph, LangChain) var ama CrewAI bilgisi yok, öğrenmesi kolay."
+        "reason": "Ajan framework'ü LangGraph biliniyor, CrewAI öğrenmesi kolay olur."
       },
       {
         "job_skill": "AutoGen",
         "status": "kısmen",
         "matched_with": "AI Agents",
-        "reason": "Ajan çerçevesi deneyimi var ama AutoGen'e özel bir beceri görünmüyor."
+        "reason": "Ajan framework'ü deneyimi var ama AutoGen doğrudan yok."
       },
       {
         "job_skill": "Google ADK",
         "status": "kısmen",
         "matched_with": "AI Agents",
-        "reason": "Ajan geliştirme temeli var ancak Google ADK bilgisi profilde yok."
+        "reason": "Ajan geliştirme temeli var ama Google ADK profilde yok."
       },
       {
         "job_skill": "OpenAI Agents SDK",
         "status": "kısmen",
         "matched_with": "AI Agents",
-        "reason": "Azure OpenAI ve ajan deneyimi var ama OpenAI Agents SDK doğrudan belirtilmemiş."
+        "reason": "Azure OpenAI ve ajan deneyimi var ama OpenAI Agents SDK doğrudan yok."
       },
       {
         "job_skill": "Python",
         "status": "var",
         "matched_with": "Python",
-        "reason": "Profilde Python doğrudan var."
+        "reason": "Python profilde doğrudan listelenmiş."
       },
       {
         "job_skill": "Machine Learning",
         "status": "var",
         "matched_with": "Machine Learning",
-        "reason": "Profilde Machine Learning doğrudan var."
+        "reason": "Machine Learning profilde doğrudan listelenmiş."
       },
       {
         "job_skill": "Neural Networks",
         "status": "kısmen",
         "matched_with": "Machine Learning",
-        "reason": "Makine öğrenmesi ve LLM bilgisi var ama sinir ağlarını doğrudan gösteren bir madde yok."
+        "reason": "ML ve LLM deneyimi var ama sinir ağı geliştirme doğrudan belirtilmemiş."
       },
       {
         "job_skill": "Data Science",
         "status": "kısmen",
         "matched_with": "Predictive Modeling",
-        "reason": "Predictive Modeling, Machine Learning ve SQL var ama genel veri bilimi deneyimi doğrudan belirtilmemiş."
+        "reason": "Predictive Modeling ve ML var ama veri bilimi doğrudan belirtilmemiş."
       },
       {
         "job_skill": "Information Extraction",
         "status": "kısmen",
         "matched_with": "Structured Output",
-        "reason": "Structured Output, RAG ve Chunking ilgili ancak bilgi çıkarımı doğrudan listelenmemiş."
+        "reason": "Structured Output ve RAG var ama bilgi çıkarımı doğrudan yok."
       },
       {
         "job_skill": "Document Understanding",
         "status": "kısmen",
         "matched_with": "Chunking",
-        "reason": "Chunking ve RAG ilgili ama doküman anlama doğrudan belirtilmemiş."
+        "reason": "RAG ve Chunking ile belge işleme temeli var ama belge anlama doğrudan yok."
       },
       {
         "job_skill": "Entity Resolution",
@@ -141,43 +141,43 @@
         "job_skill": "KYC Automation",
         "status": "kısmen",
         "matched_with": "KYC",
-        "reason": "KYC ve yapay zeka ajan deneyimi var ama KYC otomasyonu doğrudan belirtilmemiş."
+        "reason": "KYC alan bilgisi ve AI deneyimi var ama KYC otomasyonu doğrudan belirtilmemiş."
       },
       {
         "job_skill": "Model Governance",
-        "status": "kısmen",
-        "matched_with": "Evals",
-        "reason": "Evals ve Observability ilgili ama model yönetişimi doğrudan yok."
+        "status": "yok",
+        "matched_with": null,
+        "reason": "Profilde model yönetişimi ile ilgili doğrudan bir beceri yok."
       },
       {
         "job_skill": "Wholesale Banking",
         "status": "kısmen",
         "matched_with": "Payment Systems",
-        "reason": "Ödeme sistemleri ve KYC bankacılıkla ilgili ama toptan bankacılık deneyimi belirtilmemiş."
+        "reason": "Ödeme sistemleri ve KYC var ama kurumsal bankacılık doğrudan yok."
       },
       {
         "job_skill": "KYC",
         "status": "var",
         "matched_with": "KYC",
-        "reason": "Profilde KYC doğrudan var."
+        "reason": "KYC profilde doğrudan listelenmiş."
       },
       {
         "job_skill": "AML",
         "status": "kısmen",
         "matched_with": "KYC",
-        "reason": "KYC, AML ile komşu bir alan ama AML doğrudan profilde yok."
+        "reason": "KYC AML ile ilişkili bir alan ama AML doğrudan yok."
       },
       {
         "job_skill": "Financial Crime",
         "status": "kısmen",
         "matched_with": "KYC",
-        "reason": "KYC finansal suç alanıyla ilişkili ama doğrudan finansal suç deneyimi yok."
+        "reason": "KYC ve ödeme sistemleri ilişkili ama finansal suç alanı doğrudan yok."
       },
       {
         "job_skill": "Regulated Industries",
         "status": "kısmen",
         "matched_with": "KYC",
-        "reason": "KYC ve ödeme sistemleri düzenlemeye tabi alanlarla ilgili ama doğrudan belirtilmemiş."
+        "reason": "KYC ve ödeme sistemleri düzenlenmiş sektör deneyimine işaret ediyor ama doğrudan belirtilmemiş."
       }
     ]
   },
@@ -186,32 +186,32 @@
       {
         "skill": "Entity Resolution",
         "priority": "yüksek",
-        "why": "KYC ve finansal suç odaklı bu ilanda farklı kaynaklardaki kayıtların aynı kişi ya da kuruma ait olup olmadığını eşleştirmek temel bir iştir.",
-        "first_step": "Python'da recordlinkage veya rapidfuzz ile 20 satırlık sahte müşteri listesinde isim ve adres benzerliğine göre yinelenen kayıtları eşleştiren bir script yaz."
+        "why": "KYC ve finansal suç senaryolarında aynı kişi ya da şirketin farklı kayıtlarda eşleştirilmesi ilanın temel veri problemidir.",
+        "first_step": "Python'da recordlinkage veya rapidfuzz ile 50 satırlık sahte müşteri listesinde isim ve adres benzerliğine göre yinelenen kayıtları eşleştiren bir script yaz."
       },
       {
         "skill": "Graph Analytics",
         "priority": "yüksek",
-        "why": "İlandaki kuruluşlar arası ilişkileri ve şüpheli işlem zincirlerini ortaya çıkarmak graf tabanlı analiz gerektirir.",
-        "first_step": "Neo4j Aura ücretsiz hesabı aç ve 10 müşteri ile 15 işlemden oluşan küçük bir grafı Cypher ile yükleyip ortak hesabı paylaşan müşterileri sorgula."
+        "why": "Hesaplar, kişiler ve şirketler arasındaki gizli ilişkileri ortaya çıkarmak bu ilandaki risk ve sahtecilik analizlerinin merkezindedir.",
+        "first_step": "Neo4j Aura ücretsiz hesabı aç ve 10 kişi ile 5 hesaptan oluşan küçük bir grafı Cypher ile oluşturup ortak hesabı olan kişileri sorgula."
       },
       {
         "skill": "Network Analysis",
         "priority": "yüksek",
-        "why": "Hesaplar ve işlemler arasındaki ağ yapısını ölçerek kümeleri ve merkezi düğümleri bulmak bu ilandaki risk tespiti çalışmalarının parçasıdır.",
-        "first_step": "Python'da NetworkX ile 30 kenarlı örnek bir işlem ağı oluştur ve degree ile betweenness centrality değerlerini hesaplayıp en yüksek 3 düğümü yazdır."
+        "why": "Şüpheli işlem ağlarındaki merkezi düğümleri ve kümeleri bulmak için ağ metriklerini yorumlamak gerekir.",
+        "first_step": "Python'da NetworkX ile 30 düğümlü rastgele bir işlem ağı oluştur ve degree ile betweenness centrality değerlerini hesaplayıp en yüksek 3 düğümü yazdır."
       },
       {
         "skill": "Multi-agent Systems",
         "priority": "orta",
-        "why": "İlan, birden fazla ajanın görev paylaşarak çalıştığı sistemler kurulmasını beklediği için tek ajan deneyimi yeterli olmaz.",
-        "first_step": "Mevcut ajan bilgini kullanarak biri belge okuyan, diğeri okunan bilgiyi doğrulayan iki ajanın mesajlaştığı basit bir akışı çiz ve kodla."
+        "why": "İlan, birden fazla yapay zeka ajanının koordineli çalıştığı sistemler beklediği için tek ajan deneyimini çoklu ajan mimarisine genişletmek gerekir.",
+        "first_step": "İki ajanlı basit bir akış çiz: biri belge özetini çıkarsın, diğeri çıktıyı kontrol edip onaylasın ya da reddetsin."
       },
       {
-        "skill": "Information Extraction",
+        "skill": "KYC Automation",
         "priority": "orta",
-        "why": "KYC belgelerinden isim, tarih ve adres gibi alanları güvenilir biçimde çıkarmak ilandaki otomasyonun temelidir.",
-        "first_step": "Elindeki structured output bilginle bir sahte kimlik metninden ad, doğum tarihi ve adresi Pydantic şemasına çıkaran 15 satırlık bir LLM çağrısı yaz."
+        "why": "Mevcut KYC bilginin yapay zeka ile otomatikleştirilmesi ilandaki rolün doğrudan iş çıktısıdır.",
+        "first_step": "Bir KYC kontrol listesinden üç adımı (kimlik doğrulama, adres kontrolü, risk skoru) seç ve her birini otomatikleştirecek akışı yarım sayfada yaz."
       }
     ]
   }

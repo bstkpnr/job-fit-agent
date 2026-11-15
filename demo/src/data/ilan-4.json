@@ -25,8 +25,8 @@
       "SNOMED CT",
       "RxNorm",
       "LOINC",
-      "Error Handling",
       "Observability",
+      "Error Handling",
       "Event-driven Architecture"
     ],
     "nice_to_have": [],
@@ -44,7 +44,7 @@
         "job_skill": "Async Programming",
         "status": "kısmen",
         "matched_with": "Node.js",
-        "reason": "Node.js ve FastAPI ile async yapılara temas olabilir ama profilde doğrudan async programlama maddesi yok."
+        "reason": "Node.js ve FastAPI ile asenkron yapılara dolaylı aşinalık olabilir ama doğrudan async programlama maddesi yok."
       },
       {
         "job_skill": "Pydantic",
@@ -68,31 +68,31 @@
         "job_skill": "Multi-agent Systems",
         "status": "kısmen",
         "matched_with": "AI Agents",
-        "reason": "AI Agents ve LangGraph temeli var ama çoklu ajan sistemi doğrudan belirtilmemiş."
+        "reason": "AI Agents ve LangGraph var ama çoklu ajan sistemi doğrudan belirtilmemiş."
       },
       {
         "job_skill": "OCR",
         "status": "yok",
         "matched_with": null,
-        "reason": "Profilde OCR ya da belge görüntü işleme ile ilgili beceri yok."
+        "reason": "Profilde OCR veya görüntüden metin çıkarma ile ilgili bir beceri yok."
       },
       {
         "job_skill": "Clinical Abstraction",
         "status": "yok",
         "matched_with": null,
-        "reason": "Profilde klinik veri çıkarımı ile ilgili bir beceri yok."
+        "reason": "Profilde klinik veri çıkarımı ile ilgili bir deneyim yok."
       },
       {
         "job_skill": "Terminology Mapping",
         "status": "yok",
         "matched_with": null,
-        "reason": "Profilde terminoloji eşleme becerisi yok."
+        "reason": "Profilde tıbbi terminoloji eşleştirme deneyimi görünmüyor."
       },
       {
         "job_skill": "FHIR",
         "status": "yok",
         "matched_with": null,
-        "reason": "Profilde sağlık veri standartlarıyla ilgili beceri yok."
+        "reason": "Profilde FHIR veya sağlık veri standartları yok."
       },
       {
         "job_skill": "LLMs",
@@ -104,13 +104,13 @@
         "job_skill": "GPT-4o",
         "status": "kısmen",
         "matched_with": "Azure OpenAI",
-        "reason": "Azure OpenAI ve LLM deneyimi var ama GPT-4o özel olarak belirtilmemiş."
+        "reason": "Azure OpenAI ile çalışmış ama GPT-4o doğrudan belirtilmemiş."
       },
       {
         "job_skill": "GPT-5",
         "status": "kısmen",
         "matched_with": "Azure OpenAI",
-        "reason": "Azure OpenAI ve LLM deneyimi var ama GPT-5 özel olarak belirtilmemiş."
+        "reason": "Azure OpenAI ve LLM deneyimi var ama GPT-5 doğrudan belirtilmemiş."
       },
       {
         "job_skill": "Vector Databases",
@@ -128,7 +128,7 @@
         "job_skill": "Semantic Search",
         "status": "var",
         "matched_with": "Hybrid Search",
-        "reason": "Hybrid Search ile embedding ve vektör veritabanı deneyimi anlamsal aramayı kapsıyor."
+        "reason": "Hybrid Search, Embedding Models ve RAG deneyimi anlamsal aramayı kapsıyor."
       },
       {
         "job_skill": "RAG",
@@ -140,19 +140,19 @@
         "job_skill": "Azure FHIR",
         "status": "yok",
         "matched_with": null,
-        "reason": "Azure becerileri var ama FHIR ile ilgili bir deneyim yok."
+        "reason": "Azure becerileri var ama FHIR ya da Azure Health Data Services deneyimi yok."
       },
       {
         "job_skill": "HL7",
         "status": "yok",
         "matched_with": null,
-        "reason": "Profilde HL7 ya da sağlık entegrasyon standardı yok."
+        "reason": "Profilde HL7 veya sağlık mesajlaşma standartları yok."
       },
       {
         "job_skill": "SNOMED CT",
         "status": "yok",
         "matched_with": null,
-        "reason": "Profilde tıbbi terminoloji becerisi yok."
+        "reason": "Profilde tıbbi terminoloji standartları yok."
       },
       {
         "job_skill": "RxNorm",
@@ -164,25 +164,25 @@
         "job_skill": "LOINC",
         "status": "yok",
         "matched_with": null,
-        "reason": "Profilde laboratuvar kodlama standardı ile ilgili beceri yok."
-      },
-      {
-        "job_skill": "Error Handling",
-        "status": "kısmen",
-        "matched_with": "Structured Output",
-        "reason": "Hata yönetimi doğrudan listelenmemiş, yalnızca ilişkili yapılandırılmış çıktı doğrulama deneyimi var."
+        "reason": "Profilde LOINC veya laboratuvar kodlama standardı yok."
       },
       {
         "job_skill": "Observability",
         "status": "var",
         "matched_with": "Observability",
-        "reason": "Profilde Observability doğrudan listelenmiş."
+        "reason": "Profilde Observability ve Langfuse doğrudan listelenmiş."
+      },
+      {
+        "job_skill": "Error Handling",
+        "status": "kısmen",
+        "matched_with": "Structured Output",
+        "reason": "Hata yönetimi doğrudan listelenmemiş, yalnızca ilgili geliştirme pratikleri var."
       },
       {
         "job_skill": "Event-driven Architecture",
         "status": "kısmen",
         "matched_with": "Microservices",
-        "reason": "Microservices temeli var ama olay güdümlü mimari doğrudan belirtilmemiş."
+        "reason": "Microservices deneyimi var ama olay güdümlü mimari doğrudan belirtilmemiş."
       }
     ]
   },
@@ -191,32 +191,32 @@
       {
         "skill": "FHIR",
         "priority": "yüksek",
-        "why": "İlan sağlık verisinin standart biçimde temsil edilmesini ve aktarılmasını gerektirdiği için FHIR kaynak yapısını bilmek temel bir ön koşuldur.",
-        "first_step": "Herkese açık HAPI FHIR test sunucusuna (hapi.fhir.org) bir Patient ve bir Observation kaynağı için GET isteği at, dönen JSON'daki alanları not et."
+        "why": "İlan sağlık verisinin FHIR standardıyla temsil edilmesini ve sistemler arasında taşınmasını gerektirdiği için FHIR kaynak yapısını bilmek temel bir şart.",
+        "first_step": "Herkese açık HAPI FHIR test sunucusuna (hapi.fhir.org) bir Patient ve bir Observation kaynağı oluşturan iki POST isteği gönder, sonra bu kaynakları GET ile geri oku."
       },
       {
         "skill": "Clinical Abstraction",
         "priority": "yüksek",
-        "why": "İlandaki asıl iş, serbest metin klinik notlardan yapılandırılmış bilgi çıkarmak olduğu için klinik soyutlama mantığını anlamak şarttır.",
-        "first_step": "Uydurma 10 satırlık bir taburcu notu al, içinden tanı, ilaç ve laboratuvar değerlerini elle bir tabloya çıkar, ardından aynı işi Azure OpenAI ile yapan bir prompt yaz."
+        "why": "İlandaki rol, serbest metin klinik notlardan yapılandırılmış veri çıkarmayı içerdiği için klinik soyutlama mantığını anlamak gerekiyor.",
+        "first_step": "Uydurma bir hasta epikriz metni al, içinden tanı, ilaç ve laboratuvar değerlerini elle bir tabloya çıkar ve her alan için çıkarım kuralını bir cümleyle yaz."
       },
       {
         "skill": "Terminology Mapping",
         "priority": "yüksek",
-        "why": "Çıkarılan klinik kavramların standart kodlara eşlenmesi, verinin sistemler arasında tutarlı ve kullanılabilir olmasını sağlar.",
-        "first_step": "Metinden çıkardığın 5 klinik terimi (ör. hipertansiyon, metformin) uygun kod sistemlerinde elle ara ve terim-kod eşleme tablosu oluştur."
+        "why": "Farklı kaynaklardan gelen klinik terimlerin standart kodlara eşlenmesi, ilandaki veri entegrasyonunun doğruluğu için kritik.",
+        "first_step": "10 klinik terimlik (ör. hipertansiyon, metformin, HbA1c) bir liste hazırla ve her birini SNOMED CT, RxNorm veya LOINC tarayıcısında arayıp en uygun koda eşleyen bir CSV yaz."
       },
       {
         "skill": "OCR",
         "priority": "yüksek",
-        "why": "Klinik belgelerin çoğu taranmış PDF veya görüntü olarak geldiği için metne dönüştürme adımı işlem hattının girişini oluşturur.",
-        "first_step": "Azure AI Document Intelligence'ın Read modeliyle taranmış tek sayfalık bir örnek belgeyi işle ve çıkan metni kontrol et."
+        "why": "Taranmış belgelerden ve PDF'lerden metin çıkarmak, ilandaki klinik veri hattının ilk adımı olduğu için OCR bilgisi gerekiyor.",
+        "first_step": "Azure AI Document Intelligence ile taranmış tek sayfalık bir örnek belgeyi oku (Read modeli) ve çıkan metni JSON olarak kaydet."
       },
       {
-        "skill": "SNOMED CT",
+        "skill": "Azure FHIR",
         "priority": "yüksek",
-        "why": "SNOMED CT klinik tanı ve bulguların kodlanmasında yaygın kullanılan terminoloji olduğu için ilandaki eşleme işlerinde sık karşına çıkacaktır.",
-        "first_step": "Herkese açık bir SNOMED CT tarayıcısında 'type 2 diabetes mellitus' terimini ara, kavram kimliğini ve üst-alt ilişkilerini not et."
+        "why": "İlan Azure ekosistemini kullandığı için FHIR verisini Azure Health Data Services üzerinde saklayıp sorgulamayı bilmek gerekiyor.",
+        "first_step": "Azure portalında ücretsiz hesapla bir Azure Health Data Services FHIR servisi oluştur ve içine tek bir Patient kaynağı yükle."
       }
     ]
   }

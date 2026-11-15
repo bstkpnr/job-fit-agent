@@ -3,11 +3,11 @@
     "title": "AI Mühendisi",
     "company": "Bir üniversite",
     "required_skills": [
-      "Machine Learning",
-      "Data Science",
-      "LLM",
+      "Large Language Models",
       "RAG",
       "AI Agents",
+      "Machine Learning",
+      "Data Science",
       "Classification",
       "Regression",
       "Clustering",
@@ -22,12 +22,11 @@
       "Cross Validation",
       "Hyperparameter Tuning",
       "Model Evaluation",
-      "Overfitting",
-      "Data Leakage",
+      "Overfitting Detection",
+      "Data Leakage Detection",
       "Class Imbalance",
       "Data Quality",
-      "Backend Integration",
-      "REST APIs"
+      "API Integration"
     ],
     "nice_to_have": [],
     "min_years_experience": null
@@ -35,22 +34,10 @@
   "comparison": {
     "matches": [
       {
-        "job_skill": "Machine Learning",
-        "status": "var",
-        "matched_with": "Machine Learning",
-        "reason": "Profilde Machine Learning doğrudan listelenmiş."
-      },
-      {
-        "job_skill": "Data Science",
-        "status": "kısmen",
-        "matched_with": "Machine Learning",
-        "reason": "ML ve tahmine dayalı modelleme var ama kapsamlı veri bilimi deneyimini gösteren madde yok."
-      },
-      {
-        "job_skill": "LLM",
+        "job_skill": "Large Language Models",
         "status": "var",
         "matched_with": "LLMs",
-        "reason": "Profilde LLMs doğrudan var."
+        "reason": "Profilde LLMs becerisi doğrudan yer alıyor."
       },
       {
         "job_skill": "RAG",
@@ -65,124 +52,130 @@
         "reason": "Profilde AI Agents doğrudan var."
       },
       {
+        "job_skill": "Machine Learning",
+        "status": "var",
+        "matched_with": "Machine Learning",
+        "reason": "Profilde Machine Learning doğrudan var."
+      },
+      {
+        "job_skill": "Data Science",
+        "status": "kısmen",
+        "matched_with": "Machine Learning",
+        "reason": "ML ve Predictive Modeling veri bilimiyle ilişkili ama doğrudan veri bilimi becerisi belirtilmemiş."
+      },
+      {
         "job_skill": "Classification",
         "status": "kısmen",
         "matched_with": "Machine Learning",
-        "reason": "Genel ML bilgisi var ama sınıflandırmayı doğrudan gösteren madde yok."
+        "reason": "ML temeli var ancak sınıflandırma modeli deneyimi açıkça belirtilmemiş."
       },
       {
         "job_skill": "Regression",
         "status": "kısmen",
         "matched_with": "Predictive Modeling",
-        "reason": "Tahmine dayalı modelleme ilgili ama regresyon açıkça belirtilmemiş."
+        "reason": "Tahmine dayalı modelleme regresyonla ilişkili ama regresyon açıkça yok."
       },
       {
         "job_skill": "Clustering",
         "status": "kısmen",
         "matched_with": "Machine Learning",
-        "reason": "Genel ML temeli var ama kümeleme doğrudan görünmüyor."
+        "reason": "Genel ML bilgisi var ama kümeleme deneyimi belirtilmemiş."
       },
       {
         "job_skill": "Anomaly Detection",
         "status": "kısmen",
         "matched_with": "Machine Learning",
-        "reason": "ML temeli var ama anomali tespiti doğrudan belirtilmemiş."
+        "reason": "ML temeli var ancak anomali tespiti açıkça yok."
       },
       {
         "job_skill": "Forecasting",
         "status": "kısmen",
         "matched_with": "Predictive Modeling",
-        "reason": "Tahmine dayalı modelleme ilgili ama zaman serisi tahmini açık değil."
+        "reason": "Tahmine dayalı modelleme ilişkili ama zaman serisi tahmini belirtilmemiş."
       },
       {
         "job_skill": "Data Analysis",
         "status": "kısmen",
-        "matched_with": "Predictive Modeling",
-        "reason": "Modelleme deneyimi var ama doğrudan veri analizi maddesi yok."
+        "matched_with": "SQL",
+        "reason": "SQL ve modelleme veri analizine temel olur ama doğrudan veri analizi maddesi yok."
       },
       {
         "job_skill": "Data Cleaning",
         "status": "yok",
         "matched_with": null,
-        "reason": "Profilde veri temizleme ile ilgili bir madde yok."
+        "reason": "Profilde veri temizleme ile ilgili doğrudan bir beceri yok."
       },
       {
         "job_skill": "Feature Engineering",
         "status": "kısmen",
         "matched_with": "Machine Learning",
-        "reason": "ML temeli var ama özellik mühendisliği açıkça görünmüyor."
+        "reason": "ML bilgisi temel sağlar ama özellik mühendisliği açıkça belirtilmemiş."
       },
       {
         "job_skill": "Model Training",
         "status": "kısmen",
-        "matched_with": "Machine Learning",
-        "reason": "ML ve tahmine dayalı modelleme var ama model eğitimi doğrudan belirtilmemiş."
+        "matched_with": "Predictive Modeling",
+        "reason": "Modelleme deneyimi var ancak model eğitimi açıkça belirtilmemiş."
       },
       {
         "job_skill": "Model Selection",
         "status": "kısmen",
-        "matched_with": "Machine Learning",
-        "reason": "ML temeli var ama model seçimi doğrudan gösterilmemiş."
+        "matched_with": "Predictive Modeling",
+        "reason": "Modelleme temeli var ama model seçimi doğrudan gösterilmiyor."
       },
       {
         "job_skill": "Train/Test Split",
         "status": "kısmen",
         "matched_with": "Machine Learning",
-        "reason": "ML bilgisi bunu ima edebilir ama doğrudan madde yok."
+        "reason": "ML bilgisi ilişkili ama veri bölme uygulaması belirtilmemiş."
       },
       {
         "job_skill": "Cross Validation",
         "status": "kısmen",
         "matched_with": "Machine Learning",
-        "reason": "ML temeli var ama çapraz doğrulama doğrudan belirtilmemiş."
+        "reason": "ML temeli var ancak çapraz doğrulama açıkça yok."
       },
       {
         "job_skill": "Hyperparameter Tuning",
         "status": "kısmen",
         "matched_with": "Machine Learning",
-        "reason": "ML temeli var ama hiperparametre ayarı doğrudan görünmüyor."
+        "reason": "ML temeli var ama hiperparametre ayarı belirtilmemiş."
       },
       {
         "job_skill": "Model Evaluation",
         "status": "kısmen",
         "matched_with": "Evals",
-        "reason": "Evals (LLM değerlendirme) ilgili ama klasik ML model değerlendirmesi değil."
+        "reason": "Evals değerlendirme deneyimi gösteriyor ama klasik ML model değerlendirmesi belirtilmemiş."
       },
       {
-        "job_skill": "Overfitting",
+        "job_skill": "Overfitting Detection",
         "status": "kısmen",
         "matched_with": "Machine Learning",
-        "reason": "ML temeli var ama aşırı öğrenme konusu doğrudan belirtilmemiş."
+        "reason": "ML bilgisi temel sağlar ancak aşırı öğrenme tespiti açıkça yok."
       },
       {
-        "job_skill": "Data Leakage",
+        "job_skill": "Data Leakage Detection",
         "status": "yok",
         "matched_with": null,
-        "reason": "Profilde veri sızıntısıyla ilgili bir madde yok."
+        "reason": "Profilde veri sızıntısı tespitiyle ilgili bir beceri yok."
       },
       {
         "job_skill": "Class Imbalance",
         "status": "yok",
         "matched_with": null,
-        "reason": "Profilde sınıf dengesizliğiyle ilgili bir madde yok."
+        "reason": "Profilde sınıf dengesizliğiyle ilgili doğrudan bir beceri yok."
       },
       {
         "job_skill": "Data Quality",
         "status": "yok",
         "matched_with": null,
-        "reason": "Profilde veri kalitesine yönelik doğrudan bir madde yok."
+        "reason": "Profilde veri kalitesiyle ilgili doğrudan bir beceri yok."
       },
       {
-        "job_skill": "Backend Integration",
+        "job_skill": "API Integration",
         "status": "var",
-        "matched_with": "REST APIs",
-        "reason": "REST API, SDK entegrasyonu ve backend deneyimi profilde mevcut."
-      },
-      {
-        "job_skill": "REST APIs",
-        "status": "var",
-        "matched_with": "REST APIs",
-        "reason": "Profilde REST APIs doğrudan var."
+        "matched_with": "SDK Integration",
+        "reason": "REST APIs ve SDK Integration becerileri API entegrasyonunu doğrudan kapsıyor."
       }
     ]
   },
@@ -191,32 +184,32 @@
       {
         "skill": "Data Cleaning",
         "priority": "yüksek",
-        "why": "Tahmine dayalı modellerin kalitesi doğrudan temizlenmiş veriye bağlı olduğu için bu ilanda veri hazırlama günlük işin büyük bir parçasıdır.",
-        "first_step": "Kaggle'dan eksik değer ve tekrar eden satır içeren küçük bir CSV indir, pandas ile eksikleri doldur, kopyaları sil ve önce/sonra satır sayısını yazdır."
+        "why": "Gerçek veri setleri eksik, hatalı ve tutarsız değerler içerdiği için model kurmadan önce veriyi temizleyebilmek bu ilanın temel beklentisidir.",
+        "first_step": "Kaggle'dan Titanic veri setini indirip pandas ile eksik değerleri dolduran, tekrar eden satırları silen ve tip hatalarını düzelten 30 satırlık bir temizlik betiği yaz."
       },
       {
-        "skill": "Data Leakage",
+        "skill": "Data Leakage Detection",
         "priority": "yüksek",
-        "why": "Veri sızıntısı model performansını gerçekte olduğundan iyi gösterdiği için ilandaki model değerlendirme ve seçim sorumluluklarında kritik bir hatadır.",
-        "first_step": "Ölçekleme işlemini train/test ayrımından önce yapan bir scikit-learn kodu yaz, sonra aynısını Pipeline ile düzelt ve iki skoru karşılaştır."
+        "why": "Veri sızıntısı modelin başarısını gerçekte olduğundan yüksek gösterir ve ilandaki model güvenilirliği beklentisini doğrudan etkiler.",
+        "first_step": "Hedef değişkenle neredeyse birebir ilişkili bir sütunu bilerek bir veri setine ekle, modelin skorunun nasıl şişdiğini gör, sonra sütunu çıkarıp farkı not al."
       },
       {
         "skill": "Class Imbalance",
         "priority": "yüksek",
-        "why": "Sınıflandırma ve anomali tespiti gibi ilan görevlerinde dengesiz veri yaygındır ve accuracy tek başına yanıltıcı sonuç verir.",
-        "first_step": "Kredi kartı sahtekarlığı gibi dengesiz bir veri setinde class_weight='balanced' ile ve bu ayar olmadan lojistik regresyon eğit, precision/recall farkını karşılaştır."
+        "why": "Sınıflandırma ve anomali tespiti problemlerinde sınıflar genellikle dengesizdir ve bu durum yönetilmezse model nadir sınıfı hiç öğrenemez.",
+        "first_step": "Kaggle'daki kredi kartı sahteciliği veri setinde sınıf dağılımını yazdır, sonra class_weight='balanced' ile bir lojistik regresyon eğitip precision ve recall değerlerini karşılaştır."
       },
       {
         "skill": "Data Quality",
         "priority": "yüksek",
-        "why": "Veri kalitesi sorunlarını erken yakalamak, ilandaki analiz ve modelleme çıktılarının güvenilir olmasını sağlar.",
-        "first_step": "Seçtiğin bir veri seti için eksik oran, benzersiz değer sayısı ve aykırı değer kontrollerini yapan 15 satırlık bir pandas raporu fonksiyonu yaz."
+        "why": "Veri kalitesini ölçüp izleyebilmek, ilandaki analiz ve modelleme çalışmalarının güvenilir girdilerle yapılmasını sağlar.",
+        "first_step": "Elindeki bir CSV için eksik oranı, benzersiz değer sayısı ve aykırı değer sayısını sütun bazında tablo halinde veren 15 satırlık bir pandas kalite raporu yaz."
       },
       {
         "skill": "Model Evaluation",
         "priority": "orta",
-        "why": "Modellerin doğru metriklerle değerlendirilmesi ilandaki model seçimi ve iyileştirme işlerinin temelidir.",
-        "first_step": "Bir sınıflandırma modeli için scikit-learn ile confusion matrix, precision, recall ve F1 değerlerini yazdıran bir kod çalıştır."
+        "why": "Modellerin doğru metriklerle değerlendirilmesi ilandaki model seçimi ve karşılaştırma görevlerinin temelidir.",
+        "first_step": "Bir sınıflandırma modeli için scikit-learn ile confusion matrix, precision, recall ve F1 değerlerini tek bir çıktıda yazdır."
       }
     ]
   }
