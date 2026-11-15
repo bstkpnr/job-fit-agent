@@ -33,12 +33,16 @@ def extract_job(state: State) -> dict:
 
 
 def compare_profile(state: State) -> dict:
-    # extract_job'un doldurduğu state["job"]'u kullanır
-    return {"comparison": compare(state["job"].required_skills, state["profile"])}
+    # Zorunlu ve artı beceriler tek çağrıda karşılaştırılır; hangisinin
+    # hangi listeden geldiğini sonra report.py ve plan.py ayırır.
+    job = state["job"]
+    skills = job.required_skills + job.nice_to_have
+    skills = list(dict.fromkeys(skills))  # tekrarları sırayı bozmadan kaldır
+    return {"comparison": compare(skills, state["profile"])}
 
 
 def plan_study(state: State) -> dict:
-    return {"plan": make_plan(state["comparison"])}
+    return {"plan": make_plan(state["comparison"], state["job"].nice_to_have)}
 
 
 def has_gaps(state: State) -> str:

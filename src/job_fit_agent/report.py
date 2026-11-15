@@ -4,9 +4,16 @@ from job_fit_agent.models import JobPosting, SkillComparison, StudyPlan
 def to_markdown(
     job: JobPosting, comparison: SkillComparison, plan: StudyPlan | None
 ) -> str:
+    # Artı becerileri ayır; özet ve Var/Kısmen/Yok sadece zorunluları içerir.
+    # Model beceri adını değiştirirse eşleşme bulunmaz ve beceri zorunlulara düşer.
+    nice = {s.lower() for s in job.nice_to_have}
     groups = {"var": [], "kısmen": [], "yok": []}
+    extras = []
     for m in comparison.matches:
-        groups[m.status].append(m)
+        if m.job_skill.lower() in nice:
+            extras.append(m)
+        else:
+            groups[m.status].append(m)
 
     lines = [
         f"# {job.title} — {job.company}",
@@ -26,6 +33,14 @@ def to_markdown(
             matched = f" ({m.matched_with})" if m.matched_with else ""
             lines.append(f"- **{m.job_skill}**{matched} — {m.reason}")
         lines.append("")
+
+    lines.append("## Artı beceriler")
+    lines.append("")
+    if not extras:
+        lines.append("_Yok._")
+    for m in extras:
+        lines.append(f"- **{m.job_skill}** → {m.status} — {m.reason}")
+    lines.append("")
 
     lines.append("## Çalışma planı")
     lines.append("")

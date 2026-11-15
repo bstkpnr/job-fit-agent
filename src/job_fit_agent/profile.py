@@ -31,6 +31,7 @@ my_profile = CandidateProfile(
         "Python",
         "RAG",
         "Tool Calling",
+        "MCP",
         "Prompt Engineering",
         "Context Engineering",
         "Embedding Models",
@@ -50,6 +51,7 @@ my_profile = CandidateProfile(
         "Payment Systems",
         # Araçlar
         "Git",
+        "English (B2)",
         "CI/CD",
         "Azure DevOps",
         "GitHub Actions",

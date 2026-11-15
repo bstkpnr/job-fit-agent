@@ -36,3 +36,8 @@ We are waiting for your application if you have:
   LangChain, LangGraph, LlamaIndex, Langflow, or similar)
 - Experience with RAG architectures, vector databases, and embedding models
 - Familiarity with REST APIs and microservices
+
+Nice to have:
+- Experience with model serving and self-hosted / open-source LLMs
+- Experience with speech technologies (STT/TTS) and voice-based agents
+- Good command of English
